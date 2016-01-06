@@ -1,0 +1,4 @@
+1. img/image.gif
+2. js/libraries/jquery-2.1.1.min.js
+3. jquery-2.1.1.min.js/main.css
+4. main.css/script.js
