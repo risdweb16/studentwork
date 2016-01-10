@@ -1,2 +1,2 @@
 **Sample Stuff**
-This is a paragraph
+(Ps. This file uses [markdown syntax] (https://guides.github.com/features/mastering-markdown/).)
