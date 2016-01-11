@@ -8,12 +8,15 @@ h3 {
 }
 
 ul {
-	color: #cccccc;
+	color: #666;
+
 }
 
+
+
 .steps {
-	background-color: #77C1DA;
-	padding: 1em;
-	border: 5px solid #E8CC2F; 
-	margin-top: 5em;
+	background-color: #C5E7F3;
+	padding: 0em 1em 1em 2em;
+	border: 2px solid #E8CC2F; 
+	margin-top: 3em;
 }
