@@ -1,0 +1,20 @@
+/*Dair CSS*/
+p {
+	width: 500px
+
+}
+body {
+	font-family: Source Sans Pro;
+	background-color: #cccccc;
+}
+
+h1 {
+	color: yellow;
+}
+
+.harmony {
+	background-color: #C5E7F3;
+	padding: 5em 5em 5em 5em;
+	border: 2px solid #E8CC2F;
+	margin-top: 3em;
+}
