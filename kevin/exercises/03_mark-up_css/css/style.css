@@ -18,8 +18,8 @@ body{
 	background-color: rgba(250,101,47,.8);
 	color: #FFF;
 	padding:.2em;
-	padding-left:10em;
-	margin-right: 40em;
+	padding-left:21em;
+	margin-right: 30em;
 	font-family: Helvetica;
 }
 ul h4{
@@ -47,10 +47,10 @@ ul h4{
 	font-size: 2em;
 	background-color:rgba(39,196,204,.5);
 	margin: .1em;
-	padding:.5em;
+	padding:.4798em;
 }
 .first{
-	font-size:1.5em;
+	font-size:1.2em;
 	margin-right: 1.5em;
 	margin-left: 1.5em;
 	text-align: justify left;
