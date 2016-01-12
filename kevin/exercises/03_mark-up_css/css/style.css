@@ -4,16 +4,25 @@ body{
 }
 h3{
 	margin-top:1.7em;
+	margin-bottom: .1em;
 }
 h4{
 	margin-top:2em;
+	margin-bottom: .1em;
 }
 .intro{
-	color: #FFFFFF;
-	background-color: #000000;
-	margin: 1em;
+	color: #FFF;
+	background-color: #000;
 	font-family: Helvetica;
-	margin-right: 5em;
-	margin-left:5em;
-	padding: 0.5em;
+	padding: .2em;
+}
+.title{
+	font-size: 7em
+}
+.descr{
+	font-size: 4em;
+	font-style: cursive
+}
+.author{
+	font-size: 2em;
 }
