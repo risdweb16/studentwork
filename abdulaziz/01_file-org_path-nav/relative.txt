@@ -1,4 +1,0 @@
-1. img/programming.gif
-2. js/libraries/jquery-2.1.1.min.js
-3. ../../css/main.ss
-4. ../js/script.js
