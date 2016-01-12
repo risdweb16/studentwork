@@ -2,22 +2,41 @@ body{
 	font-family: 'Lato', sans-serif;
 	margin: auto;
 }
-h3{
+.hc{
 	margin-top:1.7em;
 	margin-bottom: .1em;
+	background-color: #4CB6FF;
+	color: #E7FFFF;
+	padding:.2em;
+	padding-left:10em;
+	margin-right: 40em;
+	font-family: Helvetica;
 }
-h4{
+.kc{
+	margin-top:1.7em;
+	margin-bottom: .1em;
+	background-color: #EB93FF;
+	color: #FFF;
+	padding:.2em;
+	padding-left:10em;
+	margin-right: 40em;
+	font-family: Helvetica;
+}
+ul h4{
 	margin-top:2em;
 	margin-bottom: .1em;
+	font-family: Helvetica;
+	background-color:#000;
+	color: #FFF;
 }
 .intro{
 	color: #FFF;
 	background-color: #000;
 	font-family: Helvetica;
-	padding: .2em;
+	padding: .5em;
 }
 .title{
-	font-size: 7em
+	font-size: 8em
 }
 .descr{
 	font-size: 4em;
@@ -25,4 +44,9 @@ h4{
 }
 .author{
 	font-size: 2em;
+}
+.first{
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+	text-align: justify left;
 }
