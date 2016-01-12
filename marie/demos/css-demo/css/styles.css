@@ -14,7 +14,7 @@ ul {
 
 .specialtext {
 	color: red;
-	margin-top: 10px;
+	margin-top: 10px; /*will not apply to span elements*/
 }
 
 .steps {
