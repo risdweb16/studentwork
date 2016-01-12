@@ -1,0 +1,42 @@
+h1 {
+	font-size: 7em; color: #ffe5e5; background-color: #9fbfdf; padding: 1em;
+}
+
+h5 { font-family: Cardo, serif;
+font-size: 3.8em; color: #99ccff; background-color: #ffe5e5; padding: 1em;
+}
+
+h2 { font-family: Cardo, serif;
+font-size: 3.8em; color: #9fbfdf; background-color: #ccffee; padding: 1em;
+}
+
+h3 {
+	font-family: Cardo, serif; font-size: 3.8em; color: #ccffee; background-color: #9fbfdf; padding: 1em;
+}
+
+ul {
+	font-family: Cardo, serif; font-size: 1.8em; color: #ffe5e5; background-color: #99ccff; padding: 3em; 
+}
+
+h4 {
+	font-family: Cardo, serif; font-size: 1.8em; color: #99ccff; background-color: #ffe5e5; padding: 3em;
+}
+
+body {
+	background-color: #e5f7ff;	
+	font-family: Cardo, serif;
+	font-size: 1em; 
+}
+
+p {
+	font-family: Cardo, serif; padding: 4em;
+}
+
+h2 {
+	font-family: Cardo;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #kkkkkk;
+}
