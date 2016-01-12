@@ -9,12 +9,11 @@ header {
 	margin: -8px -8px 0px -8px;
 	font-family: Helvetica;
 	font-size: 30px;
-
 }
 
 .bars {
-
 }
+
 .one {
 	position: relative;
 	top: 0px;
@@ -30,7 +29,7 @@ header {
 	top: 0px;
 	left: -8px;
 	width: 300px;
-	height: 1000px;
+	height: 500px;
 	background-color: white;
 	margin: 0px 0px 0px -8px;
 	font-family: Helvetica;
@@ -50,6 +49,14 @@ header {
 ol {
 	font-size: 12px;
 	line-height: 20px;
+}
+.seven {
+	margin-left: -8px;
+	background-color: white;
+	padding: 5em 5em 5em 5em;
+}
+.seven p {
+	width: 450px;
 }
 
 
