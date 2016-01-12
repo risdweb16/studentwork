@@ -7,6 +7,7 @@ h1 {
 	color: #C5E7F3
 }
 h3 {
+	font-family:property:value;
 	margin-top: 2em;
 }
 
@@ -19,8 +20,7 @@ ul {
 	margin-right: 1em;
 
 }
-
-.steps {
+.introudction{
 	background-color: #C5E7F3;
 	padding: 0em 1em 1em 2em;
 	border: 5px solid #E8CC2F; 
