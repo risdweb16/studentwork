@@ -29,7 +29,7 @@ body {
 }
 
 p {
-	font-family: Cardo, serif; padding: 4em;
+	font-family: Cardo, serif; padding: 4em; font-size: 1.6em; color: #2e5cb8;
 }
 
 h2 {
