@@ -4,6 +4,10 @@ h2 {
 	color: black;
 	font-weight: bold;
 	position: fixed; 
+	background-color: lightgrey;
+	padding: 5px;
+	padding-left: 10px;
+	top: 20px;
 }
 
 li {
@@ -18,23 +22,33 @@ p{
 }
 .text{
 	position: absolute;
-	margin-top: 80px;
+	margin: 80px;
+	margin-top: 40px;
 }
 
 .small{
 	font-family: Arial;
 	font-weight: bold;
 	background-color: lightgrey;
-    background-position:left;
-}
-body{
-	margin: 100px;
-
+    background-position: center;
+    padding-left: 30px;
+    padding: .02px;
+    text-align: right 3px;
 }
 .boarder{
 	background-color: lightblue;
 	font-weight: italic;
 	position: center;
+	padding: 6px;
+	text-align: center;
+	margin-top: 100px;
+}
+.tml{
+	font-size: 16px;
+	border-bottom: 2px solid black;
+}
+.last{
+	background-color: lightblue;
 }
 .background{
 		background-image: url(https://cdn.tutsplus.com/psd/uploads/2014/01/0945_Seamless_final.jpg);
