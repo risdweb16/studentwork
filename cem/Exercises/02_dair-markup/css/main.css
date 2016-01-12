@@ -17,6 +17,7 @@ em {font-size: 6vw;
 	font-family: Arial;
 	font-weight: bold;
 	}
+h2 {border-bottom: 1px solid yellow;} 
 
 body {font-family: georgia;
 	background-color: lightgreen;
@@ -42,19 +43,24 @@ li {list-style: circle;
 h3 {margin-top: 0;}
 
 div {margin-top: 2em;
-	-webkit-column-count: 3;}
+	-webkit-column-count: 3;
+	-webkit-column-rule: 1px outset yellow;}
 
 @media (max-width: 1000px) {
   div {-webkit-column-count: 2;
-  	   -webkit-column-gap: 1em;}
+  	   -webkit-column-gap: 1em;
+  	   -webkit-column-rule-style: solid;
+  	   -webkit-column-rule: 1px outset #ff00ff;}
   body {background-color: yellow;}
   h1 {-webkit-text-stroke: 1px red;}
-	}
+/*  h2 {border: 1px solid yellow;}
+*/	}
 
 @media (max-width: 620px) {
 div {-webkit-column-count: 1;}
 body {background-color: orange;}
 h1 {-webkit-text-stroke: .3px red;}
+h2 {border-bottom: 1px dashed blue;}
 	}
 
 .special {font-family: didot;
