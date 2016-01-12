@@ -1,0 +1,18 @@
+body{
+	 background-color: rgba(0, 0, 0, 0.51);
+}
+
+.hello{
+		width:2em;
+		height:10em ;
+		background-color: blue;
+		margin:50px 50px 50px 50px;
+		float: left;
+}
+.hellotwo{width:2em;
+		height:10em ;
+		background-color: blue;
+		margin:100px 50px 50px 50px;
+		float: left;
+
+}
