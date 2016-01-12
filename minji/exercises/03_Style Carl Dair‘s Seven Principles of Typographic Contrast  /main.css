@@ -1,0 +1,20 @@
+/*Add comments*/
+ body {font-family: 'PT Sans Narrow', sans-serif;}
+
+ h1 {margin-top: 3em;margin-bottom: 2px}
+
+ h2 {margin-top: 2em;}
+ h3 {margin-top: 2em;}
+ h4 {margin-top: 3em;}
+
+
+ p {font-size: 72pt;
+ 	color: #696969;}
+
+ .introduction {background-color: #696969;
+ 	padding: 1em;
+ 	border: 5px;
+ 	margin-top: 5em;
+ }
+
+ 

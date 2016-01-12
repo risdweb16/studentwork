@@ -1,0 +1,35 @@
+/*Dair CSS*/
+
+body {
+	font-family: Source Sans Pro;
+	background-color: #cccccc;
+}
+
+
+h1 {
+	color: #184C4F;
+	text-align: center;
+	background-color: #FFE183;
+	padding: 2em 2em 2em 2em;
+	border: 2px solid #E8CC2F;
+	margin: 0px 0px;
+
+}
+
+.harmony {
+	background-color: #C5E7F3;
+	padding: 5em 5em 5em 5em;
+	border: 2px solid #E8CC2F;
+	margin-top: 3em;
+}
+
+.harmony p {
+	width: 450px
+}
+
+.seven {
+	background-color: #C5E7F3;
+	padding: 5em 5em 5em 10em;
+	border: 2px solid #E8CC2F;
+	margin-top: 3em;
+}

@@ -1,0 +1,31 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin-top: 5em;
+  position: relative;
+}
+
+
+header {
+  position: fixed;
+  top:0;
+  height: 4em;
+  border-bottom: 5px solid #333;
+}
+
+nav {
+  border: 1px solid #cccccc;
+  height: 20%;
+  padding: .5em;
+
+}
+section {
+  background: #efefef;
+  float: left;
+  width: 33%;
+}
+
+footer {
+  height: 5em;
+  background: 333333;
+
+}
