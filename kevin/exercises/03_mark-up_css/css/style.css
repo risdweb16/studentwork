@@ -22,12 +22,15 @@ body{
 	margin-right: 30em;
 	font-family: Helvetica;
 }
-ul h4{
+.one{
 	margin-top:2em;
 	margin-bottom: .1em;
 	font-family: Helvetica;
 	background-color:#000;
 	color: #FFF;
+	padding:.2em;
+	margin-right:30em;
+	padding-left:21em;
 }
 .intro{
 	color: #FFF;
@@ -50,8 +53,10 @@ ul h4{
 	padding:.4798em;
 }
 .first{
-	font-size:1.2em;
+	background-color:#7D7D7D;
+	color:#FFF;
+	font-size:1.1em;
 	margin-right: 1.5em;
 	margin-left: 1.5em;
-	text-align: justify left;
+	text-align: justify;
 }
