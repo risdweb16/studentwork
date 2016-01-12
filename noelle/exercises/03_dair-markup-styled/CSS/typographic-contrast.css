@@ -1,12 +1,13 @@
 /*initial round of css styling*/
 body {
 		font-family: 'Oswald', sans-serif;
+		color: #3a3a3a;
 	}
 
 h1 {
 	text-align: center;
-	background-color:#000000;
-	color:#FFFFFF;
+	background-color:#f2f2f2;
+	color:#3a3a3a;
 	padding: 0 0 0 0;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -34,17 +35,27 @@ h3 {
 	margin-top: 0em;
 	text-align: center;
 	font-weight: bolder;
+	color:#838181;
 	padding-left: 2em;
 	padding-right: 2em;
+	background-color: #f2f2f2;
+	margin-bottom: 1em;
+	margin-top: 3em;
 }
 p {
 	font-family: 'helvetica', sans-serif; 
+	font-size: 16px;
+	color: #3a3a3a;
 	background-color: #DDDDDD 60%;
 	padding-left: 2em;
 	padding-right: 2em;
 	text-align: left;
 	font-weight: lighter;
 }
+
+ul {padding-left: 4em;
+	margin-bottom: 4em;
+	color:#838181;}
 
 .summ{
 		text-align: center;
@@ -60,13 +71,10 @@ p {
 
 }
 
-
-.descript {
-	background-color: #DDDDDD;
-	padding: 3em;
-	border: 8px solid #000000;
-	margin-top: 1em;
-	text-align: center;
-	font-weight: normal;
+.focuspt {
+		font-weight: bold;
+		font-size: 22px;
 }
+
+
 
