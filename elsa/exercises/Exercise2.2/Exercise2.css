@@ -1,0 +1,43 @@
+h2 {
+	text-align: center;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	position: fixed; 
+}
+
+li {
+		font-size: 14px;
+		font-family: Arial;
+		color: orange;
+		border-top: 3px solid grey;
+}
+p{
+		font-family: Arial;
+		font-size: 12px;
+}
+.text{
+	position: absolute;
+	margin-top: 80px;
+}
+
+.small{
+	font-family: Arial;
+	font-weight: bold;
+	background-color: lightgrey;
+    background-position:left;
+}
+body{
+	margin: 100px;
+
+}
+.boarder{
+	background-color: lightblue;
+	font-weight: italic;
+	position: center;
+}
+.background{
+		background-image: url(https://cdn.tutsplus.com/psd/uploads/2014/01/0945_Seamless_final.jpg);
+		background-size: 100%;
+
+} 
