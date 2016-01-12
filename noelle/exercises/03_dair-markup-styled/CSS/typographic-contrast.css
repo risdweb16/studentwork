@@ -1,0 +1,61 @@
+/*initial round of css styling*/
+body {
+		font-family: 'Oswald', sans-serif;
+
+	}
+
+h1 {
+	text-align: center;
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+div.image {
+   background:url("../images/image1.jpg");
+   float:left;
+   height:300px;
+   width:1018px;
+   border: 0px white;
+   display: inline;
+}
+
+h3 {
+	margin-top: 3em;
+	text-align: center;
+	font-weight: bolder;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+p {
+	font-family: 'helvetica', sans-serif; 
+	background-color: #DDDDDD 60%;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: left;
+	font-weight: lighter;
+}
+
+.summ{
+		text-align: center;
+		font-style: italic;
+		padding: 3em;
+}
+
+.smaller {
+		font-weight: lighter;
+		font-style: oblique;
+		font-size: 11px;
+		padding-left: 3em;
+
+}
+
+
+.descript {
+	background-color: #DDDDDD;
+	padding: 3em;
+	border: 8px solid #000000;
+	margin-top: 1em;
+	text-align: center;
+	font-weight: normal;
+}
+
