@@ -21,11 +21,46 @@ nav {
 section {
   background: #efefef;
   float: left;
-  width: 33%;
+  margin-right: 2%;
 }
+
+article {
+  padding: 1em;
+}
+
+.left {
+  width: 20%;
+}
+
+.middle {
+  width: 55%;
+}
+
+.right {
+  width: 21%;
+  margin-right: 0;
+}
+
 
 footer {
   height: 5em;
   background: 333333;
 
 }
+
+@media screen and (max-width: 900px) {
+  .left {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .middle {
+    width: 59%;
+  }
+
+  .right {
+    width: 39%;
+  }
+}
+
+
