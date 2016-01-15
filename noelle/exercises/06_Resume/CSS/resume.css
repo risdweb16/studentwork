@@ -1,36 +1,95 @@
 
 /*Scroll through logo mask functions*/
 .header {
-  padding:40px 40px 40px 300px;
-  background:transparent url(../images/namelogo2.tif) no-repeat 20px 20px fixed;
-  background-position: left;
-  width:10%;
-  height: 10%;
+	
+	z-index: 1000;
+  padding: 40px 40px 80px 300px;
+  background:transparent url(../images/namelogo2.png) no-repeat fixed;
+  background-position: 20px 20px;
+  width: 100%;
 }
 .content {
-  padding:10px 40px 10px 300px;
-  background: transparent url(../images/namelogo.png) no-repeat fixed;
+	position: fixed;
+	z-index: 950;
+  background: transparent url(../images/namelogo.png) no-repeat;
+  background-position: 15px 0px;
+  top:25px;
+  left:10px;
+width:25%;
+height:30%;
+}
+
+.sidebar {
+	position: fixed;
+	z-index: 900;
+	top: 120px;
+	width:20%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: left;
+}
+
+.smallContent {
+  background: transparent url(../images/namelogo.png) no-repeat;
+background-position: center;
+width:100%;
+height:100px;
+}
+
+.smallSidebar {
+	position: relative;
+	z-index: 900;
+	margin-top:1em;
+	width:94%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align:center;
+}
+
+
+.trans {
+	background: transparent;
+}
+
+.padder{
+	padding-left: 30%;
+	padding-right: 3%;
+}
+
+.smallPadder{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.sectionObjective {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.sectionContent {
+	padding-left: 4%;
+	padding-right: 2%;
 }
 
 /*text for position header*/
 h3 {font-family: 'Carrois Gothic', sans-serif;
 	color:#232b2a;
-	text-align: left;
-	padding-left: 200px;}
+	
+	}
 
 /*text for degree header*/
 h4 {font-family: 'Carrois Gothic', sans-serif;
 	color:#232b2a;
-	text-align: left;
-	padding-left: 200px;
-	width:100%;}
+	
+	
+	}
 
 /*text for contact info header*/
 h6 {font-family: 'Carrois Gothic', sans-serif;
 	color:#232b2a;
-	text-align: left;
-	padding-left: 200px;
-	width:100%;}
+	
+	
+	}
 
 /*hyperlink*/
 
@@ -38,33 +97,33 @@ a {color: #115e55}
 
 /*section headers*/
 h5 {font-family: 'Carrois Gothic', sans-serif;
-	text-align: left;
+	
 	font-size: 18pt;
-	padding-left: 200px;
-	width:70%;
-	margin-top: 0em;
-	float: right;
 	text-align: center;
 	font-weight: bolder;
 	color:#838181;
-	padding-left: 2em;
-	padding-right: 2em;
+	
+	
 	background-color: #dfdede;
 	margin-bottom: 1em;
 	margin-top: 3em;}
+
+.topSection {
+	margin-top: 3em;
+}
 
 /*sub section headers*/
 
 .subsectionh {font-family: 'Carrois Gothic', sans-serif;
 	text-align: left;
 	font-size: 14pt;
-	padding-left: 200px;
-	width:50%;
+	
+	
 	margin-top: 0em;
-	float: right;
+	
 	font-weight: normal;
 	color:#838181;
-	padding-left: 2em;
+	
 	padding-right: 2em;
 	background-color: #f4f3f3;
 	margin-bottom: 1em;
@@ -74,11 +133,11 @@ h5 {font-family: 'Carrois Gothic', sans-serif;
 .objectivetext {font-family: 'Carrois Gothic', sans-serif;
 	text-align: center;
 	color:#232b2a;
-	padding-left: 200px;
+	
 	font-size: 12pt;
 	font-weight: bold;
 	font-style: italic;
-	width:70%;
+	
 	margin-top: 0em;
 	float:center;
 	}
@@ -87,25 +146,72 @@ h5 {font-family: 'Carrois Gothic', sans-serif;
 .jobtitle {font-family: 'Carrois Gothic', sans-serif;
 	text-align: left;
 	color:#232b2a;
-	padding-left: 200px;
+	
 	font-size: 12pt;
 	font-weight: bold;
-	width:70%;
+	
 	margin-top: 0em;
-	float: right;
+	
 	}
 
 p 	{font-family: 'Carrois Gothic', sans-serif;
 	color:#232b2a;
 	text-align: left;
-	padding-left: 200px;
+	
 	font-size: 10pt;
-	width:70%;
+	
 	margin-top: 0em;
-	float: right;
+	
 	}
 /*spacer between roles*/
-.categoryspace {width:70%;
+.categoryspace {
 	margin-top: 2em;
-	float: right;
+	
 	}
+
+
+.hide {
+  display: none !important; }
+
+.invisible {
+  visibility: hidden; }
+
+@media screen and (min-width: 0em) and (max-width: 39.9375em) {
+  .hide-for-small-only {
+    display: none !important; } }
+
+@media screen and (max-width: 0em), screen and (min-width: 40em) {
+  .show-for-small-only {
+    display: none !important; } }
+
+@media screen and (min-width: 40em) {
+  .hide-for-medium {
+    display: none !important; } }
+
+@media screen and (max-width: 39.9375em) {
+  .show-for-medium {
+    display: none !important; } }
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .hide-for-medium-only {
+    display: none !important; } }
+
+@media screen and (max-width: 39.9375em), screen and (min-width: 64em) {
+  .show-for-medium-only {
+    display: none !important; } }
+
+@media screen and (min-width: 64em) {
+  .hide-for-large {
+    display: none !important; } }
+
+@media screen and (max-width: 63.9375em) {
+  .show-for-large {
+    display: none !important; } }
+
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .hide-for-large-only {
+    display: none !important; } }
+
+@media screen and (max-width: 63.9375em), screen and (min-width: 75em) {
+  .show-for-large-only {
+    display: none !important; } }
