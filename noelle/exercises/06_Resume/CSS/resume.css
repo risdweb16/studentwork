@@ -78,20 +78,20 @@ height:100px;
 }
 
 /*text for position header*/
-h3 {font-family: 'Carrois Gothic', sans-serif;
+h3 {font-family: 'Didact Gothic', sans-serif;
 	color:#232b2a;
 	
 	}
 
 /*text for degree header*/
-h4 {font-family: 'Carrois Gothic', sans-serif;
+h4 {font-family: 'Didact Gothic', sans-serif;
 	color:#232b2a;
 	
 	
 	}
 
 /*text for contact info header*/
-h6 {font-family: 'Carrois Gothic', sans-serif;
+h6 {font-family: 'Didact Gothic', sans-serif;
 	color:#232b2a;
 	
 	
@@ -102,7 +102,7 @@ h6 {font-family: 'Carrois Gothic', sans-serif;
 a {color: #ee879c}
 
 /*section headers*/
-h5 {font-family: 'Carrois Gothic', sans-serif;
+h5 {font-family: 'Didact Gothic', sans-serif;
 	
 	font-size: 18pt;
 	text-align: center;
@@ -120,7 +120,7 @@ h5 {font-family: 'Carrois Gothic', sans-serif;
 
 /*sub section headers*/
 
-.subsectionh {font-family: 'Carrois Gothic', sans-serif;
+.subsectionh {font-family: 'Didact Gothic', sans-serif;
 	text-align: left;
 	font-size: 14pt;
 	
@@ -136,7 +136,7 @@ h5 {font-family: 'Carrois Gothic', sans-serif;
 	margin-top: 3em;}
 
 /*objectivetext*/
-.objectivetext {font-family: 'Carrois Gothic', sans-serif;
+.objectivetext {font-family: 'Didact Gothic', sans-serif;
 	text-align: center;
 	color:#232b2a;
 	
@@ -149,7 +149,7 @@ h5 {font-family: 'Carrois Gothic', sans-serif;
 	}
 
 /*job title bold*/
-.jobtitle {font-family: 'Carrois Gothic', sans-serif;
+.jobtitle {font-family: 'Didact Gothic', sans-serif;
 	text-align: left;
 	color:#232b2a;
 	
@@ -160,7 +160,7 @@ h5 {font-family: 'Carrois Gothic', sans-serif;
 	
 	}
 
-p 	{font-family: 'Carrois Gothic', sans-serif;
+p 	{font-family: 'Didact Gothic', sans-serif;
 	color:#232b2a;
 	text-align: left;
 	
@@ -175,7 +175,7 @@ p 	{font-family: 'Carrois Gothic', sans-serif;
 	
 	}
 
-ul {font-family: 'Carrois Gothic', sans-serif;
+ul {font-family: 'Didact Gothic', sans-serif;
 	color:#232b2a;
 	text-align: left;
 	
