@@ -56,6 +56,12 @@ height:100px;
 	padding-right: 3%;
 }
 
+.padder img {
+	width:50%;
+	margin-left: 25%;
+	padding-top: 3%;
+}
+
 .smallPadder{
 	padding-left: 3%;
 	padding-right: 3%;
@@ -93,7 +99,7 @@ h6 {font-family: 'Carrois Gothic', sans-serif;
 
 /*hyperlink*/
 
-a {color: #115e55}
+a {color: #ee879c}
 
 /*section headers*/
 h5 {font-family: 'Carrois Gothic', sans-serif;
@@ -101,10 +107,10 @@ h5 {font-family: 'Carrois Gothic', sans-serif;
 	font-size: 18pt;
 	text-align: center;
 	font-weight: bolder;
-	color:#838181;
+	color:##232b2a;
 	
 	
-	background-color: #dfdede;
+	background-color: #ee879c;
 	margin-bottom: 1em;
 	margin-top: 3em;}
 
@@ -125,7 +131,7 @@ h5 {font-family: 'Carrois Gothic', sans-serif;
 	color:#838181;
 	
 	padding-right: 2em;
-	background-color: #f4f3f3;
+	background-color: #f2c6cf;
 	margin-bottom: 1em;
 	margin-top: 3em;}
 
@@ -166,6 +172,16 @@ p 	{font-family: 'Carrois Gothic', sans-serif;
 /*spacer between roles*/
 .categoryspace {
 	margin-top: 2em;
+	
+	}
+
+ul {font-family: 'Carrois Gothic', sans-serif;
+	color:#232b2a;
+	text-align: left;
+	
+	font-size: 10pt;
+	
+	margin-top: 0em;
 	
 	}
 
