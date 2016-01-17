@@ -1,0 +1,71 @@
+body {
+	background-color: #cccccc;	
+	font-family: Helvetica;
+}
+header {
+	background-color: white;
+	text-align: left;
+	padding: 20px 20px 20px 20px;
+	margin: -8px -8px 0px -8px;
+	font-family: Helvetica;
+	font-size: 30px;
+}
+
+.bars {
+}
+
+.one {
+	position: relative;
+	top: 0px;
+	left: -8px;
+	right: 0px;
+	width: 101.5%;
+	height: 2px;
+	background-color: red;
+	margin: 0 0px 0px 0px;
+}
+.two {
+	position: relative;
+	top: 0px;
+	left: -8px;
+	width: 300px;
+	height: 500px;
+	background-color: white;
+	margin: 0px 0px 0px -8px;
+	font-family: Helvetica;
+	text-align: left;
+
+}
+.three {
+	position: relative;
+	background-color: red;
+	left: 292px;
+	width: 300px;
+	height: 100px;
+	margin: 0px 0px 0px -8px;
+
+}
+
+ol {
+	font-size: 12px;
+	line-height: 30px;
+}
+.seven {
+	margin-left: -8px;
+	background-color: white;
+	padding: 5em 5em 5em 5em;
+}
+.seven p {
+	width: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
