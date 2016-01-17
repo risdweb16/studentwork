@@ -5,20 +5,35 @@ body{
 	margin-right: 35em;
 	/*spacing: ;>*/
 }
+p{
+	line-height:113%;
+}
+ul {
+	color:#907F7F;
+}
 .author{margin-bottom:5em;
+}
+
+/* first opening*/
+.opening_p{
+	padding-bottom:4em;
 
 }
-.frstp{
-	padding-bottom:2em;
-
-}
-.contrast{
+/*.contrast{
 	margin-top:4em;
 	margin-bottom:1em;
+}*/
+
+/* ORGANIZE put everything having to do with the body paragraph after this  */
+
+.chapters h2{
+	padding-top:1.5em;
+	padding-bottom: .2em;
+}
+
+.chapters h4{
+	color:#5D5858;
 
 }
 
-ul li {
-	color:#827C7C;
 
-}
