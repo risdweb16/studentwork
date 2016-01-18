@@ -1,3 +1,51 @@
 body{
-	
+	font-family: 'Droid Sans', sans-serif;
+	background-color: rgba(178,156,133,.1);
+}
+.sidenote{
+	width:40%;
+	height:20%;
+	position:fixed;
+	float:left;
+}
+.heading{
+	margin-top:.1%;
+	font-size:200%;
+	width:30%;
+}
+#title{
+	margin-top:0%;
+	font-size:120%;
+	line-height:0;
+}
+.secondary{
+	font-size:70%;
+	width:20%;
+}
+.side_image{
+	position:fixed;
+}
+.education{
+	float:right;
+	margin-left:40%;
+}
+.img_one{
+	max-width:10%;
+	max-height:10%;
+	position:;
+}
+.teaching{
+	float:right;
+	width:80%;
+	height:28.5%;
+}
+.paragraph{
+	font-family: 'Open Sans', sans-serif;
+	font-size:100%;
+}
+.experience{
+	float:right;
+}
+.software{
+	float:right;
 }
