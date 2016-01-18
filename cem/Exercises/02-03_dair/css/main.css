@@ -8,7 +8,7 @@ h1 {font-family: lyno, Arial;
 	margin-bottom: .09em;
 	/*background-color: black;*/
 	text-decoration: underline;
-	text-decoration-color: red;}
+	-webkit-text-decoration-color: yellow;}
 
 em {font-size: 6vw;
 	color: red;
@@ -52,15 +52,29 @@ div {margin-top: 2em;
   	   -webkit-column-rule-style: solid;
   	   -webkit-column-rule: 1px outset #ff00ff;}
   body {background-color: yellow;}
-  h1 {-webkit-text-stroke: 1px red;}
+  h1 {-webkit-text-stroke: 1px red;
+  	-webkit-text-decoration-color: red;}
 /*  h2 {border: 1px solid yellow;}
 */	}
 
 @media (max-width: 620px) {
 div {-webkit-column-count: 1;}
 body {background-color: orange;}
-h1 {-webkit-text-stroke: .3px red;}
+h1 {-webkit-text-stroke: .3px red;
+/*-webkit-text-decoration: underline blue;*/}
 h2 {border-bottom: 1px dashed blue;}
+	}
+
+@media (min-width: 2000px) {
+  div {-webkit-column-count: 4;
+  	   -webkit-column-gap: 1.3em;
+  	   -webkit-column-rule-style: solid;
+  	   -webkit-column-rule: 1px dotted red;}
+  body {background-color: whitesmoke;
+  		/*border: solid blue;*/}
+  h1 {-webkit-text-stroke: 1px red;
+  	-webkit-text-decoration-color: red;}
+  h2 {border-bottom: 1px dotted red;}
 	}
 
 .special {font-family: didot;

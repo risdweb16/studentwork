@@ -1,0 +1,204 @@
+body {
+	margin: 1em;
+	font-family: 'EB Garamond';
+	font-size: .8em;
+	transition: 2s;
+	background-color: tomato;}
+
+.imaj {
+		overflow: hidden;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		z-index: -2;
+		opacity: 0.4;}
+
+
+.imajtwo {
+		overflow: hidden;
+		position: fixed;
+		top: 20%;
+		left: 20%;
+		z-index: -3;
+		opacity: 0.4;
+		transform: rotate(-60deg);}
+
+h1, h2 {
+	font-family: helvetica;
+	font-weight: bold;
+	color: lightgreen;
+	font-size: 1em;
+	letter-spacing: .1em;}
+
+h3 {/*line-height:.5em;*/
+	margin-bottom: .1em;
+	font-size: 1em;
+	font-family: helvetica;
+ }
+
+.logo {
+	/*height: 200px;*/
+	width: 100%;
+	background-color: none;
+	position: fixed;
+	top: -10px;
+	left: 5px;
+	font-family: helvetica;
+	font-weight: bolder;
+	font-size: 10em;
+	color: transparent;
+	-webkit-text-stroke: .9px lightgreen;
+	/*transform: rotate(-20deg);*/
+	/*transition: 2s;*/
+	/*text-align: right;*/}
+ 
+.logo:hover {transform: none;
+			transition: 2s;}
+
+.addpush {
+	width: 75%;
+	height: 200px;
+	float: left;
+	/*background-color: yellow;*/
+}
+
+.address {
+	/*float: left;*/
+	width: 97%;
+	/*height: 200px;*/
+	/*background-color: lightgreen;*/
+	text-align: right;
+	line-height: .3em;
+	padding-right: 0px;
+	font-family: 'EB Garamond', serif;;
+	font-weight: 400;
+	position: fixed;
+	color: lightgreen;
+	/*bottom: 0*/;
+}
+
+#hey {
+	width: 100%;
+	margin-right: 10px;}
+
+
+/*.graphic {
+	width: 30%;
+	height: 30%;
+	border-radius: 100%;
+	background-color: lightgreen;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	}*/
+
+
+div.one {float: left;
+	/*background-color: lightgreen;*/
+	width: 32%;
+	margin-top: 100px;
+	margin-right: 2%;}
+
+
+#last {margin-right: 0;}
+
+
+
+.two {float: left;
+	/*background-color: lightgreen;*/
+	width: 32%;
+	margin-right: 2%;}
+
+
+#experience {padding-top: 0px;
+		clear: both;}
+
+h4 {
+	font-family: helvetica;
+	font-style: italic;}
+
+.columnhey {-webkit-column-count: 2;}
+
+
+em {font-style: italic;}
+
+h4 {margin-top: 15px;
+	font-weight: normal;}
+
+/*MEDIA*/
+
+
+@media (max-width: 1025px) {
+
+	div.one {width: 32%;
+		/*background-color: yellow;*/}
+
+	#experience {float: left;
+			width: 20%;
+			margin-top: 50px;
+			line-height: 1.5em;}
+
+	#last {float: left;
+			margin-top: 0;
+			/*background-color: lightgreen;*/
+			width: 32%;
+			margin-right: 2%;}
+
+	.push {
+		width: 20%;
+		height: 100px;
+		/*background-color: lightgreen;*/
+		float:left;
+	}
+
+	.pushtwo {
+		width: 20%;
+		height: 100px;
+		/*background-color: lightgreen;*/
+		float: left;
+		clear: both;
+	}
+
+	.two {margin-top: 50px;}
+
+	.logo {color: lightgreen;
+		-webkit-text-stroke: 0px;
+		font-size: 1em;
+		margin-left: 20%;
+		left: 7px;
+		top: 0;
+		line-height: 4em;
+		/*transition: 1s;*/}
+
+	.address {font-family: helvetica;
+		font-size: .9em;
+		width: 20%;
+		text-align: left;
+		margin-left: 52%;
+		padding-left: 5px;}
+
+
+
+	#and {clear: both;
+		margin-left: 20%;}
+
+	#skills {margin-top: 80px;
+		}
+
+	.columnhey {-webkit-column-count: 2;
+		margin-top: 12px;}
+
+	h3 {}
+
+	#whatnot {margin-top: 0;}
+
+
+
+	}
+
+
+
+
+
+
+
