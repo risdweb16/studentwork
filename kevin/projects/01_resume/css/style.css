@@ -154,3 +154,14 @@ a:link{
 a:visited{
 	color: rgb(59,66,76);
 }
+
+.sidenote_small{
+	position:relative;
+	text-align:center;
+}
+@media screen and (max-width: 480px){
+
+.sidenote_small{
+	display: none !important;
+}
+}
