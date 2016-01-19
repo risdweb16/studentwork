@@ -1,0 +1,32 @@
+body {
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 2em auto;
+}
+
+
+svg {
+  max-width: 80px;
+}
+
+.a, .e, .six {
+  fill: #F2337D;
+}
+
+
+img.logo {
+  display: block;
+  position: fixed;
+  z-index: 10;
+  top:0;
+  left: 50%;
+  height: 100vh;
+  margin-left: -50vh;
+}
+
+@media screen and (max-width: 500px) {
+  svg {
+    width: 15%;
+  }
+}

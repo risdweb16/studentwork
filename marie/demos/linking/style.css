@@ -1,0 +1,74 @@
+body {
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+#container {
+  max-width: 980px;
+  margin: 8em auto 0;
+  text-align: left;
+  line-height: 1.4;
+}
+
+header {
+  position: fixed;
+  top:0;
+  height: 4em;
+  border-bottom: 5px solid #333;
+}
+
+nav {
+  background: #ffffff;
+  position: fixed;
+  top: 5em;
+  border: 1px solid #cccccc;
+  padding: .5em;
+}
+
+section {
+  background: #efefef;
+  float: left;
+  margin-right: 2%;
+}
+
+article {
+  padding: 1em;
+}
+
+.col1 {
+  width: 20%;
+}
+
+.col2 {
+  width: 55%;
+}
+
+.col3 {
+  width: 21%;
+  margin-right: 0;
+}
+
+
+footer {
+  height: 5em;
+  background: 333333;
+
+}
+
+@media screen and (max-width: 900px) {
+  .col1 {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .col2 {
+    width: 59%;
+  }
+
+  .col3 {
+    width: 39%;
+  }
+}
+
+

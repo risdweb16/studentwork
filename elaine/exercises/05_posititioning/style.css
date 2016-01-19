@@ -1,0 +1,56 @@
+.bars{
+	width: 50px;
+	height: 200px;
+	background-color:white;
+	position:relative;
+	float: left;
+	opacity:0.7;
+}
+
+.one{
+	background-color: blue;
+	top: 30px;
+	left: 50px;
+	float:left;
+}
+
+.two{
+	background-color:black;
+	top: 0px;
+	left: 70px;
+}
+
+.three{
+	background-color:blue;
+	top: 30px;
+	left: 90px;
+}
+.four{
+	background-color:black;
+	top: 0px;
+	left: 110px;
+}
+
+.five{
+	background-color: blue;
+	top: 30px;
+	left: 130px;
+}
+
+.six{
+background-color:black;
+	top: 0px;
+	left: 150px;
+}
+
+.seven{
+	background-color: blue;
+	top: 30px;
+	left: 170px;
+}
+
+.eight{
+background-color:black;
+	top: 0px;
+	left: 190px;
+}
