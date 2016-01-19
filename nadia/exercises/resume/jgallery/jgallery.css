@@ -1,0 +1,38 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	width: 800px;
+	margin: o auto;
+}
+
+
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}
+.bar {
+		width: 200px;
+		height: 200px;
+		margin: 20px 20px 20px 20px;
+		float: left;
+}
+
+
+
+
+
+.crop-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+ .crop-container img {
+       width:100%;
+       height:auto;
+ }
+
+
+ 
