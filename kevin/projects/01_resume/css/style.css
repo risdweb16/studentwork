@@ -4,7 +4,6 @@ body{
 }
 .sidenote{
 	width:40%;
-	height:20%;
 	position:fixed;
 	float:left;
 }
@@ -12,6 +11,7 @@ body{
 	margin-top:.1%;
 	font-size:200%;
 	width:30%;
+	font-style:bold;
 }
 #title{
 	margin-top:0%;
@@ -25,27 +25,132 @@ body{
 .side_image{
 	position:fixed;
 }
+
+
 .education{
-	float:right;
-	margin-left:40%;
-}
-.img_one{
-	max-width:10%;
-	max-height:10%;
-	position:;
-}
-.teaching{
-	float:right;
+	padding-left:20%;
 	width:80%;
-	height:28.5%;
+	height: 30%;
+}
+#primary_one{
+	font-size:150%;
+	padding-left:30%;
+}
+#img_one{
+	padding-top:2%;
+	position: absolute;
+}
+.title{
+	font-size:100%;
+	line-height:0%;
+	padding-left:30%;
+}
+.specific{
+	font-size:80%;
+	line-height: 10%;
+	font-style:italic;
+	padding-left:30%;
 }
 .paragraph{
 	font-family: 'Open Sans', sans-serif;
+	font-size:95%;
+	padding-left:30%;
+}
+
+
+.teaching{
+	padding-left:20%;
+	width:80%;
+	height: 30%;
+}
+#primary_two{
+	font-size:150%;
+}
+.title_two{
 	font-size:100%;
+	line-height:0;
 }
+.specific_two{
+	font-size:80%;
+	line-height:10%;
+	font-style:italic;
+}
+.paragraph_two{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 95%;
+	padding-right:40%;
+}
+#img_two{
+	position:absolute;
+	padding-left:53%;
+}
+
+
 .experience{
-	float:right;
+	padding-left:20%;
+	width:80%;
+	height: 30%;
 }
+#primary_three{
+	font-size:150%;
+	padding-left:30%;
+}
+.title_three{
+	font-size:100%;
+	line-height:0;
+	padding-left:30%;
+}
+.specific_three{
+	font-size:80%;
+	font-style:italic;
+	line-height:10%;
+	padding-left:30%;
+}
+.paragraph_three{
+	font-family:'Open Sans', sans-serif;
+	font-size:95%;
+	padding-left:30%;
+	padding-right:14%;
+}
+#img_three{
+	position:absolute;
+}
+
 .software{
+	padding-left:20%;
+	width:80%;
+	height:30%;
+}
+#primary_four{
+	font-size:150%;
+}
+#img_four{
+	position:absolute;
+	padding-left:30%;
+}
+#first{
+	font-family: 'Open sans', sans-serif;
+	font-size:95%;
+	position:relative;
+}
+#second{
+	font-family: 'Open sans',sans-serif;
+	font-size:95%;
+	position:absolute;
+	padding-left:17%;
+	margin-top:-11%;
+}
+
+.rightbar{
+	padding-left:88%;
+	position:fixed;
 	float:right;
+	line-height:19%;
+}
+a:link{
+	text-decoration: none;
+	color: rgb(59,66,76);
+}
+a:visited{
+	color: rgb(59,66,76);
 }
