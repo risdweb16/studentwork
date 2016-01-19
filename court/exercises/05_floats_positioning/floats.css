@@ -1,0 +1,26 @@
+.bars {
+	width: 20px;
+	height: 50px;
+	position: inline;
+	float: left;
+	background-color: red;
+	margin: 5px;
+}
+
+.one {
+	margin: -8px 0px 0px 0px;
+	border: 4px solid blue;
+}
+
+.two {
+	margin: 8px 0px 0px -4px;
+	border: 4px solid pink;
+}
+
+
+
+
+
+body {
+	margin: 10px;
+}

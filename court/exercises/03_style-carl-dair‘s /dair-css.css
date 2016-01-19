@@ -7,8 +7,10 @@ header {
 	text-align: left;
 	padding: 20px 20px 20px 20px;
 	margin: -8px -8px 0px -8px;
+	width: 100%;
 	font-family: Helvetica;
 	font-size: 30px;
+	position: inline;
 }
 
 .bars {
@@ -16,19 +18,16 @@ header {
 
 .one {
 	position: relative;
-	top: 0px;
-	left: -8px;
-	right: 0px;
-	width: 101.5%;
+	clear:both;
+	width: 100%;
 	height: 2px;
 	background-color: red;
-	margin: 0 0px 0px 0px;
+	margin: 0px -8px 0px -8px;
 }
 .two {
-	position: relative;
-	top: 0px;
-	left: -8px;
-	width: 300px;
+	float: left;
+	position: inline;
+	width: 20%;
 	height: 500px;
 	background-color: white;
 	margin: 0px 0px 0px -8px;
@@ -37,12 +36,13 @@ header {
 
 }
 .three {
-	position: relative;
+	float: left;
+	position: inline;
 	background-color: red;
-	left: 292px;
-	width: 300px;
-	height: 100px;
-	margin: 0px 0px 0px -8px;
+	
+	width: 80%;
+	height: 500px;
+	margin: 0px 0px 0px 0px;
 
 }
 
@@ -57,6 +57,16 @@ ol {
 }
 .seven p {
 	width: 450px;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
 }
 
 
