@@ -1,0 +1,47 @@
+
+
+
+h1 { font-size: 5em;
+	letter-spacing: 1ex;
+	line-height: 40px;
+	margin-bottom: 2em}
+
+
+body { font-family: 'Roboto', sans-serif;
+	margin: 4em;}
+
+
+li {list-style-position: inside;
+	}
+
+ul {padding-bottom: 1em;
+	color: #A2A2A2;}
+
+.left { font-size: 20px;
+	margin:5px 5px 5px 5px;
+    padding:0px 4em 0px 0px ;
+    position: relative;
+	float: left;
+	text-align: left
+	}
+
+
+.center { 
+    margin: 5px 5px 5px 5px;
+    padding: 7px 3em 0em 0em;
+	float: center;
+	;
+	}
+
+
+
+
+.detail { margin-left: 9em; }
+
+
+
+.pro {margin-top: 6em}
+.honors {margin-top: 49em}
+.skills {margin-top: 8em}
+.extra {margin-top: 4em; margin-bottom: 10em;}
+
