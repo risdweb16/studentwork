@@ -5,30 +5,32 @@
 		<title></title>
 	</head>
 	<body>
-	<div id="header">
-		<a href='http://eccecce.com/'><h1>eccecce<h1></a>
-	</div>
+	<div id="wrap">
+		<div id="header">
+			<a href='http://eccecce.com/'><h1>ecce<h1></a>
+		</div>
 
-	<div class="block">
-		<p>yo this is the text</p>
-	</div>
+		<div class="block">
+			<p>Erica Carras</p>
+		</div>
 
-	<div class="inblock">
-		<p>Artisan fanny pack kitsch, brooklyn you probably haven't heard of them disrupt squid 3 wolf moon. Shabby chic jean shorts tilde pinterest church-key, blog deep v wolf asymmetrical try-hard migas sartorial waistcoat freegan. Pitchfork green juice brunch, brooklyn celiac biodiesel meggings gochujang jean shorts. Taxidermy venmo mlkshk dreamcatcher, plaid heirloom kinfolk quinoa sriracha chambray fixie before they sold out DIY single-origin coffee kogi. Leggings lomo bicycle rights street art whatever, kale chips paleo. Messenger bag semiotics beard, meditation swag selfies viral heirloom skateboard tumblr bicycle rights. Twee squid +1, keffiyeh small batch crucifix four dollar toast bespoke.
+		<div class="inblock">
+			<p>Artisan fanny pack kitsch, brooklyn you probably haven't heard of them disrupt squid 3 wolf moon. Shabby chic jean shorts tilde pinterest church-key, blog deep v wolf asymmetrical try-hard migas sartorial waistcoat freegan. Pitchfork green juice brunch, brooklyn celiac biodiesel meggings gochujang jean shorts. Taxidermy venmo mlkshk dreamcatcher, plaid heirloom kinfolk quinoa sriracha chambray fixie before they sold out DIY single-origin coffee kogi. Leggings lomo bicycle rights street art whatever, kale chips paleo. Messenger bag semiotics beard, meditation swag selfies viral heirloom skateboard tumblr bicycle rights. Twee squid +1, keffiyeh small batch crucifix four dollar toast bespoke.
 
-		<p>You probably haven't heard of them waistcoat humblebrag, vice mlkshk chartreuse aesthetic DIY whatever. PBR&B twee craft beer, normcore ugh art party disrupt freegan fap banh mi beard. Kitsch street art pabst, neutra fixie marfa godard celiac poutine blog deep v raw denim. Keytar franzen lumbersexual, VHS migas tilde schlitz mixtape biodiesel keffiyeh banjo offal scenester farm-to-table pinterest. Keffiyeh knausgaard vice, freegan migas meggings next level actually taxidermy listicle meditation roof party seitan post-ironic. Tattooed celiac health goth literally selvage quinoa. Craft beer art party butcher cornhole occupy.</p>
+			<p>You probably haven't heard of them waistcoat humblebrag, vice mlkshk chartreuse aesthetic DIY whatever. PBR&B twee craft beer, normcore ugh art party disrupt freegan fap banh mi beard. Kitsch street art pabst, neutra fixie marfa godard celiac poutine blog deep v raw denim. Keytar franzen lumbersexual, VHS migas tilde schlitz mixtape biodiesel keffiyeh banjo offal scenester farm-to-table pinterest. Keffiyeh knausgaard vice, freegan migas meggings next level actually taxidermy listicle meditation roof party seitan post-ironic. Tattooed celiac health goth literally selvage quinoa. Craft beer art party butcher cornhole occupy.</p>
 
-		<p>Fixie food truck +1, marfa cardigan dreamcatcher ugh. Pitchfork mumblecore disrupt, umami keffiyeh taxidermy salvia austin pickled stumptown beard. Sriracha pop-up cardigan, meh fingerstache ramps humblebrag venmo bespoke readymade cronut put a bird on it typewriter. Forage seitan occupy sriracha. Portland slow-carb direct trade, butcher meh iPhone umami tofu forage meditation tacos everyday carry taxidermy mixtape mumblecore. Messenger bag direct trade letterpress schlitz neutra. Tousled wayfarers jean shorts, VHS try-hard lo-fi gochujang mumblecore chillwave narwhal tilde.</p>
+			<p>Fixie food truck +1, marfa cardigan dreamcatcher ugh. Pitchfork mumblecore disrupt, umami keffiyeh taxidermy salvia austin pickled stumptown beard. Sriracha pop-up cardigan, meh fingerstache ramps humblebrag venmo bespoke readymade cronut put a bird on it typewriter. Forage seitan occupy sriracha. Portland slow-carb direct trade, butcher meh iPhone umami tofu forage meditation tacos everyday carry taxidermy mixtape mumblecore. Messenger bag direct trade letterpress schlitz neutra. Tousled wayfarers jean shorts, VHS try-hard lo-fi gochujang mumblecore chillwave narwhal tilde.</p>
 
-		<p>Chillwave swag cliche, seitan art party semiotics skateboard vegan single-origin coffee cray. Fanny pack banjo meditation migas before they sold out. Wolf helvetica leggings, cardigan asymmetrical twee YOLO freegan truffaut lumbersexual chambray chia pinterest letterpress. Photo booth kitsch affogato keffiyeh kale chips whatever, vegan mustache viral post-ironic distillery authentic locavore letterpress. Portland PBR&B pop-up, church-key selfies kombucha trust fund plaid jean shorts mumblecore dreamcatcher. Pork belly health goth cred disrupt cardigan keytar. +1 freegan knausgaard ethical.</p>
-	</div>
+			<p>Chillwave swag cliche, seitan art party semiotics skateboard vegan single-origin coffee cray. Fanny pack banjo meditation migas before they sold out. Wolf helvetica leggings, cardigan asymmetrical twee YOLO freegan truffaut lumbersexual chambray chia pinterest letterpress. Photo booth kitsch affogato keffiyeh kale chips whatever, vegan mustache viral post-ironic distillery authentic locavore letterpress. Portland PBR&B pop-up, church-key selfies kombucha trust fund plaid jean shorts mumblecore dreamcatcher. Pork belly health goth cred disrupt cardigan keytar. +1 freegan knausgaard ethical.</p>
+		</div>
 
-	<div id="footer">
-	</div>
+		<div id="footer">
+		</div>
 
-	<!--<div class="image">
-		<img src='http://payload199.cargocollective.com/1/12/415297/6287838/Birds%20Final%20resize.jpg'> -->
+		<!--<div class="image">
+			<img src='http://payload199.cargocollective.com/1/12/415297/6287838/Birds%20Final%20resize.jpg'> -->
 
+		</div>
 	</div>
 	
 	

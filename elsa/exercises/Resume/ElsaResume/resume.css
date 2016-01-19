@@ -1,0 +1,79 @@
+img{
+	padding-left: 10%;
+	margin-top: 10px;
+	margin-left: 0%;
+}
+.icon-1{
+	font-family: Arial;
+	font-size: 20px;
+}
+.icon-2{
+	font-family: Arial;
+	font-size: 20px;
+}
+.icon-3{
+	font-family: Arial;
+	font-size: 20px;
+}
+li{
+	font-size: 20px;
+	font-family: Arial;
+	text-align: left;
+	list-style: none;
+	font-weight: lighter
+}
+/*  SECTIONS  */
+.section {
+	clear: both;
+	font-family: Arial;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+.span_1_of_4 {
+	width: 100%;
+}
+br {
+    line-height: 2px;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3, .span_1_of_3; { width: 100%; }
+}
