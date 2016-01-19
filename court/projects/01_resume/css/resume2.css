@@ -40,7 +40,7 @@ h3 {
 }
 
 h3+p {
-	margin-top: -6px;
+	margin-top: -1%;
 }
 
 h6 {
@@ -55,10 +55,10 @@ h6 {
 	font-size: 60%;
 	float: left;
 	font-weight: 200;
-	line-height: 10px;
+	line-height: 100%;
 	height: 100vh;
-	margin-right: 50px;
-	margin-top: -7px;
+	margin-right: 5%;
+	margin-top: -.25%;
 }
 
 .body {
@@ -81,5 +81,8 @@ h6 {
 
 
 
+
+.experience {
+}
 
 
