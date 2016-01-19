@@ -1,14 +1,14 @@
 img {
 	width: 100px;
 	height:	auto;
-	float: right;
-	margin-right: 100px;
+	float: left;
+	margin-left: 425px;
 }
 
 body {
 	font-family: Helvetica Neue;
 	margin-left: 50px;
-	margin-top: 50px;
+	margin-top: 25px;
 }
 
 h1 {
@@ -56,6 +56,10 @@ h6 {
 .body {
 	width: 525px;
 	float: relative;
+}
+
+.title {
+	clear: both;
 }
 
 
