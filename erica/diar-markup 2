@@ -4,12 +4,23 @@
 		<link type="text/css" rel="stylesheet" href="css/diar2 style.css"/>
 		<title>Seven Principles of Typography</title>
 	</head>
+
+<div class="wrapright">
+
+		<p ID="rightb"></p>
+
+		<!--<p ID="tworight"></p>-->
+	
+</div>
+
 <body>
+	<div class="wrap">
 		<div class= "author">
 			<h1>Seven Principles of Typographic Contrast</h1>
 			
 				<h4> Written by John D. Berry</h4>
-			</div>
+		</div>
+
 					<div class= "opening_p">
 						<p> In a seminal booklet that he both designed and wrote, Carl Dair showed how in typography, as in music, harmony and contrast are the keys to composition.
 							</p>
@@ -49,7 +60,7 @@
 			<h2> Contrast of Size </h2>
 
 				<p> The first and most basic contrast is size. "A simple but dramatic contrast of size," says Dair, "provides a point to which the reader's attention is drawn. Set in the same style of type, it maintains the exact relationship of the letter to the background. It is only a physical enlargement of the basic pattern created by the form and the weight of the type being used for the text." The most common use of size is in making the title or heading noticeably bigger than the text -- but that's only a starting-point.</p>
-		<id=bar></p>	
+		<!--<id=bar></p>-->	
 
 	<h2> Contrast of Weight </h2>
 
@@ -97,13 +108,26 @@
 
 				Most of the time, we use more than one kind of contrast together, in order to make the differences between visual elements even more obvious. We can use all of Dair's seven kinds of contrast at once, if we're skillful; he refers to this as typographic "chords." (One of the chapter titles in "Design With Type" is "Multiplying the Contrasts.") But breaking them down like this into simple oppositions makes it easier to use them consciously; it keeps us from getting our layouts all muddied up through trying to change too many things at once without thinking about what we're doing. I've found Carl Dair's analysis of typographic contrast -- and especially the visual flair with which he presents it -- an invaluable tool in the practice of graphic design.
 				</p>
-</div>	
+		</div>	
+	</div>
 
 
-<div class="shapes">
-		<p id="left"></p>
+	<div class="footer">
+	<h3>Other Fun links</h3>
+
 </div>
-
+	<div id="list">
+			<ul>
+				<li><a href="http://typographica.org/typography-books/the-elements-of-typographic-style-4th-edition/"> Elements of Typographic Style </a> </li>
+					 
+				<li> <a href="http://typographica.org/">Typographica</a></li>
+				<li><a href="type.method.ac/"> kern it</a> </li>
+				<li> <a href="http://www.linotype.com/">Linotype.com</a></li>
+				<li> <a href="https://klim.co.nz/blog/"> Klim Type blog</a> </li>
+				<li> <a href="http://www.houseind.com/"> house industries</a> </li>
+				
+			</ul>
+	</div>
 </body>
 
 </html>

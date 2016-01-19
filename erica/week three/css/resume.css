@@ -11,6 +11,11 @@ body{
     max-height: 300px;
 }*/
 
+#wrap{
+    width:60em;
+
+}
+
 #header{
     /*background-color:gray;*/
     /*font-family:none;*/
@@ -32,15 +37,16 @@ body{
 }
 
 .block{
-    background-color:black;
+    background-color:#E2CAE2;
     /*border:1em solid black;*/
     height:80em;
-    width:70em;
+    width:50em;
     margin:1em;
     padding:2em;
     position:relative;
     top:3em;
     left:3em;
+    padding-right: 40em;
 
     /*position:relative;
     top:3em;
@@ -51,7 +57,8 @@ body{
 .inblock{
     background-color:white;
     height:75em;
-    width:45em;
+    width:38em;
+    padding-left:3em;
     position:absolute;
     top:4em;
     left:18em;
