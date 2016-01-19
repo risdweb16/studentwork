@@ -1,8 +1,8 @@
 img {
-	width: 10%;
-	height:	10%;
+	width: 12%;
+	height:	12%;
 	float: left;
-	margin-left: 425px;
+	margin-left: 65%;
 }
 
 .logo img {
@@ -15,28 +15,28 @@ img {
 
 body {
 	font-family: Helvetica Neue;
-	margin-left: 50px;
-	margin-top: 25px;
+	margin-left: 5%;
+	margin-top: 2.5%;
 }
 
 h1 {
 	font-weight: 100;
-	font-size: 27px;
+	font-size: 200%;
 }
 
 h2 {
 	font-weight: 700;
-	font-size: 13px
+	font-size: 100%;
 }
 
 h2~p {
 	font-weight: 200;
-	font-size: 9px;
+	font-size: 60%;
 }
 
 h3 {
 	font-weight: 600;
-	font-size: 9px;
+	font-size: 60%;
 }
 
 h3+p {
@@ -45,14 +45,14 @@ h3+p {
 
 h6 {
 	font-style: thin;
-	font-size: 10px;
+	font-size: 60%;
 	margin-top: -20px;
 	font-weight: 200;
 }
 
 .contact {
 	font-style: thin;
-	font-size: 10px;
+	font-size: 60%;
 	float: left;
 	font-weight: 200;
 	line-height: 10px;
@@ -62,7 +62,7 @@ h6 {
 }
 
 .body {
-	width: 525px;
+	width: 75%;
 	float: relative;
 }
 
