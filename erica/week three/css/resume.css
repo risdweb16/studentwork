@@ -14,7 +14,7 @@ body{
 #header{
     /*background-color:gray;*/
     /*font-family:none;*/
-    color:white;
+
     background-color:#441924;
     width:14em;
     margin-left:5em;
@@ -24,6 +24,12 @@ body{
     z-index:100;
     
     }
+
+  #header h1 {
+    color:white;
+    text-decoration:none;
+    
+}
 
 .block{
     background-color:black;
@@ -41,6 +47,23 @@ body{
     left:3em;*/
     }
     
+
+.inblock{
+    background-color:white;
+    height:75em;
+    width:45em;
+    position:absolute;
+    top:4em;
+    left:18em;
+}
+.inblock p{
+    margin-left:1em;
+    margin-right:10em;
+
+
+}
+
+
 /*.right{
     background-color:#F9F9F9;
     width:20em;
