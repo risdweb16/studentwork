@@ -6,12 +6,16 @@ body{
 	/*spacing: ;>*/
 }
 p{
+	margin-left:.4em;
 	line-height:113%;
 }
 ul {
-	color:#8A8383;
+	color:#565050;
 }
-.author{margin-bottom:5em;
+.author{
+	margin-bottom:5em;
+	/*position:fixed;*/
+
 }
 
 /* first opening*/
@@ -27,13 +31,41 @@ ul {
 /* ORGANIZE put everything having to do with the body paragraph after this  */
 
 .chapters h2{
-	padding-top:1.5em;
+	padding-top:2em;
 	padding-bottom: .2em;
+	padding-left:.3em;
+	margin-top:6em;
+	/*this only indented header, no chng txt*/
+	/*margin-left:1em;
+	margin-bottom:2em;*/
+	background-color:#D6D2D2;
 }
 
+.chapter p{
+	margin-left:.4em
+}
 .chapters h4{
-	color:#5D5858;
+	color:#5D5858;}
+
+#redhead{
+	padding-top:4em;
+	padding-bottom: .2em;
+	padding-left:.3em;
+	background-color: #D26767;
+}
+
+
+
+
+.shapes{
+	background-color:black;
+	height:100px;
+	width:400px;
+	float:right;
+	
+
 
 }
+
 
 
