@@ -4,11 +4,15 @@
 h1 { font-size: 5em;
 	letter-spacing: 1ex;
 	line-height: 40px;
+	margin-top: -60px;
 	margin-bottom: 2em}
 
 
 body { font-family: 'Roboto', sans-serif;
-	margin: 4em;}
+	margin: 0em;
+	padding: 3em;
+	border: 1em solid ;  
+	}
 
 
 li {list-style-position: inside;
