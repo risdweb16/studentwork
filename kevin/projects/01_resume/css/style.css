@@ -2,6 +2,7 @@ body{
 	font-family: 'Droid Sans', sans-serif;
 	background-color: rgba(178,156,133,.1);
 }
+
 .sidenote{
 	width:40%;
 	position:fixed;
@@ -16,7 +17,7 @@ body{
 #title{
 	margin-top:0%;
 	font-size:120%;
-	line-height:0;
+	line-height:80%;
 }
 .secondary{
 	font-size:70%;
@@ -42,12 +43,12 @@ body{
 }
 .title{
 	font-size:100%;
-	line-height:0%;
+	line-height:80%;
 	padding-left:30%;
 }
 .specific{
 	font-size:80%;
-	line-height: 10%;
+	line-height:80%;
 	font-style:italic;
 	padding-left:30%;
 }
@@ -68,11 +69,11 @@ body{
 }
 .title_two{
 	font-size:100%;
-	line-height:0;
+	line-height:80%;
 }
 .specific_two{
 	font-size:80%;
-	line-height:10%;
+	line-height:80%;
 	font-style:italic;
 }
 .paragraph_two{
@@ -97,13 +98,13 @@ body{
 }
 .title_three{
 	font-size:100%;
-	line-height:0;
+	line-height:80%;
 	padding-left:30%;
 }
 .specific_three{
 	font-size:80%;
 	font-style:italic;
-	line-height:10%;
+	line-height:80%;
 	padding-left:30%;
 }
 .paragraph_three{
@@ -142,10 +143,9 @@ body{
 }
 
 .rightbar{
-	padding-left:88%;
+	padding-left:90%;
 	position:fixed;
-	float:right;
-	line-height:19%;
+	line-height:80%;
 }
 a:link{
 	text-decoration: none;
@@ -159,9 +159,66 @@ a:visited{
 	position:relative;
 	text-align:center;
 }
-@media screen and (max-width: 480px){
+.primary_small{
+	font-size:100%;
+	background-color: rgba(49,110,155,.5);
+	padding-left:2%;
+
+}
+.title_small{
+	font-size: 95%;
+	padding-left:5%;
+}
+.specific_small{
+	font-size:90%;
+	padding-left:5%;
+	font-style: italic;
+	text-align: justify;
+}
+.paragraph_small{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 90%;
+	padding-left:5%;
+	padding-right:2%;
+}
+@media screen and (max-width:480px){
+	.sidenote{
+		display: none !important;
+	}
+	.rightbar{
+		display: none !important;
+	}
+	.education{
+		display: none !important;
+	}
+	.teaching{
+		display: none !important;
+	}
+	.experience{
+		display: none !important;
+	}
+	.software{
+		display: none !important;
+	}
+	.header{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 0px), screen and (min-width:480px){
 
 .sidenote_small{
+	display: none !important;
+}
+.education_small{
+	display: none !important;
+}
+.teaching_small{
+	display: none !important;
+}
+.experience_small{
+	display: none !important;
+}
+.software_small{
 	display: none !important;
 }
 }
