@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/resume.css"/>
+		<title></title>
+	</head>
+	<body>
+	<div id="header">
+		<h1>Erica Carras</h1>
+	</div>
+
+	<div class="block">
+		<p>yo this is the text</p>
+		<a href='eccecce.com'></a>
+	</div>
+
+	<div class="inblock">
+		<p>yo this is the text</p>
+	</div>
+
+	<div id="footer">
+	</div>
+
+	<!--<div class="image">
+		<img src='http://payload199.cargocollective.com/1/12/415297/6287838/Birds%20Final%20resize.jpg'> -->
+
+	</div>
+	
+	
+	
+	</body>
+</html>
