@@ -1,0 +1,227 @@
+p {
+	font-size:20em; color: #d147a3; margin-top: 100px; padding-left: .77em;
+}
+
+p2 {
+	font-size: 5em; color: red; margin-top: 10px; padding-left: .77em;
+}
+ 
+
+.bars {
+	width: 20px; height: 80px;
+	background-color: red; 
+	margin: 60px 20px 20px 0;
+	float: left;
+}
+
+
+.two {
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px;
+}
+
+.zero {
+	position: relative;
+	background-color: purple;
+}
+
+.three { 
+	position: relative;
+	background-color: red; 
+	top: 30px;
+}
+
+.four { 
+	position: relative;
+	background-color: purple;
+}
+
+.five { 
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px
+}
+
+.six { 
+	position: relative;
+	background-color: red; 
+	top: 30px
+}
+
+.seven {
+	position: relative;
+	background-color: purple;
+}
+
+.eight {
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px;
+}
+
+.nine { 
+	position: relative;
+	background-color: red; 
+	top: 30px;
+}
+
+.ten { 
+	position: relative;
+	background-color: purple;
+}
+
+.eleven { 
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px
+}
+
+.twelve { 
+	position: relative;
+	background-color: red; 
+	top: 30px
+}
+
+.thirteen {
+	position: relative;
+	background-color: purple;
+}
+
+.fourteen {
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px;
+}
+
+.fifteen { 
+	position: relative;
+	background-color: red; 
+	top: 30px;
+}
+
+.sixteen { 
+	position: relative;
+	background-color: purple;
+}
+
+.seventeen { 
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px
+}
+
+.eighteen { 
+	position: relative;
+	background-color: red; 
+	top: 30px
+}
+
+.bars2 {
+	width: 20px; height: 80px;
+	background-color: red; 
+	margin: 300px 20px 20px 100px;
+	float: left;
+}
+
+.two {
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px;
+}
+
+.zero {
+	position: relative;
+	background-color: purple;
+}
+
+.three { 
+	position: relative;
+	background-color: red; 
+	top: 30px;
+}
+
+.four { 
+	position: relative;
+	background-color: purple;
+}
+
+.five { 
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px
+}
+
+.six { 
+	position: relative;
+	background-color: red; 
+	top: 30px
+}
+
+.seven {
+	position: relative;
+	background-color: purple;
+}
+
+.eight {
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px;
+}
+
+.nine { 
+	position: relative;
+	background-color: red; 
+	top: 30px;
+}
+
+.ten { 
+	position: relative;
+	background-color: purple;
+}
+
+.eleven { 
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px
+}
+
+.twelve { 
+	position: relative;
+	background-color: red; 
+	top: 30px
+}
+
+.thirteen {
+	position: relative;
+	background-color: purple;
+}
+
+.fourteen {
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px;
+}
+
+.fifteen { 
+	position: relative;
+	background-color: red; 
+	top: 30px;
+}
+
+.sixteen { 
+	position: relative;
+	background-color: purple;
+}
+
+.seventeen { 
+	position: relative;
+	background-color: #cccccc;
+	bottom: 30px
+}
+
+.eighteen { 
+	position: relative;
+	background-color: red; 
+	top: 30px
+}
