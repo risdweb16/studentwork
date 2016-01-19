@@ -2,7 +2,7 @@ img {
 	width: 12%;
 	height:	12%;
 	float: left;
-	margin-left: 65%;
+	margin-left: 75%;
 }
 
 .logo img {
@@ -58,12 +58,13 @@ h6 {
 	line-height: 100%;
 	height: 100vh;
 	margin-right: 5%;
-	margin-top: -.25%;
+	margin-top: 0%;
 }
 
 .body {
 	width: 75%;
-	float: relative;
+	float: left;
+	margin-top: -1%;
 }
 
 .title {
@@ -79,10 +80,22 @@ h6 {
 	margin-top: -1.5%;
 }
 
-
-
-
 .experience {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	min-width: 200px;
+}
+
+.education {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+
+.skills {
+	width: 30%;
+	float: left;
 }
 
 
