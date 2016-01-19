@@ -5,6 +5,8 @@ body {
 	/*transition: 2s;*/
 	background-color: tomato;}
 
+.toosmall {display: none;}
+
 .imaj {
 		overflow: hidden;
 		position: fixed;
@@ -195,6 +197,19 @@ h4 {margin-top: 15px;
 
 
 	}
+
+
+@media (max-width: 500px) {
+
+		div {display: none;}
+		.toosmall {display: inline;
+				 font-size: 7em;
+					color: lightgreen;
+					font-family: helvetica;
+					font-weight: bold;}
+
+
+}
 
 
 
