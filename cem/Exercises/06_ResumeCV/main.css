@@ -53,7 +53,7 @@ h3 {/*line-height:.5em;*/
 	/*text-align: right;*/}
  
 .logo:hover {transform: none;
-			transition: 2s;}
+			/*transition: 2s;*/}
 
 .addpush {
 	width: 75%;
