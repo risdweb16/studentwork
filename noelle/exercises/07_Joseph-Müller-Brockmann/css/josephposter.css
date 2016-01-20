@@ -1,0 +1,92 @@
+/*background color+size constraints*/
+body{background-color: #fce300;}
+
+#bground {float:relative;
+		font-family: helvetica;
+		font-size: 50px;
+		height:200em;
+		padding-left: 12em;
+		padding-right: 12em;
+		color: #606060}
+
+/*leftcolumn content top*/
+.leftc{float:none;
+	padding-top:6em;
+		width:40%;
+		overflow: hidden;
+		position: relative;
+		left:-8em;
+		clear: both;}
+
+.leftcbottom{float:none;
+		padding-top:2em;
+		width:40%;
+		overflow: hidden;
+		position: relative;
+		left:-8em;
+		clear:both;}
+
+/*whitetext format*/
+#whiteh{font-size: 120px;
+		text-align: left;
+		padding-top: 5em;
+		color:white;
+		z-index: 10;}
+
+/*style url for header*/
+a[href="http://www.kunsthaus.ch/en/"] { text-decoration: none;
+										font-size: 120px;
+										text-align: left;
+										color:white;
+										z-index: 10;}
+
+/*bold gray format*/
+.boldgrayh{font-size:60px;
+			color:#404040;
+			margin-bottom: 6em;}
+
+.smallgrayend{margin-bottom: 12em}
+
+/*BIG BOLD GRAY*/
+h1{font-weight: normal;
+	font-size: 120pt;
+	color:#404040;
+	margin-top: 1em;
+	margin-bottom: 1em;}
+
+/*SVG of purple graphic*/
+img {
+	position: fixed;
+	margin-top: 3em;
+	margin-left: -25em;
+	padding-bottom: 3em;
+	height: 90%;
+	width:90%;
+	opacity:.85}
+/*line*/
+hr{position: absolute;
+ margin-bottom: 2em}
+
+/*table times*/
+table{	border-style: none;
+		border-spacing: .5em;
+		text-align:left;}
+th{font-weight: normal;
+	padding-bottom: .5em;}
+
+/*right column*/
+.rightc{padding-top:2em;
+		height:auto;
+		overflow:hidden;
+		}
+	.imgblock{	width:25%;
+				height: 10em;
+				float:right;
+				background-color: gray}
+
+
+
+
+
+
+
