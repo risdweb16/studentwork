@@ -1,0 +1,33 @@
+#container {
+	max-width: 850px;
+	max-height: 1169px;
+	margin: 8em auto 4em;
+	background-color: #1D97D3;
+}
+
+rect.box {
+	color: #f4ca16;	
+	transform: rotate(45deg);
+}
+
+h1 {
+	transform: rotate(45deg);
+	left: -50px;
+}
+
+p {
+	text-align: right;
+	position: relative;
+	font-family: Helvetica Neue, sans-serif;
+	transform: rotate(45deg);
+	font-size: 1.25em;
+}
+
+#text {
+	margin: -450px 0px 0px 130px;
+	float: left;
+	position: relative;
+	font-family: Helvetica Neue, sans-serif;
+	font-size: 1.25em;
+	color: #092737;
+}
