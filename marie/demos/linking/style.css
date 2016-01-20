@@ -11,6 +11,15 @@ body {
   line-height: 1.4;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+a[target="_blank"]{
+  color: red;
+}
+
+
 header {
   position: fixed;
   top:0;
@@ -27,9 +36,7 @@ nav {
 }
 
 section {
-  background: #efefef;
   float: left;
-  margin-right: 2%;
 }
 
 article {
@@ -38,14 +45,29 @@ article {
 
 .col1 {
   width: 20%;
+  background: #efefef;
 }
 
 .col2 {
-  width: 55%;
+  width: 50%;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/02/Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG);
+  background-size: contain;
 }
 
+.col2:hover {
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+
+  /*background: url(img/tiger.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;*/
+}
+
+
 .col3 {
-  width: 21%;
+  background: #efefef;
+  width: 30%;
   margin-right: 0;
 }
 

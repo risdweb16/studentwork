@@ -8,22 +8,18 @@ body {
 
 svg {
   max-width: 80px;
+
 }
 
+rect {
+  stroke: #666666;
+  stroke-width: 3;
+}
 .a, .e, .six {
   fill: #F2337D;
 }
 
 
-img.logo {
-  display: block;
-  position: fixed;
-  z-index: 10;
-  top:0;
-  left: 50%;
-  height: 100vh;
-  margin-left: -50vh;
-}
 
 @media screen and (max-width: 500px) {
   svg {
