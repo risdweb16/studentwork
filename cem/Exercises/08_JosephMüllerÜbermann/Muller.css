@@ -42,34 +42,36 @@ position: absolute;
 	}
 
 .der {
-    color: #BFBFBF;
+    color: rgba(191, 191, 191, 1);
     font-size: 14em;
     font-weight: bold;
     position: absolute;
     top: 50%;
     left: -3%;
     letter-spacing: -.05em;
+    transition: 2s;
 	}
 
 .film {
-	color: #FFFFE8;
+	color: rgba(255, 255, 232, 1);
     font-size: 14em;
     font-weight: bold;
     position: absolute;
     top: 50%;
     left: 28.8%;
     letter-spacing: -.05em;
+    transition: 2s;
 	}
 
-	.top {color: red;
-		font-family: 'akzidenz-grotesk_std_regulaRg';
-		position: absolute;
-    	top: 5%;
-    	left: 31%;
-    	line-height: 0.15em;
-    	font-size: .9em;
-    	letter-spacing: -.009em;
-	}
+.top {color: red;
+	font-family: 'akzidenz-grotesk_std_regulaRg';
+	position: absolute;
+	top: 5%;
+	left: 31%;
+	line-height: 0.15em;
+	font-size: .9em;
+	letter-spacing: -.009em;
+}
 
 
 	.bottom {
@@ -84,4 +86,47 @@ position: absolute;
 	}
 
 
-	.film:hover {}
+	/*.film:hover {
+
+    color: rgba(255, 255, 232, .5);
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    letter-spacing: -.05em;
+    transition: 2s;
+
+
+    }
+
+
+
+    .der:hover {
+
+    color: rgba(191, 191, 191, .7);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    letter-spacing: -.05em;
+    transition: 2s;
+
+    }*/
+
+
+
+    .hov:hover > .film {
+
+    color: rgba(255, 255, 232, .5);
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    letter-spacing: -.05em;
+    transition: 2s;}
+
+    .hov:hover > .der {
+
+        color: rgba(191, 191, 191, .7);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    letter-spacing: -.05em;
+    transition: 2s;}
