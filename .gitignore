@@ -1,5 +1,6 @@
+*.
+*.html
 
-<<<<<<< HEAD
 *.css
 
 *.png
@@ -87,18 +88,3 @@ ran/exercises/02_dair-markup/typographic-contrast.html
 ran/exercises/02_dair-markup/colors.css
 
 noelle/projects/02_designsystem/designsystem.html
-=======
-marie/sample.html
->>>>>>> parent of 9cf487e... Merge remote-tracking branch 'origin/gh-pages' into gh-pages
-
-court/projects/01_resume/css/resume2.css
-
-court/projects/01_resume/resume.html
-
-kevin/exercises/07_poster/css/style.css
-
-kevin/exercises/07_poster/poster.html
-
-noelle/exercises/07_Joseph-Müller-Brockmann/css/josephposter.css
-
-noelle/exercises/07_Joseph-Müller-Brockmann/josephposter.html
