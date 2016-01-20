@@ -19,6 +19,17 @@ svg.yas {
 }
 
 
+svg {
+  animation: colors 3.5s linear 0.2s infinite alternate;
+}
+
+@keyframes colors {
+  to  {
+    fill: yellow;
+  }
+}
+
+
 @media screen and (max-width: 500px) {
   svg {
     width: 15%;

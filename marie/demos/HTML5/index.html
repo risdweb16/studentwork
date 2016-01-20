@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>HTML5 Demo</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 </head>
 <body>
 <div id="container">
@@ -11,18 +11,18 @@
 	</header>
 	<nav>
 	</nav>
-	<section>
+<!-- 	<section>
 		<article>
 			<h2>Iframe</h2>
 			<p>Feline celebrity #1
 			</p>
-			<iframe src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allowfullscreen></iframe>	
+			<iframe src="http://mikewillmade.it/" frameborder="0" allowfullscreen></iframe>	
 		</article>
 		<article>
 			<h2>Embedded Video</h2>
 			<p>Feline celebrity #2
 			</p>
-			<video src="media/maru.mp4" loop controls poster="media/maru-poster.jpg" >
+			<video src="media/maru.mp4" controls poster="media/maru-poster.jpg" >
 			Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href="media/maru.mp4">download it</a> and watch it with your favorite video player!
 			</video>
 		</article>
@@ -33,19 +33,23 @@
 			<iframe src="https://www.youtube.com/embed/INscMGmhmX4" frameborder="0" allowfullscreen></iframe>
 		</article>
 
-	</section>
+	</section> -->
 	<section id="survey">
 		<article>
 			<h2>Form</h2>
 			
-			<form action=" " method="POST" id="myForm">
+			<form action="page.html" method="POST" id="myForm">
 			<!--<input type="hidden" name="sendtoemail" value="marie@motsuka.com">
 				<input type="hidden" name="redirect" value=" "> 
 				<input type="hidden" name="subject" value="Subject"> -->
 				<div class="field">
 					<label for="name">Name</label>
-					<input type="text" id="name" name="username" placeholder="Your name">
-				</div>
+					<input type="text" id="name" name="username" placeholder="Hints" required>
+				</div>'
+				<div class="field">
+					<label for="number">No.</label>
+					<input type="number" id="number" name="no." placeholder="#" required>
+				</div>'
 				<div class="field">
 					<label for="email">Email</label>
 					<input type="email" id="email" name="useremail" placeholder="Enter email">
@@ -68,14 +72,14 @@
 					<p>But if you could pick multiple:</p>
 					<div class="field">
 					    <input type="checkbox" name="pick" value="nyan"  /> Nyan
-					   	<input type="checkbox" name="pick" value="maru" /> Maru 
+					   	<input type="checkbox" name="pick" value="maru" checked="checked"/> Maru 
 					   	<input type="checkbox" name="pick" value="grumpy" /> Grumpy
 					</div>
 
 					<p>
 					A cat woud
 					<select name="cattalk">
-						<!-- <option selected disabled hidden value=''>select from list</option> -->
+						<option selected disabled hidden value=''>select from list</option>
 						<option value="meow">meow</option>
 						<option value="miaow">miaow</option>
 						<optgroup label="More Options">
