@@ -1,0 +1,152 @@
+body {background-color: #ffffff;}
+
+.poster {background-color: #f0f0f0;
+		width: 500px;
+		height: 700px;
+		position: absolute;
+		left: 25%;
+		z-index: -2;
+		overflow: hidden;}
+
+.top {/*background-color: yellow;*/
+	position: absolute;
+    top: 28%;
+width: 50%;
+height: 25%;}
+
+#topone {text-align: right;
+/*background-color: red;*/
+float: left;
+		background-color: ffc800;
+		width: 40%;
+		margin-right: 10px;
+		height: 100%;}
+
+#top {float: left;}
+
+
+h1 {font-family: helvetica;
+	padding-top: 3px;
+    margin-top: 0;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	}
+
+
+h2 {font-family: helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1;
+    padding-left: 14px;
+
+	}
+
+h3 {font-family: helvetica;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.2;}
+
+.bottom {position: absolute;
+    top: 58%;
+}
+
+#bottom {float: left;
+    margin-top: 108px;}
+
+
+
+#bottomone {float: left;
+}
+
+
+/*boxes*/
+
+.boxone {
+	width: 50%;
+	height: 59%;
+	margin-right: 3%;
+	background-color: #ffc800;
+	/*z-index: 10;*/
+	position: absolute;
+	top: 0;
+	left:0;
+	 transition: 2s;
+	 }
+.boxtwo {
+	width: 25.25%;
+	height: 65%;
+	margin-right: 3%;
+	background-color: #ffc800;
+	/*z-index: 10;*/
+	position: absolute;
+	top: 24%;
+	left: 50.25%;
+	 transition: 2s;
+}
+.boxthree {
+	width: 12.75%;
+	height: 60%;
+	margin-right: 3%;
+	background-color: #ffc800;
+	/*z-index: 10;*/
+	position: absolute;
+	bottom: 0%;
+	left: 75.75%;
+	 transition: 2s;
+}
+.boxfour {
+    width: 6.75%;
+    height: 58%;
+    margin-right: 3%;
+    background-color: #ffc800;
+    /* z-index: 10; */
+    position: absolute;
+    top: 15%;
+    left: 88.75%;
+     transition: 2s;
+}
+.boxfive {
+    width: 4.25%;
+    height: 59%;
+    margin-right: 3%;
+    background-color: #ffc800;
+    /* z-index: 10; */
+    position: absolute;
+    top: 0;
+    left: 95.75%;
+    transition: 2s;
+}
+
+.signature     {position: absolute;
+    right: -5.5%;
+    bottom: 6%;
+    z-index: 40;
+    transform: rotate(90deg);
+    font-size: 0.1px;
+	}
+
+
+
+.boxone:hover {
+    top: 50%;
+    transition: 1s;
+}.boxtwo:hover {
+    top: 50%;
+    transition: 1s;
+}.boxthree:hover {
+    bottom: 50%;
+    transition: 1s;
+}.boxfour:hover {
+    top: 50%;
+    transition: 1s;
+}
+.boxfive:hover {
+    top: 50%;
+    transition: 1s;
+}
+
+
+
+
+		/*ffc800
