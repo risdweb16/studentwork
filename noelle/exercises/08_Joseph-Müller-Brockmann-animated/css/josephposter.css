@@ -1,5 +1,6 @@
 /*background color+size constraints*/
-body{background-color: #fce300;}
+body{background-color: #fce300; transition:background-color 0.3s ease-in .2s;}
+body:hover{background-color:#e2cc00 }
 
 #bground {
 		font-family: helvetica;
@@ -16,7 +17,12 @@ body{background-color: #fce300;}
 			float:left;
 			width:100%;
 			position: static;
-			z-index: 1500;}
+			z-index: 1500;
+			animation: colors 3s linear .5s;}
+
+@keyframes colors{0%{background-color: #606060;}
+					50% {background-color: white;} 
+					75%{background-color: transparent;}}
 
 .leftc{float:none;
 		padding-top:6em;
@@ -69,51 +75,77 @@ h1{font-weight: normal;
 	margin-top: 1em;
 	margin-bottom: 1em;}
 
+a:hover{color:#404040;}
+
 /*SVG of purple graphic*/
-img {clear: both;
-	position: fixed;
-	margin-top: 3em;
-	margin-left: -25em;
-	padding-bottom: 12em;
-	height: 90%;
-	width:90%;
-	opacity:1;
-	opacity: .9;
-	z-index: -5}
+#vector {	clear: both;
+			position: fixed;
+			margin-top: 3em;
+			margin-left: -25em;
+			padding-bottom: 12em;
+			height: 90%;
+			width:90%;
+			opacity:1;
+			opacity: .9;
+			z-index: -5;
+			}
 /*line*/
 hr{position: absolute;
  margin-bottom: 2em}
 
 /*table times*/
-table{	border-style: none;
+table{	border-style: solid;
+		border-color:white;
 		border-spacing: .5em;
-		text-align:left;}
+		text-align:left;
+		animation: tablecolors 3s ease-in 5s;
+		animation-iteration-count:infinite;}
+
+ @keyframes tablecolors{0%{border-color: #606060;}
+					50% {border-color: white;} 
+					75%{border-color: transparent;}}
+
 th{font-weight: normal;
 	padding-bottom: .5em;}
 
 /*right column*/
 
-.rightc {
+/*.rightc {
 		height:auto;
 		background-color: none;
-		position: static;
-		overflow:hidden;}
-
+		overflow:hidden;}*/
 
 
 .afterleft{	clear:both;
-			padding:3em 0em 0em 3em;
-			margin-top:3em;
-			margin-left: 30em;
-			height: 100%;
+			display: block;
+			padding:0em 0em 0em 0em;
 			position: absolute;
-			float: right;
-			width:20%;
-			background-color: #d4bf02;
+			top: 4em;
+			left: 30em;
+			height: 100%;
+			width: 20%;
+			overflow: none;
+			background-color: none;
 			padding-right: 2em;
-			z-index: -100}
+			z-index: -100;
+	}
 
-a:hover{color:#404040;}
+/*images in right column*/
+ #image1{ 
+		width: 100%;
+		height: auto;
+		padding-bottom: 200%;
+		opacity: .7;
+		
+	}	
+#image2{width:100%;
+		height:auto;
+		opacity: .7}
 
-/*#image1{width:100px}	
-#image2{width:100px}*/	
+
+
+
+
+
+
+
