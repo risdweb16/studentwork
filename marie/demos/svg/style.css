@@ -8,17 +8,15 @@ body {
 
 svg {
   max-width: 80px;
-
 }
 
-rect {
-  stroke: #666666;
-  stroke-width: 3;
-}
 .a, .e, .six {
   fill: #F2337D;
 }
 
+svg.yas {
+  transform: rotate(30deg);
+}
 
 
 @media screen and (max-width: 500px) {
