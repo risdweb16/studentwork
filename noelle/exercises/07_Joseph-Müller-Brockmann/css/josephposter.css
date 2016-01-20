@@ -1,18 +1,21 @@
 /*background color+size constraints*/
 body{background-color: #fce300;}
 
-#bground {float:relative;
+#bground {
 		font-family: helvetica;
 		font-size: 50px;
-		height:200em;
+		
 		padding-left: 12em;
 		padding-right: 12em;
 		color: #606060}
 
 /*leftcolumn content top*/
+.totalleft{float:left;
+			width:40%;}
+
 .leftc{float:none;
 	padding-top:6em;
-		width:40%;
+		width:100%;
 		overflow: hidden;
 		position: relative;
 		left:-8em;
@@ -20,11 +23,12 @@ body{background-color: #fce300;}
 
 .leftcbottom{float:none;
 		padding-top:2em;
-		width:40%;
+		width:100%;
 		overflow: hidden;
 		position: relative;
 		left:-8em;
 		clear:both;}
+
 
 /*whitetext format*/
 #whiteh{font-size: 120px;
@@ -58,11 +62,11 @@ h1{font-weight: normal;
 img {
 	position: fixed;
 	margin-top: 3em;
-	margin-left: -25em;
+	margin-right: -25em;
 	padding-bottom: 3em;
 	height: 90%;
 	width:90%;
-	opacity:.85}
+	opacity:1}
 /*line*/
 hr{position: absolute;
  margin-bottom: 2em}
@@ -77,12 +81,19 @@ th{font-weight: normal;
 /*right column*/
 .rightc{padding-top:2em;
 		height:auto;
-		overflow:hidden;
+		background-color: gray;
+		position: fixed;
+		z-index: 1000;
+		
 		}
 	.imgblock{	width:25%;
 				height: 10em;
+				border-style: none;
 				float:right;
-				background-color: gray}
+				background-color: purple}
+
+.afterleft{width:30%;
+			background-color: black}
 
 
 
