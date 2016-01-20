@@ -4,7 +4,7 @@ body{background-color: #fce300;}
 #bground {
 		font-family: helvetica;
 		font-size: 50px;
-		
+		height:200em;
 		padding-left: 12em;
 		padding-right: 12em;
 		color: #606060}
@@ -14,7 +14,7 @@ body{background-color: #fce300;}
 			width:40%;}
 
 .leftc{float:none;
-	padding-top:6em;
+		padding-top:6em;
 		width:100%;
 		overflow: hidden;
 		position: relative;
@@ -62,7 +62,7 @@ h1{font-weight: normal;
 img {
 	position: fixed;
 	margin-top: 3em;
-	margin-right: -25em;
+	margin-left: -25em;
 	padding-bottom: 3em;
 	height: 90%;
 	width:90%;
