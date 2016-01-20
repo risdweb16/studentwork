@@ -26,13 +26,13 @@ body {background-color: #dae0d4; font-family: helvetica, sans-serif;}
 }*/
 
 #one {
-	animation: movement 4s linear 1.8s infinite;
+	animation: movement 7s linear 1s 2 alternate-reverse;
 
 
 }
 
 #three {
-	animation: secondmovement 4s linear 1.8s infinite;
+	animation: secondmovement 7s linear 1s 2 alternate-reverse;
 
 
 }
@@ -52,8 +52,12 @@ body {background-color: #dae0d4; font-family: helvetica, sans-serif;}
 	0% {
 		transform: translate(0px);
 	}
-	100% {
+	50% {
 		transform: translate(1000px);
+	}
+	100% {
+		transform: translate(0px);
+	
 	}
 }
 
@@ -61,7 +65,11 @@ body {background-color: #dae0d4; font-family: helvetica, sans-serif;}
 	0% {
 		transform: translate(0px);
 	}
-	100% {
+	50% {
 		transform: translate(-1000px);
+	}
+	100% {
+		transform: translate(0px);
+	
 	}
 }
