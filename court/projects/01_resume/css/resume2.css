@@ -1,8 +1,14 @@
 img {
 	width: 12%;
-	height:	12%;
-	float: left;
+	height:	17%;
 	margin-left: 75%;
+	float: left;
+}
+
+img:hover {
+	-webkit-filter: blur(.5px);
+	filter: blur(.5px);
+
 }
 
 .logo img {
@@ -12,6 +18,7 @@ img {
 .logo img:hover { 
 	transform: scale(1.1); 
 }
+
 
 body {
 	font-family: Helvetica Neue;
@@ -61,10 +68,12 @@ h6 {
 	margin-top: 0%;
 }
 
+}
+
 .body {
 	width: 75%;
 	float: left;
-	margin-top: -1%;
+	margin-top:;
 }
 
 .title {
@@ -85,17 +94,68 @@ h6 {
 	float: left;
 	margin-right: 5%;
 	min-width: 200px;
+	background-color: #CCCCCC;
+	padding: 0% 2% 2% 2%;
+	transition: all .5s ease-in-out; 
+}
+
+.experience:hover { 
+	transform: scale(1.1); 
 }
 
 .education {
 	width: 30%;
 	float: left;
 	margin-right: 5%;
+	background-color: #CCCCCC;
+	padding: 0% 2% 2% 2%;
+	transition: all .5s ease-in-out; 
+}
+
+.education:hover { 
+	transform: scale(1.1); 
 }
 
 .skills {
 	width: 30%;
 	float: left;
+	background-color: #CCCCCC;
+	padding: 2%;
+	transition: all .5s ease-in-out;
 }
+
+.skills:hover { 
+	transform: scale(1.1); 
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		width: 100%;
+		background-color: #CCCCCC;
+	}
+
+	.experience {
+		width: 100%;
+	}
+	.contact {
+		height:	auto;
+	}
+
+	.education {
+		width: 100%;
+	}
+
+	.skills {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
 
 
