@@ -2,21 +2,21 @@
 body{background-color: #fce300; transition:background-color 0.3s ease-in .2s;}
 body:hover{background-color:#e2cc00 }
 
-#bground {
-		font-family: helvetica;
-		font-size: 50px;
+#bground {font-family: helvetica;
+		font-size: 12px;
 		height:200em;
 		padding-left: 2em;
 		padding-right: 12em;
 		float:left;
 		color: #606060;
-		z-index: 10}
+		z-index: 10;}
 
 /*leftcolumn content top*/
 .totalleft{margin-left: 2em;
 			float:left;
-			width:100%;
-			position: static;
+			width:20%;
+			overflow: hidden;
+			position: absolute;
 			z-index: 1500;
 			animation: colors 3s linear .5s;}
 
@@ -41,7 +41,7 @@ body:hover{background-color:#e2cc00 }
 
 
 /*whitetext format*/
-#whiteh{font-size: 120px;
+#whiteh{font-size: 24px;
 		text-align: left;
 		padding-top: 5em;
 		color:white;
@@ -49,20 +49,13 @@ body:hover{background-color:#e2cc00 }
 
 /*style url for header*/
 a[href="http://www.kunsthaus.ch/en/"] { text-decoration: none;
-										font-size: 120px;
+										font-size: 24px;
 										text-align: left;
 										color:white;
 										z-index: 10;}
 
-/*style url for artist hans*/
-a[href="http://www.moma.org/collection/artists/11"] { text-decoration: none;
-										font-size: 120px;
-										text-align: left;
-										color:#404040;
-										z-index: 10;}
-
 /*bold gray format*/
-.boldgrayh{font-size:60px;
+.boldgrayh{font-size:17px;
 			color:#404040;
 			margin-bottom: 6em;}
 
@@ -70,7 +63,7 @@ a[href="http://www.moma.org/collection/artists/11"] { text-decoration: none;
 
 /*BIG BOLD GRAY*/
 h1{font-weight: normal;
-	font-size: 120pt;
+	font-size: 24pt;
 	color:#404040;
 	margin-top: 1em;
 	margin-bottom: 1em;}
@@ -91,7 +84,8 @@ a:hover{color:#404040;}
 			}
 /*line*/
 hr{position: absolute;
- margin-bottom: 2em}
+ margin-bottom: 2em;
+ width: 100%}
 
 /*table times*/
 table{	border-style: solid;
