@@ -5,28 +5,32 @@ body{background-color: #fce300;}
 		font-family: helvetica;
 		font-size: 50px;
 		height:200em;
-		padding-left: 12em;
+		padding-left: 2em;
 		padding-right: 12em;
-		color: #606060}
+		float:left;
+		color: #606060;
+		z-index: 10}
 
 /*leftcolumn content top*/
-.totalleft{float:left;
-			width:40%;}
+.totalleft{margin-left: 2em;
+			float:left;
+			width:100%;
+			position: static;
+			z-index: 1500;}
 
 .leftc{float:none;
 		padding-top:6em;
 		width:100%;
 		overflow: hidden;
 		position: relative;
-		left:-8em;
-		clear: both;}
+		clear: both;
+		}
 
 .leftcbottom{float:none;
 		padding-top:2em;
 		width:100%;
-		overflow: hidden;
 		position: relative;
-		left:-8em;
+		overflow: hidden;
 		clear:both;}
 
 
@@ -35,7 +39,7 @@ body{background-color: #fce300;}
 		text-align: left;
 		padding-top: 5em;
 		color:white;
-		z-index: 10;}
+		}
 
 /*style url for header*/
 a[href="http://www.kunsthaus.ch/en/"] { text-decoration: none;
@@ -59,14 +63,16 @@ h1{font-weight: normal;
 	margin-bottom: 1em;}
 
 /*SVG of purple graphic*/
-img {
+img {clear: both;
 	position: fixed;
 	margin-top: 3em;
 	margin-left: -25em;
-	padding-bottom: 3em;
+	padding-bottom: 12em;
 	height: 90%;
 	width:90%;
-	opacity:1}
+	opacity:1;
+	opacity: .9;
+	z-index: -5}
 /*line*/
 hr{position: absolute;
  margin-bottom: 2em}
@@ -79,21 +85,31 @@ th{font-weight: normal;
 	padding-bottom: .5em;}
 
 /*right column*/
-.rightc{padding-top:2em;
+
+/*.rightc {
 		height:auto;
-		background-color: gray;
-		position: fixed;
-		z-index: 1000;
-		
-		}
+		background-color: none;
+		position: static;
+		clear:both;}
+
 	.imgblock{	width:25%;
 				height: 10em;
 				border-style: none;
 				float:right;
-				background-color: purple}
+				background-color: purple;
+				}*/
 
-.afterleft{width:30%;
-			background-color: black}
+.afterleft{	clear:both;
+			padding:3em 3em 3em 3em;
+			margin-top:3em;
+			margin-left: 25em;
+			height: 100%;
+			position: absolute;
+			float: right;
+			width:20%;
+			background-color: gray;
+			padding-right: 2em;
+			z-index: -100}
 
 
 
