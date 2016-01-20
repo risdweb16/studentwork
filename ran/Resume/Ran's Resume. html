@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>"Ran Zhuo | Resume"</title>
+	<link rel="stylesheet" type="text/css" href="Resume.css">
+</head>
+<body>
+	    
+    <div class="top">
+	    <div class="title">
+	    	<h1>Ran Zhuo</h1>
+	    	<h6>Digital+Media</h6>
+    	</div>
+    </div>
+
+    <div class="left"> 
+		<p class="education">Education</p>
+		<p class="pro">Professional </p>
+		<p class="honors">Honors</p>
+		<p class="skills">Skills</p>
+		<p class="extra">Extracurricular</p>
+	</div>
+	<div class="center">
+	<p><strong>BEIJING INSTITUTE OF GRAPHIC COMMUNICATION, CHN </strong><em>BA(HONS) MULTIMEDIA</em></p>
+	<p><strong>RHODE ISLAND SCHOOL OF DESIGN. USA </strong><em>MFA Digital+Media</em></p>
+
+	<p class="pro"><strong>Beijing Shuyintang Sound Data Processing Co., Ltd</strong> <em>CO-FOUNDER</em></em>
+	<section class="detail">    ebassett01
+	
+	<p>2013-2015</p>
+	<ul>
+		<li>As the co-founder and creative director of this company I established it with geek musician Wang Bolong in 2013 which
+is dedicated to colleting music data. We’ve done some excellent work, such as laying the special carpet in livehouse
+MAO in Beijing. During the bands playing the carpet can collect different audience’s feet jump frequency and
+amplitude which could reflect the mood of the audience. Also we made a special wastepaper basket for songwriters
+which could generate rhyming words from the trash. The company has been reported by Economic Information Daily,
+Beijing International Design Week and Pingwest, and got investment from the Baidu Cloud Angel funds.</li>
+		
+	</section>
+
+	<p class="pro"><strong>Toyhouse Studio</strong><em>MULTIMEDIA INTERN</em></p>
+
+<section class="detail">
+	<p>2013</p>
+	<ul>
+		<li>Toyhouse is an incubation platform that develops social and artistic interests using modern technologies. I got the
+internship opportunity to work there with Professor Gu Xueyong who is now teaching at Tsinghua University. He
+allowed me to be independently in charge of multiple projects and I was mainly responsible for the work related to
+design, like the logo robot design and collaborative design with processing. Also once I was in charge of the
+advertising design work of Zha Kexin’ s lecture tour in campus who is a famous bilingual hostess, sin ger-songwriter
+and speaker in China.</li>
+		
+	</ul>
+	</section>
+	<p class="pro"><strong>Personal Website Design</strong><em>WEBSITE DESIGNER</em></p>
+<section class="detail">
+	<p>2012</p>
+	<ul>
+		<li>As a website designer I worked for Shanshan who is a well-known Japanese fashion blogger and founder of craft
+work brand Tinytoadstool. When I know she was seeking for some designer to redesign her personal website in 2012
+I emailed her my former works. She liked it and finally chose me to help her do the work. Now we have finished her
+profile page and home page.</li>
+   </ul>
+		
+	</section>
+
+	<p class="pro"><strong>Apple Retail Store (Xi Dan Joy city)</strong><em>CREATIVE DEPARTMENT INTERN</em></p>
+<section class="detail">
+	<p>2011</p>
+	<ul>
+		<li>As an intern I worked in the Apple Retail Store (Xi Dan Joy city) as a product specialist. I learned the history and
+culture of Apple in the first three weeks. Then I got trained at the first established Apple store in China for a week to
+learn how the retail store runs. I organized some workshops during this time, helping the Creative department to
+show the intimate members how to use Apple products. The experience there trained me in many aspects..</li>
+   </ul>
+
+		
+	</section>
+</div>
+
+<div class="center">
+
+<section class="detail">
+	<strong><p>2013</p></strong>
+	<ul>
+		<li>Patent certificate of multimedia interactive electric Guqin, issued by the State Intellectual Property Office of P. R. C.</li>
+		<li>Best Creative Award in the Hackthone, Hack for Air Contest, held by Beijing MAXPACE</li>
+		<li>The micro film I produced wins the Best Creative Award in the Fourth National Colleges and Universities Information Technology Innovation and Practice Activity, held by Chinese Ministry of Education, China Association of Inventions, China Educationalist Association and China Higher Education Association.</li>
+		<li>Excellent Graduation Project Award</li>
+    </ul>
+    <strong><p>2012</p></strong>
+    <ul>
+    	<li>Excellent student, academic year of 2011-2012
+        </li>
+        <li>The second-class scholarship, academic year of 2011-2012</li>
+        <li>Excellence Award for Higher-education Liberal arts group in the Twentieth National Multimedia Courseware Competition, held by Chinese Ministry of Education</li>
+    </ul>
+    <strong><p>2011</p></strong>
+    <ul>
+        <li>Excellent Student Leader, academic year of 2010-2011</li>
+        <li>First prize of the 9th Cultural Art Festival Photography Contest, held by Beijing Institute of Graphic Communication</li>
+        <li>Second prize in the Garment Design Contest, held by Beijing Institute of Graphic Communication
+        </li>
+        <li>Excellent student, academic year of 2010-2011</li>
+        <li>The third-class scholarship, academic year of 2010-2011</li>
+
+    </ul>
+    </section>
+</div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+</body>
+
+
+
