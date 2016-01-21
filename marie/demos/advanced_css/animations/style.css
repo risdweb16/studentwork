@@ -10,7 +10,7 @@ body {
 	display: flex;
   	align-items: center;
   	align-content: center;
-  	-webkit-flex-flow: no-wrap;
+  	-webkit-flex-flow: wrap;
   	justify-content: center;
 }
 .element {
@@ -59,14 +59,10 @@ figure p {
 }
 
 
-.element {
-	background: gray;
-}
-
 .element:first-child {
 	border-radius: 50%;
 	border: 5px dashed tomato;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 
 
@@ -105,5 +101,5 @@ figure p {
 }
 
 .element:first-child {
-	animation: wheel 1s linear infinite;
+	animation: wheel 3s linear infinite;
 }
