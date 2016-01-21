@@ -1,7 +1,8 @@
 .background{
-	width: 910px;
+	width: 900px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 20px;
 	background-color: #999282;
 	margin-top: 0px;
 }
