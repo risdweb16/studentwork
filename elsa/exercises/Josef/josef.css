@@ -1,0 +1,124 @@
+.background{
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	background-color: #999282;
+	margin-top: 0px;
+}
+.container{
+	width:800px;
+	position: center;
+    margin-top: 275px;
+    margin-left: -1px;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
+.bluebar{
+	background-color: #003366;
+	height: 75px;
+	width:500px;
+	margin-right: 200px;
+	margin-left: 200px;
+	animation-name: blue;
+	animation-duration: 4s;
+
+}
+
+@keyframes blue {
+		from {height: 30px;}
+		to {height: 75px;}
+
+
+/*Yellow and Red flipped*/
+}
+.redbar{
+	background-color:  #cc0000;
+	height: 40px;
+	width:400px;
+}
+.yellowbar{
+	background-color: #cc9900;
+	height: 40px;
+	width:600px;
+}
+#b{
+	height: 75px;
+	width:500px;
+	clear: left;
+}
+#r0{
+	height: 40px;
+	width:600px;
+	margin-left: 300px;
+}
+#b0{
+	clear: right;
+	float: left;
+}
+#y1{
+	height: 40px;
+	width:300px;
+	float: left;
+}
+#r1{
+	height: 40px;
+	width:400px;
+	margin-left: 500px;
+	margin-top: 75px;
+}
+#b1{
+	clear: left;
+}
+#y2{
+	height: 40px;
+	width:450px;
+	float: left;
+}
+#r2{
+	height: 40px;
+	width:350px;
+	margin-left: 550px;
+}
+#b2{
+	clear: left;
+}
+#y3{
+	height: 40px;
+	width:550px;
+	float: left;
+}
+#r3{
+	height: 40px;
+	width:250px;
+	margin-left: 650px;
+}
+#b3{
+	clear: left;
+}
+#y4{
+	height: 40px;
+	width:600px;
+	float: left;
+}
+#b4{
+	clear: left;
+}
+#b5{
+	clear: left;
+}
+table{
+	width: 795px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+p {
+	margin: 0;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+
+
+

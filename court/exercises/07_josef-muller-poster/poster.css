@@ -2,34 +2,41 @@
 	max-width: 850px;
 	max-height: 1169px;
 	margin: 8em auto 4em;
-	background-color: #1D97D3;
+	background: url(background-01.jpg);
 }
 
 rect.box {
 	transform: rotate(45deg);
-	mix-blend-mode: multiply;
 }
 
 rect.green {
 	fill: #23731E;
 	fill-opacity: 0.8;
-	z-index: 0
+	z-index: 0;
 }
 
 rect.blue {
 	fill: #1C386F;
 	fill-opacity: 0.8;
-	z-index: 10
+	z-index: 10;
+}
+
+rect.one {
+
 }
 
 rect.two:hover {
-	transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in;
 	transform: skewY(45deg);
+}
+
+rect.two {
+	transition: 1s ease-out;
+	mix-blend-mode: normal;
 }
 
 rect.three {
 	animation: colors 3.5s linear 1s infinite alternate;
-	border-radius: 100px;
 }
 
 @keyframes colors {
@@ -37,11 +44,9 @@ rect.three {
 		fill: green;
 	}
 	100% {
-		fill: white;
+		fill: transparent;
 	}
 }
-
-
 
 h1 {
 	transform: rotate(45deg);
@@ -59,17 +64,17 @@ h1 {
 	font-weight: bold;
 	color: #092737;
 }
-
 .info {
-	margin: -220px 0px 0px 200px;
+	margin: -270px 0px 0px 200px;
 	text-align: left;
-	position: relative;
 	float: left;
 	font-family: Helvetica Neue, sans-serif;
 	transform: rotate(45deg);
-	font-size: 9px;
-	line-height: 1em;
-	font-weight: bold;
+	font-size: 8px;
+	line-height: 10px;
+	font-weight: bolder;
+	width: 300px;
+	height: 300px;
 	color: #092737;
 }
 
