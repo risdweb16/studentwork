@@ -1,0 +1,185 @@
+/*second josef poster css*/
+
+.poster {
+	background-color: #f0f0f0;
+	width: 500px;
+	height: 700px;
+	position: absolute; 
+	left: 32%;
+	overflow: hidden;}
+
+.firstpara {font-size: 11px;
+	width: 145px;
+	left:7px;
+	top: 552px;
+	font-family: helvetica;
+	font-weight: 300px;
+	line-height: 1.3;
+	position: absolute;}
+
+
+.secondpara {font-size: 11px;
+	width: 185px;
+	left:157px;
+	top: 552px;
+	font-family: helvetica;
+	font-weight: 300px;
+	line-height: 1.3;
+	position: absolute;}
+
+span {font-size: 26px;
+line-height: 1.5}
+
+.thirdpara {font-size: 11px;
+	width: 145px;
+	left: 343px;
+	top: 541px;
+	font-family: helvetica;
+	font-weight: 300px;
+	line-height: 1.3;
+	position: absolute;}
+
+.signature {
+	left: -24px;
+	top: 480px;
+	font-size: 0.5px;
+	font-family: helvetica;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+.biggest-circle {
+    position: absolute;
+    left: 145px;
+    bottom: 384px;
+    background-color: #000;
+    height: 660px;
+    width: 660px;
+    border-radius: 100%;
+    	animation: bounceIn 1s .2s infinite;
+	animation-play-state: paused;}
+
+@keyframes bounceIn {
+    0% {
+    transform: scale(1);
+  }
+    30% {
+    transform: scale(0.4);
+  }
+    50% {
+    transform: scale(1.2);
+      }
+    80% {
+    transform: scale(1);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
+
+.full-circle {
+    position: absolute;
+    left: 6px;
+    top: 200px;
+    background-color: #000;
+    height: 278px;
+    width: 278px;
+    border-radius: 100%;
+	
+	animation: bounceIn 1s .2s infinite;
+	animation-play-state: paused;}
+
+@keyframes bounceIn {
+    0% {
+    transform: scale(1);
+  }
+    30% {
+    transform: scale(0.4);
+  }
+    50% {
+    transform: scale(1.2);
+      }
+    80% {
+    transform: scale(1);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
+
+.second-circle {
+    position: absolute;
+    left: 232px;
+    top: 424px;
+    background-color: #000;
+    height: 102px;
+    border-radius: 100%;
+    width: 102px;
+    z-index: 10;
+    animation: bounceIn 1s .2s infinite;
+	animation-play-state: paused;}
+
+@keyframes bounceIn {
+    0% {
+    transform: scale(1);
+  }
+    30% {
+    transform: scale(0.4);
+  }
+    50% {
+    transform: scale(1.2);
+      }
+    80% {
+    transform: scale(1);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
+
+.third-circle {
+position: absolute;
+    left: 324px;
+    top: 411px;
+    background-color: #000;
+    height: 45px;
+    border-radius: 100%;
+    width: 45px;
+    z-index: 20;
+    animation: bounceIn 1s .2s infinite;
+	animation-play-state: paused;}
+
+@keyframes bounceIn {
+    0% {
+    transform: scale(1);
+  }
+    30% {
+    transform: scale(0.4);
+  }
+    50% {
+    transform: scale(1.2);
+      }
+    80% {
+    transform: scale(1);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
+
+.biggest-circle:hover {
+    animation-play-state: running;
+}
+
+.full-circle:hover {
+    animation-play-state: running;
+}
+
+.second-circle:hover {
+    animation-play-state: running;
+}
+
+.third-circle:hover {
+    animation-play-state: running;
+}
+
