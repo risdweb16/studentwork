@@ -1,0 +1,4 @@
+1. img/hotah.jpg
+2. js/libraries/jquerry-2.1.1.min.js
+3. ../../css/main.css
+4. ../js/script.js

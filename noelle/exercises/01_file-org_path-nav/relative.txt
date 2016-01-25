@@ -1,0 +1,4 @@
+img/image.gif
+js/libraries/jquery-2.1.1.min.js
+../libraries/css/main.css
+../css/script.js

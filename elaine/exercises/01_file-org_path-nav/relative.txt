@@ -1,0 +1,4 @@
+img/image.gif
+js/libraries/jquer-2.1.4.min.js
+../../main.css
+../script.js

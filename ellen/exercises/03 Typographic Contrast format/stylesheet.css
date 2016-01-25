@@ -1,0 +1,42 @@
+h1 {
+	font-size: 7em; color: #ffe5e5; background-color: #9fbfdf; padding-left: .68em; padding-right: 1em; padding-top: 1em; padding-bottom: 1em;
+}
+
+h5 { font-family: Cardo, serif;
+font-size: 3.8em; color: #99ccff; background-color: #ffe5e5; padding-left: 1.28em; padding-right: 2.6em; padding-top: 1em; padding-bottom: 1em
+}
+
+h2 { font-family: Cardo, serif;
+font-size: 3.8em; color: #9fbfdf; background-color: #ccffee; padding-left: 1.3em; padding-right: 2em; padding-top: 1em; padding-bottom: 1em;
+}
+
+h3 {
+	font-family: Cardo, serif; font-size: 3.8em; color: #ccffee; background-color: #9fbfdf; padding-left: 1.25em; padding-right: 2em; padding-top: 1em; padding-bottom: 1em;
+}
+
+ul {
+	font-family: Cardo, serif; font-size: 4.8em; color: #ffe5e5; background-color: #99ccff; padding-left: 1.8em; padding-top: .5em; padding-bottom: .5em; padding-right: .6em; line-height: 1.8em;
+}
+
+h4 {
+	font-family: Cardo, serif; font-size: 1.8em; color: #99ccff; background-color: #ffe5e5; padding-left: 2.64em; padding-right: 2em; padding-top: 1em; padding-bottom: 1em;
+}
+
+body {
+	background-color: #e5f7ff;	
+	font-family: Cardo, serif;
+	font-size: 1em; 
+}
+
+p {
+	font-family: Cardo, serif; padding-left: 3.6em; padding-right: 10em; font-size: 1.4em; color: #2e5cb8; line-height: 1.58em;
+}
+
+h2 {
+	font-family: Cardo;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #kkkkkk;
+}

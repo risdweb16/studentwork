@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'akzidenz-grotesk_stdbold';
+    src: url('akzidgrostdbol-webfont.eot');
+    src: url('akzidgrostdbol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('akzidgrostdbol-webfont.woff2') format('woff2'),
+         url('akzidgrostdbol-webfont.woff') format('woff'),
+         url('akzidgrostdbol-webfont.ttf') format('truetype'),
+         url('akzidgrostdbol-webfont.svg#akzidenz-grotesk_stdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'akzidenz-grotesk_std_regulaRg';
+    src: url('akzidgrostdreg-webfont.eot');
+    src: url('akzidgrostdreg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('akzidgrostdreg-webfont.woff2') format('woff2'),
+         url('akzidgrostdreg-webfont.woff') format('woff'),
+         url('akzidgrostdreg-webfont.ttf') format('truetype'),
+         url('akzidgrostdreg-webfont.svg#akzidenz-grotesk_std_regulaRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {font-family: 'akzidenz-grotesk_stdbold';
+}
+
+
+.poster {
+position: absolute;
+	width: 600px;
+		height: 730px;
+		background-color: black;
+		overflow: hidden;
+		left: 17%;
+	}
+
+.der {
+    color: rgba(191, 191, 191, 1);
+    font-size: 14em;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: -3%;
+    letter-spacing: -.05em;
+    transition: 2s;
+	}
+
+.film {
+	color: rgba(255, 255, 232, 1);
+    font-size: 14em;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 28.8%;
+    letter-spacing: -.05em;
+    transition: 2s;
+	}
+
+.top {color: red;
+	font-family: 'akzidenz-grotesk_std_regulaRg';
+	position: absolute;
+	top: 5%;
+	left: 31%;
+	line-height: 0.15em;
+	font-size: .9em;
+	letter-spacing: -.009em;
+}
+
+
+	.bottom {
+	color: red;
+    font-family: 'akzidenz-grotesk_std_regulaRg';
+    position: absolute;
+    top: 84%;
+    left: 31%;
+    line-height: 0.15em;
+    font-size: .9em;
+    letter-spacing: -.009em;
+	}
+
+
+	/*.film:hover {
+
+    color: rgba(255, 255, 232, .5);
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    letter-spacing: -.05em;
+    transition: 2s;
+
+
+    }
+
+
+
+    .der:hover {
+
+    color: rgba(191, 191, 191, .7);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    letter-spacing: -.05em;
+    transition: 2s;
+
+    }*/
+
+
+
+    .hov:hover > .film {
+
+    color: rgba(255, 255, 232, .5);
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    letter-spacing: -.05em;
+    transition: 2s;}
+
+    .hov:hover > .der {
+
+        color: rgba(191, 191, 191, .7);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    letter-spacing: -.05em;
+    transition: 2s;}
