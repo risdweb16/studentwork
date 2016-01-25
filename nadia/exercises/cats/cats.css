@@ -1,3 +1,8 @@
+html, body {
+ 
+   
+}
+
 h1 {
 	font-family: 'Lobster', cursive;
 	border-bottom: 1px dashed #FF33C5;
@@ -61,14 +66,11 @@ p a:visited {
    
 }
 
-#photos a:visited 
-{
-    background-color: #433e39
-}
+
 
 #photos a:visited img
 {
-	visibility: hidden;
+	opacity: .5;
 }
 
 h1 {
