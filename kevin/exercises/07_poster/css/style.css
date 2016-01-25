@@ -1,0 +1,110 @@
+body{
+	font-family: Helvetica, sans-serif;
+	background:rgba(197,194,177,.8);
+	width:700.08px;
+	height:992.16px;
+}
+.circle_top{
+	position:relative;
+	margin-top:-21.475032%;
+	margin-left:42.933746%;
+	width:0;
+	height:0;
+	border-top:136.341px solid transparent;
+	border-right:136.341px solid transparent;
+	border-bottom:136.341px solid rgba(162,129,106,.8);
+	border-left: 136.341px solid rgba(162,129,106,.8);
+	border-radius:50%;
+	transform: rotate(-45deg);
+}
+.circle_left{
+	position:relative;
+	background: rgba(119,141,139,.8);
+	margin-left:2.174751%;
+	width:38.95%;
+	height:27.483672%;
+	border-radius:50%;
+}
+.circle_midone{
+	position:relative;
+	background: rgba(119,141,139,.8);
+	margin-top:-37.572564%;
+	margin-left:42.933746%;
+	width:38.95%;
+	height:27.483672%;
+	border-radius:50%;
+}
+.circle_midtwo{
+	position:relative;
+	background: rgba(162,129,106,.8);
+	margin-top:-18.5%;
+	margin-left:42.933746%;
+	width:38.95%;
+	height:27.483672%;
+	border-radius:50%;
+}
+.circle_midthree{
+	position:relative;
+	background: rgba(119,141,139,.8);
+	margin-top:-18.5%;
+	margin-left:42.933746%;
+	width:38.95%;
+	height:27.483672%;
+	border-radius:50%;
+}
+.circle_midfour{
+	position:relative;
+	background: rgba(162,129,106,.8);
+	margin-top:-18.5%;
+	margin-left:42.933746%;
+	width:38.95%;
+	height:27.483672%;
+	border-radius:50%;
+}
+.circle_right{
+	position:relative;
+	margin-top:-37.5%;
+	margin-left:83.863844%;
+	width:0;
+	height:0;
+	border-top:136.341px solid transparent;
+	border-right: 136.341px solid transparent;
+	border-bottom: 136.341px solid rgba(162,129,106,.8);
+	border-left: 136.341px solid rgba(162,129,106,.8);
+	border-radius:50%;
+	transform: rotate(45deg);
+}
+div h2 br{
+	line-height:118%;
+}
+.title{
+	position:relative;
+	font-size: 115%;
+	margin-left:2%;
+	margin-top:-42.75%;
+}
+h2{
+	line-height:35%;
+}
+.bigger{
+	line-height:135%;
+}
+.smaller{
+	position:relative;
+	margin-top:10%;
+	margin-left:2%;
+	font-size:65%;
+}
+.circle_bottom{
+	position:relative;
+	margin-top:-19.75%;
+	margin-left:42.933746%;
+	width:0;
+	height:0;
+	border-top:136.341px solid transparent;
+	border-right:136.341px solid transparent;
+	border-bottom:136.341px solid rgba(119,141,139,.8);
+	border-left: 136.341px solid rgba(119,141,139,.8);
+	border-radius:50%;
+	transform: rotate(135deg);
+}

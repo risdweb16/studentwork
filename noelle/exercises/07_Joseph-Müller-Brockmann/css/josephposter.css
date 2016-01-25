@@ -1,0 +1,126 @@
+/*background color+size constraints*/
+body{background-color: #fce300;}
+
+#bground {
+		font-family: helvetica;
+		font-size: 50px;
+		height:200em;
+		padding-left: 2em;
+		padding-right: 12em;
+		float:left;
+		color: #606060;
+		z-index: 10}
+
+/*leftcolumn content top*/
+.totalleft{margin-left: 2em;
+			float:left;
+			width:100%;
+			position: static;
+			z-index: 1500;}
+
+.leftc{float:none;
+		padding-top:6em;
+		width:100%;
+		overflow: hidden;
+		position: relative;
+		clear: both;
+		}
+
+.leftcbottom{float:none;
+		padding-top:2em;
+		width:100%;
+		position: relative;
+		overflow: hidden;
+		clear:both;}
+
+
+/*whitetext format*/
+#whiteh{font-size: 120px;
+		text-align: left;
+		padding-top: 5em;
+		color:white;
+		}
+
+/*style url for header*/
+a[href="http://www.kunsthaus.ch/en/"] { text-decoration: none;
+										font-size: 120px;
+										text-align: left;
+										color:white;
+										z-index: 10;}
+
+/*style url for artist hans*/
+a[href="http://www.moma.org/collection/artists/11"] { text-decoration: none;
+										font-size: 120px;
+										text-align: left;
+										color:#404040;
+										z-index: 10;}
+
+/*bold gray format*/
+.boldgrayh{font-size:60px;
+			color:#404040;
+			margin-bottom: 6em;}
+
+.smallgrayend{margin-bottom: 12em}
+
+/*BIG BOLD GRAY*/
+h1{font-weight: normal;
+	font-size: 120pt;
+	color:#404040;
+	margin-top: 1em;
+	margin-bottom: 1em;}
+
+/*SVG of purple graphic*/
+img {clear: both;
+	position: fixed;
+	margin-top: 3em;
+	margin-left: -25em;
+	padding-bottom: 12em;
+	height: 90%;
+	width:90%;
+	opacity:1;
+	opacity: .9;
+	z-index: -5}
+/*line*/
+hr{position: absolute;
+ margin-bottom: 2em}
+
+/*table times*/
+table{	border-style: none;
+		border-spacing: .5em;
+		text-align:left;}
+th{font-weight: normal;
+	padding-bottom: .5em;}
+
+/*right column*/
+
+.rightc {
+		height:auto;
+		background-color: none;
+		position: static;
+		overflow:hidden;}
+
+
+
+.afterleft{	clear:both;
+			padding:3em 0em 0em 3em;
+			margin-top:3em;
+			margin-left: 30em;
+			height: 100%;
+			position: absolute;
+			float: right;
+			width:20%;
+			background-color: #d4bf02;
+			padding-right: 2em;
+			z-index: -100}
+
+a:hover{color:#404040;}
+
+/*#image1{width:100px}	
+#image2{width:100px}*/	
+
+
+
+
+
+
+

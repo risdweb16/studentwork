@@ -1,0 +1,85 @@
+img {
+	width: 10%;
+	height:	10%;
+	float: left;
+	margin-left: 425px;
+}
+
+.logo img {
+	transition: all .5s ease-in-out; 
+}
+
+.logo img:hover { 
+	transform: scale(1.1); 
+}
+
+body {
+	font-family: Helvetica Neue;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 27px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 13px
+}
+
+h2~p {
+	font-weight: 200;
+	font-size: 9px;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 9px;
+}
+
+h3+p {
+	margin-top: -6px;
+}
+
+h6 {
+	font-style: thin;
+	font-size: 10px;
+	margin-top: -20px;
+	font-weight: 200;
+}
+
+.contact {
+	font-style: thin;
+	font-size: 10px;
+	float: left;
+	font-weight: 200;
+	line-height: 10px;
+	height: 100vh;
+	margin-right: 50px;
+	margin-top: -7px;
+}
+
+.body {
+	width: 525px;
+	float: relative;
+}
+
+.title {
+	clear: both;
+}
+
+
+#bellow {
+	margin-top: -8px;
+}
+
+#different {
+	margin-top: -8px;
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+body {
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 2em auto;
+}
+
+
+svg {
+  max-width: 80px;
+}
+
+.a, .e, .six {
+  fill: #F2337D;
+}
+
+svg.yas {
+  transform: rotate(30deg);
+}
+
+
+@media screen and (max-width: 500px) {
+  svg {
+    width: 15%;
+  }
+}

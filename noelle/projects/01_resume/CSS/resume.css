@@ -1,0 +1,212 @@
+
+/*Scroll through logo mask functions*/
+.header {
+	
+	z-index: 1000;
+  padding: 40px 40px 80px 300px;
+  background:transparent url(../images/namelogo2.png) no-repeat fixed;
+  background-position: 20px 20px;
+  width: 100%;
+}
+.content {
+	position: fixed;
+	z-index: 950;
+  background: transparent url(../images/namelogo.png) no-repeat;
+  background-position: 15px 0px;
+  top:25px;
+  left:10px;
+width:25%;
+height:30%;
+}
+
+.sidebar {
+	position: fixed;
+	z-index: 900;
+	top: 120px;
+	width:20%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: left;
+}
+
+.smallContent {
+  background: transparent url(../images/namelogo.png) no-repeat;
+background-position: center;
+width:100%;
+height:100px;
+}
+
+.smallSidebar {
+	position: relative;
+	z-index: 900;
+	margin-top:1em;
+	width:94%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align:center;
+}
+
+
+.trans {
+	background: transparent;
+}
+
+.padder{
+	padding-left: 30%;
+	padding-right: 3%;
+}
+
+.padder img {
+	width:50%;
+	margin-left: 25%;
+	padding-top: 3%;
+}
+
+.smallPadder{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.sectionObjective {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.sectionContent {
+	padding-left: 4%;
+	padding-right: 2%;
+}
+
+
+/*text for position header*/
+h3 {font-family: 'Didact Gothic', sans-serif;
+	color:#232b2a;
+	}
+
+/*text for degree header*/
+h4 {font-family: 'Didact Gothic', sans-serif;
+	color:#232b2a;
+	}
+
+/*text for contact info header*/
+h6 {font-family: 'Didact Gothic', sans-serif;
+	color:#232b2a;
+	}
+
+/*hyperlink*/
+
+a {color: #ee879c}
+
+/*section headers*/
+h5 {font-family: 'Didact Gothic', sans-serif;
+	font-size: 18pt;
+	text-align: center;
+	font-weight: bolder;
+	color:##232b2a;
+	background-color: #ee879c;
+	margin-bottom: 1em;
+	margin-top: 3em;}
+
+.topSection {
+	margin-top: 3em;
+}
+
+/*sub section headers*/
+
+.subsectionh {font-family: 'Didact Gothic', sans-serif;
+	text-align: left;
+	font-size: 14pt;
+	margin-top: 0em;	
+	font-weight: normal;
+	color:#838181;	
+	padding-right: 2em;
+	background-color: #f2c6cf;
+	margin-bottom: 1em;
+	margin-top: 3em;}
+
+/*objectivetext*/
+.objectivetext {font-family: 'Didact Gothic', sans-serif;
+				text-align: center;
+				color:#232b2a;	
+				font-size: 12pt;
+				font-weight: bold;
+				font-style: italic;	
+				margin-top: 0em;
+				float:center;
+				}
+
+/*job title bold*/
+.jobtitle {font-family: 'Didact Gothic', sans-serif;
+			text-align: left;
+			color:#232b2a;
+			font-size: 12pt;
+			font-weight: bold;
+			margin-top: 0em;
+			
+			}
+
+p 	{font-family: 'Didact Gothic', sans-serif;
+	color:#232b2a;
+	text-align: left;
+	font-size: 10pt;
+	margin-top: 0em;
+	}
+/*spacer between roles*/
+.categoryspace {
+	margin-top: 2em;
+	
+	}
+
+ul {font-family: 'Didact Gothic', sans-serif;
+	color:#232b2a;
+	text-align: left;
+	font-size: 10pt;
+	margin-top: 0em;
+	}
+
+
+.hide {
+  display: none !important; }
+
+.invisible {
+  visibility: hidden; }
+
+@media screen and (min-width: 0em) and (max-width: 39.9375em) {
+  .hide-for-small-only {
+    display: none !important; } }
+
+@media screen and (max-width: 0em), screen and (min-width: 40em) {
+  .show-for-small-only {
+    display: none !important; } }
+
+@media screen and (min-width: 40em) {
+  .hide-for-medium {
+    display: none !important; } }
+
+@media screen and (max-width: 39.9375em) {
+  .show-for-medium {
+    display: none !important; } }
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .hide-for-medium-only {
+    display: none !important; } }
+
+@media screen and (max-width: 39.9375em), screen and (min-width: 64em) {
+  .show-for-medium-only {
+    display: none !important; } }
+
+@media screen and (min-width: 64em) {
+  .hide-for-large {
+    display: none !important; } }
+
+@media screen and (max-width: 63.9375em) {
+  .show-for-large {
+    display: none !important; } }
+
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .hide-for-large-only {
+    display: none !important; } }
+
+@media screen and (max-width: 63.9375em), screen and (min-width: 75em) {
+  .show-for-large-only {
+    display: none !important; } }

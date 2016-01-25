@@ -1,0 +1,30 @@
+body {
+	margin: 5em;
+}
+.bars {
+	width: 50px;
+	height: 150px;
+	background-color: #f4ca16;
+	margin: 0 30px 30px 0;
+	float:left;
+}
+
+.zero {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgb(255,10,0);
+}
+
+.one {
+	position: relative;
+	top: 50px;
+	left: 50px;
+	background-color: rgba(244,202,22,0.66);
+}
+
+.two {
+	background-color: blue;
+}
+

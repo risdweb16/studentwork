@@ -1,0 +1,107 @@
+body{
+	background-color: rgba(249, 249, 249, 0.51);
+	font-family:"Helvetica";
+	/*leading*/
+	line-height:112%;
+}
+
+.wrap{
+	margin-left: 3em;
+	margin-right: 40em;
+	clear:left;
+}
+
+p{
+	margin-left:.4em;
+	line-height:113%;
+}
+
+ul {
+	color:#565050;
+
+}
+.author{
+	margin-bottom:5em;
+	/*position:fixed;*/
+
+}
+
+/* first opening*/
+.opening_p{
+	padding-bottom:4em;
+
+}
+/*.contrast{
+	margin-top:4em;
+	margin-bottom:1em;
+}*/
+
+/* ORGANIZE put everything having to do with the body paragraph after this  */
+
+.chapters h2{
+	padding-top:2em;
+	padding-bottom: .2em;
+	padding-left:.3em;
+	margin-top:6em;
+	/*this only indented header, no chng txt*/
+	/*margin-left:1em;
+	margin-bottom:2em;*/
+	background-color:#D6D2D2;
+}
+
+.chapter p{
+	margin-left:.4em
+}
+.chapters h4{
+	color:#5D5858;}
+
+#redhead{
+	padding-top:4em;
+	padding-bottom: .2em;
+	padding-left:.3em;
+	background-color: #D07E7E;
+}
+
+
+
+
+.footer{
+	/*color:white;
+	padding-left: .3em;
+	padding-bottom: .2em;*/
+	background-color:black;
+	margin-top:9em;
+	height:100px;
+	width:auto-fill;
+	float:both;
+}
+
+a {
+	text-decoration:none;
+	list-style-type:block;
+	color:black;
+	float:left;
+	list-style:block;
+}
+
+#rightb {
+	float:right;
+	margin-right:10em;
+	width:8em;
+	height:242em;
+	background-color:gray;
+}
+
+/*#tworight{
+	clear:right;
+	margin-right:115em;
+	width:10em;
+	height:242em;
+	background-color:red;
+	opacity:50%;
+}*/
+
+
+
+
+

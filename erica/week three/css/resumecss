@@ -1,0 +1,37 @@
+#header{
+    background-color:black;
+    height:20px;
+    width:10em;
+    padding:2em;
+    position:relative;
+    top:100px;
+    z-index:100;
+    
+    }
+
+.left{
+    background-color:#F9F9F9;
+    border:1px solid black;
+    margin:5px 5px 5px 5px;
+    padding:2em;
+    float:left;
+    }
+    
+.right{
+    background-color:#F9F9F9;
+    border:1px solid black;
+    margin:5px 5px 5px 5px;
+    padding:2em;
+    float:right;
+    
+    }
+    
+#footer{
+    background-color:#F9F9F9;
+    border:1px solid black;
+    margin:5px 5px 5px 5px;
+    padding:2em;
+    clear:both;
+    
+    }
+    
