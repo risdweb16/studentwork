@@ -1,0 +1,199 @@
+html, body {
+    
+    background: rgba(255,147,46,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,147,46,1)), color-stop(25%, rgba(250,101,32,1)), color-stop(51%, rgba(255,74,71,1)), color-stop(70%, rgba(255,69,66,1)), color-stop(100%, rgba(255,38,233,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
+    background: linear-gradient(135deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff932e', endColorstr='#ff26e9', GradientType=1 );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0 0 0 0;
+    height: 100%;
+}
+
+/*orange body*/
+#window {
+
+    padding: 0;
+   
+}
+
+/*side bar*/
+
+
+
+#nav_wrap {
+    /* Width of red part not grey */
+    max-width: 200px;
+    width: 20%;
+    /* Spans the height of the page */
+    margin: 0;
+    /* Ensures there is no space between sides of the screen and the menu */
+    /* z-index: 99;  Makes sure that your menu remains on top of other page elements */
+    background-color: rgba(255,255,255, 0.15);
+    float: left;
+    height: 100em;
+    position: fixed;
+    min-width: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+#navigation {
+    font-size:.8em;
+    /* width of tabs of side*/
+    width:200px;
+    font-family: "Questrial", sans-serif;
+
+}
+#navigation ul {
+    margin:0px;
+    padding:0px;
+}
+#navigation li {
+    list-style: none;
+}
+ul.top-level {
+    background:transparent;
+}
+ul.top-level li {
+    border-bottom: transparent; solid;
+    border-top: transparent; solid;
+    border-width: 4px;
+}
+#navigation a {
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display:block;
+    height:25px;
+    line-height: 25px;
+    text-indent: 10px;
+    text-decoration:none;
+    width:100%;
+}
+#navigation a:hover {
+    text-decoration:none;
+    color: white;
+}
+#navigation li:hover {
+    background: transparent;
+    position: relative;
+    padding-left: 10px;
+}
+ul.sub-level {
+    display: none;
+}
+
+/*this is the border around the drop down on the side menue*/
+li:hover .sub-level {
+    background: transparent;
+    border: transparent;
+    border-width: 5px;
+    display: block;
+}
+
+
+/*social media tabs*/
+
+#media-tabs {
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+/*working on the body header*/
+
+#rightcol {
+    width: 80%;
+    background-color: transparent;
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 60px;
+
+}
+
+#right-header {
+    background-color: rgba(255,255,255, 0.01);
+    color: rgba(255,255,255, 0.9);
+    max-width: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    font-family: 'Questrial', sans-serif;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    
+
+}
+
+
+
+#right-body {
+    background-color: transparent;
+    padding-left: 25px;
+    margin-left: 20px;
+    max-width: 850px;
+    margin-top: 0px; 
+    }
+/*image gallery*/
+
+
+
+h1 {
+    font-family: "Sigmar One", cursive;
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+h2 {
+    font-family: "Sigmar One", cursive;
+}
+
+.crop-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin: 20px 20px 0 0;
+
+    border:7px solid rgba(255,255,255, 0.2);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+ .crop-container img {
+       width:100%;
+       height:auto;
+
+ }
+
+.crop-container:hover {
+    background-color: rgba(255,255,255, 0.3);
+    text-align: center;
+}
+
+img:hover,
+.crop-container:hover img {
+    
+    -webkit-transform: scale(1.1å);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
