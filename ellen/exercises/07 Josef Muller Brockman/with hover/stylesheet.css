@@ -1,0 +1,28 @@
+body {background-color: #dae0d4; font-family: helvetica, sans-serif;}
+
+#left {font-weight: bold; margin: 59px 0px 0px 40px;}
+
+#center {font-weight: bold; margin: -72px 0px 0px 350px;}
+
+#right {font-weight: bold; margin: -73.25px 0px 0px 1150px;}
+
+#smiths {font-weight: bold; font-size: 10em; text-align: left; margin: 60px 0px -960px 40px;}
+
+
+#one {font-size: 165em; font-family: helvetica, sans-serif;
+	color: #ff00ff; opacity: 0.7; margin: 0px 200px 0px -200px; z-index: 4;
+}
+
+#two {font-size: 165em; font-family: helvetica, sans-serif;
+	color: yellow; opacity: 0.7; margin: 0px 0px 0px -1340px; z-index: 3;
+}
+
+#three {font-size: 165em; font-family: helvetica, sans-serif;
+	color: #00ffff; opacity: 0.7; margin: 0px 0px 0px -1130px; z-index: 2;
+}
+
+ 
+#three:hover {
+  margin-left: -1340px;
+}
+

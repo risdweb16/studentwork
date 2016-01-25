@@ -1,0 +1,85 @@
+body {background-color: black;}
+
+
+#foot {
+color: white;
+background-color: black;
+transition: background-color 0.3s ease-in 0.2s;
+}
+
+#foot:hover {
+	background-color: tomato;}
+
+
+p {color: tomato;} 
+
+p {font-family: helvetica; font-size: 9em; margin-left: 24px; margin-bottom: -300px;}
+
+cursor:  url(img/Mousegray.png), auto;
+
+#two {color: blue; z-index: 1;}
+
+#two {font-family: helvetica; font-size: 9em; margin-left: 300px; margin-bottom: -300px;}
+
+#body {opacity: 0.2;
+color: white;
+background-color: white;
+transition: opacity 0% ease-in 0.4s; margin-top: -500;
+}
+
+#two {opacity: 0.6;}
+
+#body:hover {
+	background-color: opacity 0.7;}
+
+#three {color: purple; z-index: 1;}
+
+#three {font-family: helvetica; font-size: 9em; margin-left: 330px; margin-bottom: -300px;}
+
+
+#classroom {opacity: 0.6; float: right;}
+
+#four {color: green; z-index: 1;}
+
+#four {font-family: helvetica; font-size: 9em; margin-left: 210px; margin-bottom: -200px;}
+
+#six {font-family: helvetica; color: blue; margin-left: 400px; margin-top: -700}
+
+#seven {font-family: helvetica; color: yellow; margin-left: 400px;}
+
+
+#tag {
+color: white;
+background-color: black;
+transition: background-color 0.3s ease-in 0.2s;
+}
+
+#tag:hover {
+	background-color: tomato;}
+
+
+
+#profile {
+color: white;
+background-color: black;
+transition: background-color 0.3s ease-in 0.2s;
+}
+
+#profile:hover { 
+	background-color: tomato;}
+
+
+frame.jpg {margin-top: -1000px; margin-bottom: -600px}
+
+#frame {opacity: 0.6; float: right;
+color: white;
+background-color: white;
+transition: opacity 0% ease-in 0.4s; margin-top: -500;
+}
+
+#foot {float: right;}
+
+
+#rightcolumns {float: right;
+
+
