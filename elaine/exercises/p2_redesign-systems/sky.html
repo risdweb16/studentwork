@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>De(design) systems</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<meta charset="utf-8"> 
+
+    <!--<script type="javascript" />
+    <script src="script.js" type="text/javascript"></script>-->
+
+        <!--<link rel="stylesheet" type="text/css" href="normalize.css" />
+		<link rel="stylesheet" type="text/css" href="demo.css" />
+		<link rel="stylesheet" type="text/css" href="component.css" />-->
+
+		<script src="modernizr.custom.25376.js"></script>
+    
+
+
+</head>
+
+<body>
+
+
+	<!--<div id='container'>
+<script type="text/javascript" src="http://htmlfreecodes.com/codes/rain.js"></script>-->
+
+   
+  
+<table style="width:100%; padding:100px;">
+	<div style="max-width:500px; overflow:auto;">
+	<tr>
+	<td style="padding:200px 200px 600px 200px">
+		
+<center>	<img src="img/g.png"/><br><br><br><br>
+<form method="get" action="http://www.google.com/search" target="_blank"> 
+<input type="text" name="q" font-size="60" size="50" height="30" placeholder="Search Google or type URL" value="" /> 
+<input type="submit" style="position:absolute; left:-99999px" />
+<input type="hidden" name="sitesearch" value="" />
+</center>
+</form>
+<br></span></tr></td></div>
+
+
+
+<div style="max-width:500px; overflow:auto;">
+<tr>
+	<td style="padding:200px 200px 600px 200px">
+<center>	<img src="img/b.png"/><br><br><br><br>
+
+<form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
+    <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
+    <form method="get" action="https://www.baidu.com/" target="_blank" />
+   
+    <input type="text" onfocus="checkHttps" name="word"  size="50" size="50" height="30" placeholder="百度搜索或输入网址" value="">
+    <input type="submit" style="position:absolute; left:-99999px" />
+</form>
+
+<script src="http://s1.bdstatic.com/r/www/cache/global/js/BaiduHttps_20150714_zhanzhang.js"></script>
+<script>
+    function checkHttps () {
+        BaiduHttps.useHttps();    
+    };
+    function baiduWithHttps (formname) {
+        var data = BaiduHttps.useHttps();
+        if (data.s === 0) {
+            return true;
+        }
+        else {
+            formname.action = 'https://www.baidu.com/baidu' + '?ssl_s=1&ssl_c' + data.ssl_code;
+            return true;
+        }
+    };
+</script>
+</td></tr>
+</div>
+
+
+<tr>
+<td style="padding:200px 200px 600px 200px">
+<center>	<img src="img/yj.png"/><br><br><br><br>
+<form method="get" action="http://search.yahoo.co.jp/search" target="_blank">
+
+<div style="margin:0;padding:0;font-size:14pt;border:none;background-color:#FFF;"><form method="get" action="http://search.yahoo.co.jp/search" target="_blank" style="margin:0;padding:0;"><p style="margin:0;padding:0;">
+	<input type="text" name="p" size="28" placeholder="検索YahooやURLタイプ" value="" />
+	<input type="hidden" name="fr" value="yssw"><input type="hidden" name="ei" value="▲▲▲"><input type="submit" value="Yahoo Search" style="position:absolute; left:-99999px" /> 
+</p></form></div>
+ 
+
+
+
+
+<tr>
+<td style="padding:200px 200px 600px 200px">
+<center>	<img src="img/n.png"/><br><br><br><br>
+<form method="get" action="https://search.naver.com/search.naver" target="_blank" > 
+
+<input id="query" name="query" type="text" placeholder="검색 네이버 나 URL을 입력" title="검색어 입력" class="input_text" tabindex="1" accesskey="s" style="ime-mode:active;" autocomplete="off"  font-size="100px" size="50" height="30" />
+
+<input type="hidden" id="sm" name="sm" font-size="100px" size="50" height="30" value="" />
+<input type="hidden" id="fbm" name="fbm" font-size="100px" size="50" height="30" value="" />
+<input type="hidden" id="acr" name="acr" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+<input type="hidden" id="acq" name="acq" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+<input type="hidden" id="qdt" name="qdt" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+<input type="hidden" id="ie" name="ie" font-size="100px" size="50" height="30" value="utf8" />
+<input type="hidden" id="acir" name="acir" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+<input type="hidden" id="os" name="os" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+<input type="hidden" id="bid" name="bid" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+<input type="hidden" id="pkid" name="pkid" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+<input type="hidden" id="eid" name="eid" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+<input type="hidden" id="mra" name="mra" font-size="100px" size="50" height="30" value="" disabled="disabled" />
+
+	<input type="submit" style="position:absolute; left:-99999px" /></center></form><br></td></tr>
+
+<tr>
+<td style="padding:200px 200px 600px 200px">
+	<center>	<img src="img/y.png"/><br><br><br><br>
+<form method="get" action="http://www.yandex.com/"target="_blank"> <input lang="zh-Hans" type="text" name="q" font-size="100px" size="50" height="30" placeholder="Поиск Яндекса или тип URL" value="" /><input type="submit" style="position:absolute; left:-99999px" /> </center></form><br></td>
+</tr>
+
+<tr>
+<!--…najdu tam, co neznám/>-->
+	
+
+
+<td style="padding:200px 200px 600px 200px">
+	<center><img src="img/s.png"/><br><br><br><br>
+<form method="get" action="http://search.seznam.cz/"target="_blank"> 
+<div class="search-boxes"> <div id="box-fulltext" class="search-box active js-search-box"> <form action="/search/fulltext"> <div class="suggest-input-wrapper"> <input id="inet-field" class="suggest-input js-suggest-input" type="text" name="q" value="" accesskey="4" placeholder="Hledání Seznam nebo napište URL adresu" size="65" autocomplete="off" /> </div> 
+<span class="mic-wrapper js-mic-wrapper" title="Vyhledávání hlasem"> <span class="iconfont-mic"></span> </span>  <div class="suggest-container js-suggest-container"></div> <input type="hidden" name="sourceid" class="js-source-id" value="szn-HP" /> </form>
+
+ </form>
+</form>
+
+ </div>
+
+
+
+
+        <script src="classie.js"></script>
+		<script src="menu.js"></script>
+  
+
+</body>
+
+</html>
