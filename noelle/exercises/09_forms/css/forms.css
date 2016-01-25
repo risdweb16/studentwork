@@ -1,0 +1,186 @@
+/*background content*/
+body{background-color: #FBECE7;transition: background-image 0.3s ease-in .2s;}
+body:hover{background-image:url("../images/back.jpg");background-size: 100%;background-repeat: no-repeat; background-position: center;}
+
+/*top header content*/
+.topheader{font-family: 'Abel', sans-serif;
+			color: #ff7158;
+			font-size: 40pt;
+			width: 14em;
+			height:auto;
+			margin-left: 0em;
+			margin-right: 0em;
+			padding-left: 2em;
+			padding-right: 0em;
+			border-radius: 3px;
+			background-color: #FFC7A1;}
+
+#maine {margin-top: 6em;}
+#trad {margin-top: 2em;}
+#dobby {margin-top: 2em;
+	margin-bottom: 2em;}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: underline;
+    color: initial;
+	font-family: 'Abel', sans-serif;
+	color:#FF8D79;
+	font-size: 22pt;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-left: 3em;
+	padding-right: 2em;
+	width: 14em;
+	border-radius: 3px;
+	background-color:#ff7158;}
+a.button:hover{text-decoration: line-through;}
+
+/*contact*/
+h2{font-family: 'Abel', sans-serif;color: #FFC7A1; }
+#logo{width: 7em;
+		margin-right: 6em;
+		margin-left: 18em;
+		margin-top: -4em;}
+#contact-form { 
+	width: 690px;
+    padding:20px;  
+    margin: 50px auto;    
+    position:relative;  
+}   
+#contact-form h2 {  
+    margin-bottom:20px;
+    margin-top:40px;
+    text-align: center;  
+}  
+#contact-form input,  
+#contact-form select,  
+#contact-form textarea,  
+#contact-form label {  
+    font-family: 'Abel', sans-serif;
+    font-size:15px;  
+    margin-bottom:2px;
+    border: 2px solid #FFC7A1; 
+}  
+#contact-form input,  
+#contact-form select,  
+#contact-form textarea {
+	float: left !important;  
+    width:320px;   
+    margin-bottom:20px;  
+    padding:4px;  
+}    
+#contact-form textarea {  
+    height:150px;  
+    resize: none;  
+}
+#contact-form #message {
+	clear: both;
+	float: right !important;
+}
+#contact-form label {  
+    display:block;  
+}  
+#contact-form .required {  
+    font-family: 'Abel', sans-serif;
+    font-weight:bold;  
+    color:#F00;  
+}  
+#contact-form #submit-button {  
+    font-family: 'Abel', sans-serif;
+    width: 100px;  
+    border: 2px solid #FFC7A1;  
+    display:block;  
+    float:right;  
+    margin-bottom:0px;  
+    margin-right:6px; 
+}   
+#contact-form #loading {  
+    width:32px;  
+    height:32px;  
+    background-image:url(../img/loading.gif);  
+    display:block;  
+    position:absolute;  
+    rightright:130px;  
+    bottombottom:16px;  
+    display:none;  
+}  
+#errors {  
+    border:solid 1px #E58E8E;  
+    padding:10px;  
+    margin:25px 0px;  
+    display:block;  
+    width:437px;  
+    -webkit-border-radius:8px;  
+    -moz-border-radius:8px;  
+    border-radius:8px;  
+    background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;  
+    display:none;  
+}  
+#errors li {  
+    padding:2px;  
+    list-style:none;  
+}  
+#errors li:before {  
+    content: ' - ';  
+}  
+#errors #info {  
+    font-weight:bold;  
+}  
+#errors #info:before {  
+    content: '';  
+}  
+#success {  
+    border:solid 1px #83D186;  
+    padding:25px 10px;  
+    margin:25px 0px;  
+    display:block;  
+    width:437px;  
+    -webkit-border-radius:8px;  
+    -moz-border-radius:8px;  
+    border-radius:8px;  
+    background:#D3EDD3 url(../images/logo.png) no-repeat 405px center;
+    font-family: 'Abel', sans-serif;  
+    font-weight:bold;  
+    display:none;  
+}  
+#errors.visible, #success.visible {  
+    display:block;  
+}  
+#req-field-desc {  
+    font-style:italic;  
+}  
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */  
+input:required, textarea:required {  
+    -moz-box-shadow:none;  
+    -webkit-box-shadow:none;  
+    -o-box-shadow:none;  
+    box-shadow:none;  
+}  
+/* Normalize placeholder styles */  
+/* chrome, safari */  
+::-webkit-input-placeholder {  
+    color:#CCC;  
+    font-style:italic;  
+}  
+/* mozilla */  
+input:-moz-placeholder, textarea:-moz-placeholder {  
+    color:#CCC;  
+    font-style:italic;  
+}  
+/* ie (faux placeholder) */  
+input.placeholder-text, textarea.placeholder-text  {  
+    color:#CCC;  
+    font-style:italic;  
+}
+
+
+			/*@keyframes thcolor {0%{border-style: solid;
+									border-color:#F7F2F1; border-width: 2px}
+								50%{border-style: dashed ;
+									border-color:#ad93b1; border-width: 2px}
+								100%{border-style: solid; 
+									border-color:#ad93b1; border-width: 2px}
+								}*/
+
