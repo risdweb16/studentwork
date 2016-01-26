@@ -48,7 +48,7 @@ footer {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 401px) and (max-width: 900px) {
   .left {
     width: 100%;
     margin-bottom: 2%;
@@ -61,6 +61,15 @@ footer {
   .right {
     width: 39%;
   }
+}
+
+
+@media screen and (max-width: 400px) {
+  .left, .middle, .right {
+    width: 100%;
+    margin: 0;
+  }
+
 }
 
 
