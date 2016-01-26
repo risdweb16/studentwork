@@ -1,0 +1,32 @@
+body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.2;
+}
+
+div.container {
+  max-width: 80%;
+  margin: 3em auto;
+  text-align: left;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  border: 1px solid #ccc;
+}
+
+p:nth-of-type(2) {
+  color: red;
+}
+
+.third {
+  font-weight: bold;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+

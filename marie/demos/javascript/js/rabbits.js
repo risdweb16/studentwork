@@ -14,13 +14,13 @@ console.log("String"+" "+"concatenation");
 
 function subtractVars() {
 	
-}
+};
 
 
 function addVars() {
    var sum = s + z;
    console.log(sum);
-}
+};
 
 addVars();
 
@@ -51,7 +51,7 @@ function checkRabbitCount() {
    else{
    		console.log("We have more than 10 rabbits.")
    }
-}
+};
 
 checkRabbitCount();
 
@@ -69,7 +69,7 @@ function listRabbits() {
 		console.log("Rabbit "+n+" out of the hat!");
 		n=n+2;
 	}
-}
+};
 
 listRabbits();
 
@@ -108,7 +108,7 @@ var car = {
 	changeSpeed : function() {
        console.log(this.currentSpeed + 40 + "mph");
     }
-}
+};
 
 console.log(car);
 car.changeSpeed();
