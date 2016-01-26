@@ -1,0 +1,72 @@
+div.ham {
+	width: 2.5em;
+	height: 0.5em;
+	background-color: black;
+	float: left;
+	margin: 0.25em 0 0.25em 0;
+	border-radius: .25em;
+}
+
+
+button.container {
+	max-width: 4em;
+	/*margin:	50vh 50%;*/
+	float: right;
+	border: none;
+	border-radius: .5em;
+}
+
+button:active {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+button:focus {
+	transform: translate(100px, 100px);
+	background-color: white;
+	translate: none;
+
+}
+
+
+
+div.top:hover {
+	background-color: rgba(250, 175, 64, .75);
+	transform:	translate(0, 0em) scale(20);
+	transition: 0.5s ease-in;
+}
+
+.top {
+	transition: 1s ease-out;
+}
+
+div.middle:hover {
+	background-color: rgba(117, 76, 40, .75);	
+	/*transform:	translate(0, 0) scale(10);*/
+	transition: 0.5s ease-in;
+}
+
+.middle {
+	transition: 1s ease-out;
+}
+
+div.bottom:hover {
+	background-color: rgba(250, 175, 64, .75);
+	/*transform:	translate(0, 5em) scale(10);*/
+	transition: 0.5s ease-in;
+}
+
+div.bottom {
+	transition: 1s ease-in;
+}
+
+/*.more {
+	height: 10em;
+	width: 25em;
+	float: left;
+	clear: both;
+	border: 2px black;
+}
+
+.top > .more:hover {
+	background-color: rgba(0, 0, 0, .5);
+}
