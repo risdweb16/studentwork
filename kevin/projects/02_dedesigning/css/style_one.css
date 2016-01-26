@@ -1,0 +1,22 @@
+body{
+	background-color: rgba(255,255,235,.1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.entertainment{
+	transform: translate(0,30%);
+}
+.entertainment #one{
+	display: inline-block;
+}
+.entertainment #two{
+	display: none;
+}
+.entertainment:hover #one{
+	display: none;
+}
+.entertainment:hover #two{
+	display: inline-block;
+}

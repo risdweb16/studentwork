@@ -1,0 +1,145 @@
+/*background color+size constraints*/
+body{background-color: #fce300; transition:background-color 0.3s ease-in .2s;}
+body:hover{background-color:#e2cc00 }
+
+#bground {font-family: helvetica;
+		font-size: 12px;
+		height:200em;
+		padding-left: 2em;
+		padding-right: 12em;
+		float:left;
+		color: #606060;
+		z-index: 10;}
+
+/*leftcolumn content top*/
+.totalleft{margin-left: 2em;
+			float:left;
+			width:20%;
+			overflow: hidden;
+			position: absolute;
+			z-index: 1500;
+			animation: colors 3s linear .5s;}
+
+@keyframes colors{0%{background-color: #606060;}
+					50% {background-color: white;} 
+					75%{background-color: transparent;}}
+
+.leftc{float:none;
+		padding-top:6em;
+		width:100%;
+		overflow: hidden;
+		position: relative;
+		clear: both;
+		}
+
+.leftcbottom{float:none;
+		padding-top:2em;
+		width:100%;
+		position: relative;
+		overflow: hidden;
+		clear:both;}
+
+
+/*whitetext format*/
+#whiteh{font-size: 24px;
+		text-align: left;
+		padding-top: 5em;
+		color:white;
+		}
+
+/*style url for header*/
+a[href="http://www.kunsthaus.ch/en/"] { text-decoration: none;
+										font-size: 24px;
+										text-align: left;
+										color:white;
+										z-index: 10;}
+
+/*bold gray format*/
+.boldgrayh{font-size:17px;
+			color:#404040;
+			margin-bottom: 6em;}
+
+.smallgrayend{margin-bottom: 12em}
+
+/*BIG BOLD GRAY*/
+h1{font-weight: normal;
+	font-size: 24pt;
+	color:#404040;
+	margin-top: 1em;
+	margin-bottom: 1em;}
+
+a:hover{color:#404040;}
+
+/*SVG of purple graphic*/
+#vector {	clear: both;
+			position: fixed;
+			margin-top: 3em;
+			margin-left: -25em;
+			padding-bottom: 12em;
+			height: 90%;
+			width:90%;
+			opacity:1;
+			opacity: .9;
+			z-index: -5;
+			}
+/*line*/
+hr{position: absolute;
+ margin-bottom: 2em;
+ width: 100%}
+
+/*table times*/
+table{	border-style: solid;
+		border-color:white;
+		border-spacing: .5em;
+		text-align:left;
+		animation: tablecolors 3s ease-in 5s;
+		animation-iteration-count:infinite;}
+
+ @keyframes tablecolors{0%{border-color: #606060;}
+					50% {border-color: white;} 
+					75%{border-color: transparent;}}
+
+th{font-weight: normal;
+	padding-bottom: .5em;}
+
+/*right column*/
+
+/*.rightc {
+		height:auto;
+		background-color: none;
+		overflow:hidden;}*/
+
+
+.afterleft{	clear:both;
+			display: block;
+			padding:0em 0em 0em 0em;
+			position: absolute;
+			top: 4em;
+			left: 30em;
+			height: 100%;
+			width: 20%;
+			overflow: none;
+			background-color: none;
+			padding-right: 2em;
+			z-index: -100;
+	}
+
+/*images in right column*/
+ #image1{ 
+		width: 100%;
+		height: auto;
+		padding-bottom: 200%;
+		opacity: .7;
+		
+	}	
+#image2{width:100%;
+		height:auto;
+		opacity: .7}
+
+
+
+
+
+
+
+
