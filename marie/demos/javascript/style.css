@@ -17,12 +17,21 @@ div.container {
   border: 1px solid #ccc;
 }
 
+p:nth-of-type(1) {
+  color: green;
+}
+
 p:nth-of-type(2) {
   color: red;
 }
 
+.makePink {
+  color: pink;
+}
+
 .third {
   font-weight: bold;
+  color: purple;
 }
 
 .circular {
