@@ -46,7 +46,7 @@ label {
 }
 
 button {
-	float: right;
+	float: left;
 	display: block;
 	margin-top: 1em;
 	padding: .5em 5em;

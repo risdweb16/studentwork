@@ -1,0 +1,43 @@
+input {font-family: Verdana; font-weight: bold; font-size: 4em;}
+
+label, input {
+    display: block;
+}
+
+body {font-family: Verdana; font-weight: bold; font-size: 1.4em;}
+
+label, input {
+    margin: 20px 20px 20px 20px;
+}
+
+input { 
+padding: 0px 20px 0px 20px}
+
+label {font-family: Garamond, serif; font-size: 1.1em;}
+
+
+input{
+	border:10px dotted #FF0000;
+	}
+
+.username {
+color: #B4886B;
+}
+
+form {margin-left: 40px; margin-top: 10px; margin-bottom: 30px;}
+
+a.button {
+	border:10px dotted #FF0000;
+	}
+
+	a.button {margin-left: 20px; margin-top: 10px; margin-bottom: 30px;}
+
+	a.button {font-family: Verdana; font-weight: bold; color: black; font-weight: bold; font-size: 1.4em;}
+
+	a.button {padding: 30px 30px 30px 30px;}
+
+
+
+/*body 
+	
+{background-color: blue;}/*
