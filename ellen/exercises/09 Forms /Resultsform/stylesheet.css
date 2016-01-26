@@ -1,0 +1,31 @@
+p {font-family: Verdana; font-weight: bold; font-size: 4em;}
+
+p {
+    display: block;
+}
+
+label, input {
+    margin: 20px 20px 20px 20px;
+}
+
+p { 
+padding: 40px 40px 40px 40px}
+
+label {font-family: Garamond, serif; font-size: 1.1em;}
+
+
+p {
+	border:10px dotted #FF0000; margin: 100px 60px 60px 60px;
+	}
+
+.username {
+color: #B4886B;
+}
+
+form {margin-left: 40px; margin-top: 10px; margin-bottom: 30px;}
+
+
+
+/*body 
+	
+{background-color: blue;}/*
