@@ -52,6 +52,7 @@ footer {
   .left {
     width: 100%;
     margin-bottom: 2%;
+    background: rgba(255,0,0,.5);
   }
 
   .middle {
