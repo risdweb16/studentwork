@@ -26,6 +26,16 @@ color: #B4886B;
 
 form {margin-left: 40px; margin-top: 10px; margin-bottom: 30px;}
 
+a.button {
+	border:10px dotted #FF0000;
+	}
+
+	a.button {margin-left: 20px; margin-top: 10px; margin-bottom: 30px;}
+
+	a.button {font-family: Verdana; font-weight: bold; color: black; font-weight: bold; font-size: 1.4em;}
+
+	a.button {padding: 30px 30px 30px 30px;}
+
 
 
 /*body 
