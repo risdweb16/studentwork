@@ -1,0 +1,29 @@
+.bars {
+	width: 20px;
+	height: 80px;
+	background-color: red;
+	margin: 0 20px 20px 0;
+	float:left;
+}
+
+
+
+.one {
+	position: relative;
+	top: -30px;
+}
+
+.two {
+	background-color: #ccc;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+.zero {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(25,255,0,.8);
+}

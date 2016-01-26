@@ -1,0 +1,158 @@
+
+/*background color*/
+body{background-color: #f9f7f1;}
+
+/*left*/
+
+/*shelf*/
+
+		#shelf input[type="checkbox"] {
+		    content: url('../svg/shelf.png');
+		    display: block;
+		    width: 20%;
+		    height: 20%;
+		}
+		#shelf input[type="checkbox"]:checked {
+		    content: url('../svg/shelfempty.png');
+		}
+
+		#shelf {
+			position: fixed;
+			top: 20%;
+			left: 10%;
+		}
+
+/*mid left center*/
+
+	/*window*/
+		#window input[type="checkbox"] {
+		    content: url('../svg/window.png');
+		    display: block;
+		    width: 25%;
+		    height:25%;
+		}
+		#window input[type="checkbox"]:checked {
+		    content: url('../svg/windowempty.png');
+		}
+
+		#window {
+			position: fixed;
+			top: 10%;
+			left: 30%;
+		}
+
+
+	/*yarn*/
+		#yarn input[type="checkbox"] {
+		    content: url('../svg/yarn.png');
+		    display: block;
+		    width: 17%;
+		    height:17%;
+		}
+		#yarn input[type="checkbox"]:checked {
+		    content: url('../svg/yarnempty.png');
+		}
+
+		#yarn {
+			position: fixed;
+			top: 60%;
+			left: 25%;
+		}
+
+	/*cat*/
+		#cat input[type="checkbox"] {
+		    content: url('../svg/cat.png');
+		    display: block;
+		    width: 35%;
+		    height:35%;
+		    z-index: -100;
+		}
+		#cat input[type="checkbox"]:checked {
+		    content: url('../svg/catempty.png');
+		}
+
+		#cat {
+			position: fixed;
+			top: 70%;
+			left: 20%;
+		}
+
+	/*desk*/
+		#desk input[type="checkbox"] {
+		    content: url('../svg/desk.png');
+		    display: block;
+		    width: 48%;
+		    height:48%;
+		    z-index: -50;
+		}
+		#desk input[type="checkbox"]:checked {
+		    content: url('../svg/deskempty.png');
+		}
+
+		#desk {
+			position: fixed;
+			top: 49%;
+			left: 45%;
+		}
+
+	/*chair*/
+		#chair input[type="checkbox"] {
+		    content: url('../svg/chair.png');
+		    display: block;
+		    width: 48%;
+		    height:48%;
+		    z-index: -50;
+		}
+		#chair input[type="checkbox"]:checked {
+		    content: url('../svg/chairempty.png');
+		}
+
+		#chair {
+			position: fixed;
+			top: 44%;
+			left: 49%;
+		}
+
+/*boots*/
+		#boots input[type="checkbox"] {
+		    content: url('../svg/boots.png');
+		    display: block;
+		    width: 42%;
+		    height:42%;
+		    z-index: -50;
+		}
+		#boots input[type="checkbox"]:checked {
+		    content: url('../svg/bootsempty.png');
+		}
+
+		#boots {
+			position: fixed;
+			top: 84%;
+			left: 54%;
+		}
+
+/*flowers*/
+		#flowers input[type="checkbox"] {
+		    content: url('../svg/flowers.png');
+		    display: block;
+		    width: 88%;
+		    height:88%;
+		}
+		#flowers input[type="checkbox"]:checked {
+		    content: url('../svg/flowersempty.png');
+		}
+
+		#flowers {
+			position: fixed;
+			top: 34%;
+			left: 78%;
+		}
+
+
+/*native hidden function*/
+
+.native-hidden {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

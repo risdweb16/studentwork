@@ -1,0 +1,15 @@
+body {font-family: helvetica;
+	background-color: whitesmoke;}
+
+h1 {color: red;
+	background-color: none;}
+
+.address {position:fixed;
+		bottom: 2%;
+		right: 2%;
+		text-align: right;
+		font-size: .4em;
+		width: 200px;
+		color: red;}
+
+input {width: 500px;}
