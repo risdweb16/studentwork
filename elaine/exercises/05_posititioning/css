@@ -1,8 +1,0 @@
-.bars{
-	width: 20px;
-	height: 80px;
-	background-color: black;
-	margin-bottom: 0 20px 20px 0;
-	float: left;
-}
-
