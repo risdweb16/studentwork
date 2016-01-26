@@ -71,7 +71,7 @@ h3 {font-family: helvetica;
 	position: absolute;
 	top: 0;
 	left:0;
-	 transition: 2s;
+	transition: 2s;
 	 }
 .boxtwo {
 	width: 25.25%;
@@ -82,7 +82,7 @@ h3 {font-family: helvetica;
 	position: absolute;
 	top: 24%;
 	left: 50.25%;
-	 transition: 2s;
+	transition: 2s;
 }
 .boxthree {
 	width: 12.75%;
@@ -93,7 +93,7 @@ h3 {font-family: helvetica;
 	position: absolute;
 	bottom: 0%;
 	left: 75.75%;
-	 transition: 2s;
+	transition: 2s;
 }
 .boxfour {
     width: 6.75%;
@@ -104,7 +104,7 @@ h3 {font-family: helvetica;
     position: absolute;
     top: 15%;
     left: 88.75%;
-     transition: 2s;
+    transition: 2s;
 }
 .boxfive {
     width: 4.25%;
