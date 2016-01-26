@@ -1,21 +1,28 @@
-//declaring some variables
+/*//declaring some variables
 var x = 5;
 var y = "5";
-var z = 8;
-/*
+
+var z = 15;
+
+var s = 3;
+
 //printing out the results
-console.log((5 + 6) * 9, "hi");
+console.log(x + z);
 console.log(x == y);
 console.log(x === y);
 console.log("String"+" "+"concatenation");
 
-//example function
+function subtractVars() {
+	
+}
+
+
 function addVars() {
-   var sum = 5+8;
+   var sum = s + z;
    console.log(sum);
 }
 
-//addVars();
+addVars();
 
 
 var carNames = [
@@ -23,19 +30,22 @@ var carNames = [
 				"Prius",
 				"Wrangler",
 				"Cayenne",
-				"GranTurismo"];
+				"GranTurismo",
+				"Toyota"];
 
-console.log(carNames[2]);
+console.log(carNames[5]);
 console.log(carNames.length);
 
 
 
 
-var rabbitCount = 3;
+
 
 //conditionals
 function checkRabbitCount() {
-   if(rabbitCount<10){
+	console.log(rabbitCount < 10);
+   
+   if(rabbitCount < 10){
    		console.log("We have less than 10 rabbits.");
    }
    else{
@@ -43,20 +53,33 @@ function checkRabbitCount() {
    }
 }
 
+checkRabbitCount();
+
 //loops
+var rabbitCount = 12;
+
 function listRabbits() {
-    for(var i=1; i<=rabbitCount; i++) {
+    for(var i=1; i < rabbitCount; i=i+2) {
        // operator + concatenates strings
         console.log("Rabbit "+i+" out of the hat!");
     }
+    var n = 1;
+
+	while (n<rabbitCount){
+		console.log("Rabbit "+n+" out of the hat!");
+		n=n+2;
+	}
 }
 
-checkRabbitCount();
 listRabbits();
+
+var person = new Object();
+person.address = new Object();
+person.address.street = "111 Main St.";
+person.address.city = "Providence";
+person.address.state = "Rhode Island";
 */
 
-
-// {} shorthand for var person = new Object();
 // Object-literal syntax
 var person = {   
 	firstname: "Marie",
@@ -68,16 +91,10 @@ var person = {
 	}
 };
 
-/*shorthand for 
-person.address = new Object();
-person.address.street = "111 Main St.";
-person.address.city = "Providence";
-person.address.state = "Rhode Island";
-*/
+
 
 console.log(person.firstname); //dot operator member access
-console.log(person.address.street);
-console.log(person["address"]["city"]);
+console.log(person["firstname"]);
 
 
 
@@ -89,9 +106,10 @@ var car = {
 	currentSpeed: 30,
 	fuelLevel: 100,
 	changeSpeed : function() {
-       console.log(this.currentSpeed + 10 + "mph");
+       console.log(this.currentSpeed + 40 + "mph");
     }
 }
 
 console.log(car);
 car.changeSpeed();
+
