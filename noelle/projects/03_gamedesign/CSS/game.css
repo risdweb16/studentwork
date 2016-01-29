@@ -1,0 +1,54 @@
+/*background image*/
+
+body{background:url("../images/background.png");
+	transition:background-image 0s ease-in .2s;
+	 background-size: 60%;
+	 background-repeat: repeat;
+	 z-index: -100;
+	 font-family: 'Gloria Hallelujah', cursive;}
+body:hover{background-image:url("../images/background2.png");
+	background-size: 60%;
+	background-repeat: repeat;
+ 	background-position: center;
+	}
+}
+/*frame element and slide through*/
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+}
+
+.slideshow-block{
+	position: relative;
+	width: 30em;
+	height: 50em;
+	margin-left: 10em;
+	overflow: hidden;
+	background-image:url(../images/frame1.png);
+	background-size: 20em 30em;
+	background-repeat: no-repeat;
+	z-index: 30;
+}
+a.link{
+	position:absolute;
+	height: 150px;
+	width: 200px;
+	display: block;
+	z-index: 10;
+	background: url('img/frame1.png') no-repeat center top;
+}
+a.link:hover{
+	background-position: center -150px;
+}
+.slides{
+	z-index:0;
+	visibility:hidden;
+}
+.slides.active{
+	visibility:visible;
+}
+
+
