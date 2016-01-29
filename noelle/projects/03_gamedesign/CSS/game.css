@@ -18,6 +18,7 @@ body:hover{background-image:url("../images/background2.png");
 /*CONTAINER PARAMETERS FOR WHOLE DOC*/
 .container{
     padding:200px 20px 200px 20px;
+    padding: 2em;
     text-align:center;
     color:#FFF;
     font-weight:bold;
@@ -70,8 +71,22 @@ a.link:hover{
 
 
 
-/*PARALEX SCROLL PART 2 Ingredients*/
+/*PARALEX SCROLL PART 2 Name*/
 .section-2{
+    background-image:url(http://www.whisktogether.com/wp-content/uploads/2011/06/dsc_0081.jpg);
+    background-position:center;
+}
+
+/*PARALEX SCROLL PART 3 Ingredients*/
+.section-3{
+    background-image:url(https://s-media-cache-ak0.pinimg.com/originals/3f/f7/67/3ff767139fbcf8f060103043633a5579.gif);
+    background-position:center;
+    width: 
+}
+
+/*PARALEX SCROLL PART 4 Steps*/
+.section-4{
     background-image:url(../images/framebw.png);
     background-position:center;
+    width: 
 }

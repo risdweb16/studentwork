@@ -1,26 +1,10 @@
-// confirm box
-function doConfirm(msg, yesFn, noFn) {
-    var confirmBox = $("#confirmBox");
-    confirmBox.find(".message").text(msg);
-    confirmBox.find(".yes,.no").unbind().click(function () {
-        confirmBox.hide();
-    });
-    confirmBox.find(".yes").click(yesFn);
-    confirmBox.find(".no").click(noFn);
-    confirmBox.show();
+//CLICK OKAY BUTTON//
+var r = confirm("Are you ready to enable cookies...ohohoho");
+if (r == true) {
+    x = "I guess so...?";
+} else {
+    x = "Do I have a choice???";
 }
-
-$(function () {
-    $("form").submit(function (e) {
-        e.preventDefault();
-        var form = this;
-        doConfirm("Are you sure?", function yes() {
-            form.submit();
-        }, function no() {
-            // do nothing
-        });
-    });
-});
 
 // Y axis scroll speed
 var velocity = 0.5;
