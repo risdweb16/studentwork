@@ -1,4 +1,4 @@
-/*background image*/
+/*BACKGROUND image*/
 
 body{background:url("../images/background.png");
 	transition:background-image 0s ease-in .2s;
@@ -6,13 +6,26 @@ body{background:url("../images/background.png");
 	 background-repeat: repeat;
 	 z-index: -100;
 	 font-family: 'Gloria Hallelujah', cursive;}
+
 body:hover{background-image:url("../images/background2.png");
 	background-size: 60%;
 	background-repeat: repeat;
  	background-position: center;
 	}
 }
-/*frame element and slide through*/
+
+
+/*CONTAINER PARAMETERS FOR WHOLE DOC*/
+.container{
+    padding:200px 20px 200px 20px;
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+    clear: both;
+    z-index: 200;
+}
+
+/*PARALEX SCROLL PART 1/ SLIDESHOW frame element and slide through*/
 
 *{
 	margin: 0;
@@ -23,26 +36,30 @@ body:hover{background-image:url("../images/background2.png");
 
 .slideshow-block{
 	position: relative;
-	width: 30em;
-	height: 50em;
+	width: 40em;
+	height: 65em;
 	margin-left: 10em;
 	overflow: hidden;
-	background-image:url(../images/frame1.png);
-	background-size: 20em 30em;
+	background-image:url(../images/framebw.png);
+	background-size: 30em 50em;
 	background-repeat: no-repeat;
 	z-index: 30;
 }
+
+/* Not needed to link at this time
 a.link{
 	position:absolute;
-	height: 150px;
-	width: 200px;
+	width: 25em;
+	height: 50em;
 	display: block;
 	z-index: 10;
-	background: url('img/frame1.png') no-repeat center top;
+	background: url('img/frame1.png') no-repeat center top 5em;*/
+	
 }
 a.link:hover{
-	background-position: center -150px;
+	background-position: center -100px;
 }
+
 .slides{
 	z-index:0;
 	visibility:hidden;
@@ -52,3 +69,9 @@ a.link:hover{
 }
 
 
+
+/*PARALEX SCROLL PART 2 Ingredients*/
+.section-2{
+    background-image:url(../images/framebw.png);
+    background-position:center;
+}

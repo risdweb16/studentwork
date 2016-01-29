@@ -8,12 +8,8 @@
 
 
 	<!--js link-->
-	<script type="text/javascript" src="jquery-1.8.3.js"></script>
-	<script type="text/javascript">
-   $(function(){
-      alert("My First Jquery Test");
-   });
-	</script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
 
 	<!--font link-->
 	<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
@@ -24,17 +20,14 @@
 <!--background image-->
 <body>
 
-	<!--Confirm box-->
-<!--http://jsfiddle.net/Xtreu/ <form method="post" action="http://justcuteanimals.com/wp-content/uploads/2014/08/funny-rabbit-eating-stealing-cookies-cute-animal-pictures-pics.jpg">
-    <input type="hidden" name="html" value="<p>Your data has been deleted</p>" />
-    <input type="submit" value="Do you accept to enable cookies?...ohohoho..." />
-</form>
-<div id="confirmBox">
-    <div class="message"></div>
-    <span class="button yes">Sure...?</span>
-    <span class="button no">I don't really have a choice do I...?</span>
-</div>
--->
+<!--CONTAINER PARAMETERS-->
+<div class="container">
+
+
+	<!-- Slideshow container 1 for parralex scroll-->
+<div class="container slideshow-block">
+
+	<!--ANIMATED FRAMES-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
 	
@@ -44,7 +37,7 @@ jQuery(function($){
 	// Cycle plugin
 	$('.slides').cycle({
 	    fx:     'none',
-	    speed:   1,
+	    speed:   1000,
 	    timeout: 70
 	}).cycle("pause");
 	
@@ -58,24 +51,25 @@ jQuery(function($){
 });
 </script>
 
-
-	<!-- Slideshow container 1 for parralex scroll-->
-<div class="slideshow-block">
-	<a href="game2.html" class="link"></a>
+	<!--<a href="game2.html" class="link"></a>-->
 	<ul class="slides">
-		<li><img src="images/frame1.png"/></li>
-		<li><img src="images/frame2.png"/></li>
-		<li><img src="images/frame3.png"/></li>
+		<li><img src="images/frame1.png" class="frameimg"/></li>
+		<li><img src="images/frame2.png" class="frameimg"/></li>
+		<li><img src="images/frame3.png" class="frameimg"/></li>
 	</ul>
 </div>
 
-	<!--topframe animation-->
 
-
-<!--<div class="top">
-	<img src="images/frame1.png" class="topframe"/>
+<!-- Paralex container 2 ingredients-->
+<div class="container section-2">
+    Ingredient Check List
 </div>
-<div id="button">
-</div>-->
+
+<!-- Paralex container 3 steps -->
+<div class="container section-3">
+    Steps!
+</div>
+</div>
+
 </body>
 </html>
