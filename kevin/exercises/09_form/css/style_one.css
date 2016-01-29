@@ -102,5 +102,13 @@ button:focus{
 }
 
 */
+a:visited{
+	color:#000;
+	text-decoration: none;
+}
+a{
+	color:#000;
+	text-decoration: none;
+}
 
 
