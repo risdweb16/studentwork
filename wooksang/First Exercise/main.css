@@ -1,0 +1,41 @@
+body {
+	background-color: #2e7061;
+	margin-left: 25px;
+	font-style: #white;
+}
+
+h1 {
+	font-size: 21px;
+	font-weight: bold;
+	font-family: helvetica;
+	color: black;
+	text-decoration: none;
+}
+
+.text {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: helvetica;
+	color: black;
+	text-decoration: none;
+}
+
+
+p {
+	fontize: 18px;
+	font-weight: normal;
+	font-family: helvetica;
+	color: white;
+	text-decoration: none;-s
+
+}
+/*
+.bar {
+	position: absolute;
+	z-index: 5;
+	height: 3px;
+	width: 600px;
+	top: 62px;
+	background-color: black;
+}
+

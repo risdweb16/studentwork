@@ -1,0 +1,27 @@
+
+Check your email!
+
+
+Email drops into Gmail inbox
+Phone checks Gmail every 15 minutes.
+If there is no new email, do not notify.
+If there is new email:
+
+	1. Show preview on the locked home screen:
+		1. Pull the Gmail app icon from HD.
+		2. Pull the new email as text.
+		3. Shorten the text to first x number of characters.
+		4. Combine all these elements in a small design where the user can swipe and go to the email link.
+
+	2. Play an alert tone
+		1. Go to sounds
+		2. pull up the "new email alert"
+		3. play it through the speakers.
+		4. The sound plays in the volume level that was set previously.
+
+	3. Vibrate
+		1. Choose the right vibration pattern.
+		2. Notify and activate the vibration motor.
+
+If the user chooses not to read the email:
+	Add a notification flag (RED CIRCLE) on top of the Gmail icon on home screen.
