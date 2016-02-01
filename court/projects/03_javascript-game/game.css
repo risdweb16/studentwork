@@ -1,0 +1,58 @@
+.container {
+	float: left;
+	width: 50%;
+	height: 50%;
+	background-color: rgb(87,56,92);
+	padding: 5%;
+	margin-top: 5%;
+	margin-left: 25%;
+	border-radius: 1em;
+	border-color: rgb(251,189,255);
+}
+
+#demo {
+	float: left;
+	font-size: 2em;
+	background-color: white;
+	padding: 1em;
+	border-radius: 2em;
+	border-style: none;
+	width: 4em;
+	clear:	left;
+	margin-top: 1em; 
+
+}
+
+#demo.hover {
+	background-color: green;
+}
+
+#directions {
+	font-family: sans-serif;
+	color: white;
+	float: left;
+	font-size: .75em;
+	width:	19.2em;
+}
+
+.FizzBuzz {
+	width: 25%;
+	height:	10em;
+	font-size: 1em;
+	float: right;
+	font-weight: bold;
+	color: rgb(87,56,92);
+}
+
+h1 {
+	color: rgb(251,189,255);
+}
+
+span{
+	color: rgb(251,189,255);
+	font-weight: bolder;
+}
+
+
+
+
