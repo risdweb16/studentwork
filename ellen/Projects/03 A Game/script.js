@@ -47,19 +47,6 @@ function ShuffleImages() {
 	}
 }
 
-function ResetGame() {
-	ShuffleImages();
-	$(Source + " div img").hide();
-	$(Source + " div").css("visibility", "visible");
-	Counter = 0;
-	$("#success").remove();
-	$("#counter").html("" + Counter);
-	BoxOpened = "";
-	ImgOpened = "";
-	ImgFound = 0;
-	return false;
-}
-
 function OpenCard() {
 	var id = $(this).attr("id");
 
