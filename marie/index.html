@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RISD Wintersession Webdesign | Marie Otsuka</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+	<header id="top">
+		<h1>Your Title</h1>
+	</header>
+	<nav>
+			<a href="#exercises">Exercises</a> | <a href="#project1">Project1</a> | <a href="#project2">Project2</a> | <a href="#project3">Project3</a> | <a href="#project4">Project4</a>
+			<button id="trigger">Bubble Trigger</button>
+	</nav>
+	
+	<section id="exercises">
+			<h2>Exercises</h2>
+			<div class="exercises">
+				<a href="">link</a>
+				<a href="">link</a>
+				<a href="">link</a>
+				<a href="">link</a>
+				<a href="">link</a>
+				<a href="">link</a>
+				<a href="">link</a>
+				<a href="">link</a>
+				<a href="">link</a>
+				<a href="">link</a>
+			</div>
+	</section>
+	<section class="projects" id="project1">
+			<h2>Project 1</h2>
+			<p>Description / process / learnings</p>
+			<button><a href="link.html">View Project</a></button>
+	</section>
+	<section class="projects" id="project2">
+			<h2>Project 2</h2>
+	</section>
+	<section class="projects" id="project3">
+			<h2>Project 3</h2>
+	</section>
+	<section class="projects" id="project4">
+			<h2>Project 4</h2>
+	</section>
+	
+
+	<footer>
+		
+	</footer>
+
+	<div class="scrollToTop" style="display: none;">
+		<a href="#top">
+			&#9650;
+		</a>
+	</div>
+</div>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+	var root = $('html, body'); //set html and body of document in variable root
+
+	$('a').click(function() {
+		    var href = $.attr(this, 'href');
+		    //using jQuery animate and offset for smooth scrolling
+		    root.animate({
+		        scrollTop: $(href).offset().top-130 //getting the coordinates of the top of the target href relative to document
+		    	}, 200, function () {
+		        window.location.hash = href; //function to call once animation is complete: update url with anchor location
+		    });
+		    return false;
+		});
+
+
+	$(document).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+
+	$('.scrollToTop a').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 200);
+		return false;
+	});
+	/*
+	var linkContent = $('a').html();
+	console.log(linkContent);
+	$('#trigger').click(function(){
+		$('a').html("bubbles <em>bubbling</em>");
+
+	});
+	*/
+	var links = document.getElementsByTagName("a");
+	console.log(links);
+	function changetoBubbles(){
+		for(i=0; i<links.length; i++){
+			links[i].innerHTML ="bubbles <em>bubbling</em>";
+		};
+	}
+	document.getElementById('trigger').onclick = changetoBubbles;
+</script>
+</body>
+</html>
