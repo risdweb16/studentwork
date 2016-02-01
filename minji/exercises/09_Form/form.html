@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+	</head>
+	<body>
+	<h1> Search Tools</h1>
+
+		<form action="result.php" method="post" target="_blank" accept-charset="UTF-8" autocomplete="off" novalidate>
+		<fieldset>
+ 			 <h2>First name:</h2>
+			  <input type="text" name="firstname" value="Minji">
+
+			 <h2>Last name:</h2>
+			  <input type="text" name="lastname" value="Kim">
+
+ 			 <h2>Birthday:</h2>
+				<div id="date1" class="datefield">
+				    <input id="day" type="tel" maxlength="2" placeholder="DD"/> /              
+				    <input id="month" type="tel" maxlength="2" placeholder="MM"/>/
+				    <input id="year" type="tel" maxlength="4" placeholder="YYYY"/>
+				</div>
+
+			   <h2>Email:</h2>
+			  <input type="email" name="email" value="ex. mkim28@risd.edu">
+			 
+			<h2>Gender:</h2>
+			  <input type="radio" name="gender" value="male" checked> Male<br>
+			  <input type="radio" name="gender" value="female"> Female<br>
+			  <input type="radio" name="gender" value="other"> Other
+			
+			<h2>The most used transportation :</h2>
+			<input type="checkbox" name="vehicle1" value="Car"> Walking
+		 	 <input type="checkbox" name="vehicle2" value="Bike"> Bike
+ 			 <input type="checkbox" name="vehicle3" value="Car"> Car
+ 			 <input type="checkbox" name="vehicle4" value="Car"> Taxi
+ 			 <input type="checkbox" name="vehicle5" value="Car"> Bus
+ 			 <input type="checkbox" name="vehicle6" value="Car"> Train
+ 			 <input type="checkbox" name="vehicle7" value="Car"> Subway
+ 			 <input type="checkbox" name="vehicle8" value="Car"> others
+ 			
+
+
+			<h2>Search Google:</h2>
+			
+			<input type="text" name="search" value="Search..">
+			
+
+			<br>
+			<br>
+			<br>
+			<div class="submit">
+			<input type="submit" value="Sutmit">
+			</div>
+
+		</fieldset>
+		</form>
+		
+			
+
+			
+
+
+
+	</body>
+</html>

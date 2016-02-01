@@ -1,0 +1,92 @@
+/*BACKGROUND image*/
+
+body{background:url("../images/background.png");
+	transition:background-image 0s ease-in .2s;
+	 background-size: 60%;
+	 background-repeat: repeat;
+	 z-index: -100;
+	 font-family: 'Gloria Hallelujah', cursive;}
+
+body:hover{background-image:url("../images/background2.png");
+	background-size: 60%;
+	background-repeat: repeat;
+ 	background-position: center;
+	}
+}
+
+
+/*CONTAINER PARAMETERS FOR WHOLE DOC*/
+.container{
+    padding:200px 20px 200px 20px;
+    padding: 2em;
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+    clear: both;
+    z-index: 200;
+}
+
+/*PARALEX SCROLL PART 1/ SLIDESHOW frame element and slide through*/
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+}
+
+.slideshow-block{
+	position: relative;
+	width: 40em;
+	height: 65em;
+	margin-left: 10em;
+	overflow: hidden;
+	background-image:url(../images/framebw.png);
+	background-size: 30em 50em;
+	background-repeat: no-repeat;
+	z-index: 30;
+}
+
+/* Not needed to link at this time
+a.link{
+	position:absolute;
+	width: 25em;
+	height: 50em;
+	display: block;
+	z-index: 10;
+	background: url('img/frame1.png') no-repeat center top 5em;*/
+	
+}
+a.link:hover{
+	background-position: center -100px;
+}
+
+.slides{
+	z-index:0;
+	visibility:hidden;
+}
+.slides.active{
+	visibility:visible;
+}
+
+
+
+/*PARALEX SCROLL PART 2 Name*/
+.section-2{
+    background-image:url(http://www.whisktogether.com/wp-content/uploads/2011/06/dsc_0081.jpg);
+    background-position:center;
+}
+
+/*PARALEX SCROLL PART 3 Ingredients*/
+.section-3{
+    background-image:url(https://s-media-cache-ak0.pinimg.com/originals/3f/f7/67/3ff767139fbcf8f060103043633a5579.gif);
+    background-position:center;
+    width: 
+}
+
+/*PARALEX SCROLL PART 4 Steps*/
+.section-4{
+    background-image:url(../images/framebw.png);
+    background-position:center;
+    width: 
+}
