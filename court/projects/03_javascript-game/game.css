@@ -19,12 +19,16 @@
 	border-style: none;
 	width: 4em;
 	clear:	left;
-	margin-top: 1em; 
+	margin-top: .5em; 
+	color: rgb(87,56,92);
+	-moz-box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	-webkit-box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
 
 }
 
-#demo.hover {
-	background-color: green;
+#demo:hover {
+	cursor: pointer;
 }
 
 #directions {
@@ -33,19 +37,30 @@
 	float: left;
 	font-size: .75em;
 	width:	19.2em;
+	margin-top: -0.25em;
+	margin-bottom: 4em;
 }
 
-.FizzBuzz {
-	width: 25%;
-	height:	10em;
+.fizzBuzz {
+	width: 8em;
+	height:	8em;
 	font-size: 1em;
 	float: right;
 	font-weight: bold;
 	color: rgb(87,56,92);
+	-moz-box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	-webkit-box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	margin-right: .5em;
+	border-style: none;
+	background-color: white;
+
 }
 
 h1 {
 	color: rgb(251,189,255);
+	font-family: sans-serif;
+	font-weight: lighter;
 }
 
 span{
@@ -53,6 +68,18 @@ span{
 	font-weight: bolder;
 }
 
+.fizzBuzz:hover {
+	background-color: rgb(251,189,255);
+	border-style: none;
+	cursor: pointer;
+}
 
+.fizzBuzz:active {
+	border-style: none;
+}
+
+#f {
+	border-radius-top: 1em;
+}
 
 
