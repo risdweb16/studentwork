@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link type="text/css" rel="stylesheet" href="css/style_one.css">
+</head>
+<body>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/ynKrSBHaPz0" frameborder="0" allowfullscreen></iframe>
+	<!--<form action="http://risdweb16.github.io/studentwork/kevin/projects/01_resume/resume.html" method="post">-->
+		<!--<form autocomplete="on">
+			<h1>to: GONZ</h1>
+
+			<div id="from">
+					<label for="name">from:</label>
+					<input type="text" id="name" name="user_name">
+			</div>
+			<div id="reply">
+				<label for="mail">reply:</label>
+				<input type="email" id="mail" name="user_email">
+			</div>
+
+			<div id="message">
+				<label for="msg">Your message:</label>
+				<textarea id="msg" name="user_message"></textarea>
+			</div>
+
+			<div class="button">
+				<button type="submit">Send your message</button>
+		</form>
+	<!--</form>-->
+	<!--<form>
+		<fieldset>
+			<legend>Fruit juice size</legend>
+			<p>
+				<input type="radio" name="size" id="size_1" value="small"/>
+				<label for="size_1">Small</label>
+			</p>
+			<p>
+				<input type="radio" name="size" id="size_2" value="medium"/>
+				<label for="size_2">Medium</label>
+			</p>
+			<p>
+				<input type="radio" name="size" id="size_3" value="large"/>
+				<label for="size_3">Large</label>
+			</p>
+		</fieldset>
+	</form>-->
+	<form>
+  <h1>Payment form</h1>
+  <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+ 
+  <section>
+    <h2>Contact information</h2>
+    
+    <fieldset>
+      <legend>Title</legend>
+      <ul>
+        <li>
+          <label for="title_1">
+            <input type="radio" id="title_1" name="title" value="M." />
+            Jawn
+          </label>
+        </li>
+        <li>
+          <label for="title_2">
+            <input type="radio" id="title_2" name="title" value="Ms." />
+            Jawns
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+    
+    <p>
+      <label for="name">
+        <span>Name: </span>
+        <input type="text" id="name" name="username" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    
+     <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <input type="email" id="mail" name="usermail" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+  </section>
+ 
+  <section>
+    <h2>Payment information</h2>
+    
+    <p>
+      <label for="card">
+        <span>Card type:</span>
+        <select id="card" name="usercard">
+          <option value="visa">Visa</option>
+          <option value="mc">Mastercard</option>
+          <option value="amex">American Express</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <label for="number">
+        <span>Card number:</span>
+        <input type="text" id="number" name="cardnumber" required />
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+    </p>
+    <p>
+      <label for="date">
+        <span>Expiration date:</span>
+        <input type="text" id="date" name="expiration" required />
+        <strong><abbr title="required">*</abbr></strong>
+        <em>formated as mm/yy</em>
+      </label>
+    </p>
+  </section>
+ 
+  <section>
+    <p>
+      <button><a href="form.html">Validate the payment</a></button>
+    </p>
+  </section>
+</form>
+</body>
+</html

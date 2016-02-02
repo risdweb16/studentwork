@@ -1,0 +1,23 @@
+
+.gallery{
+	width:40%;
+	height:auto;
+	text-decoration:none;
+
+}
+ .gallery img{
+	margin:.3em;
+	background-color:white;
+	animation-name:colors;
+	padding: 30px;
+	display: inline-block;
+}
+ .gallery #one{
+	background-color:white;
+}
+@keyframes colors{
+	30% {background-color:blue;
+	}
+	}
+
+

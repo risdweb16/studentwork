@@ -1,0 +1,46 @@
+body{
+	background-color: rgba(255,255,235,.7);
+	display: flex;
+	font-family: Helvetica;
+	text-decoration: none;
+	background-image:url(../images/gif/gif-11.png);
+	background-image:repeat;
+}
+.sidebar{
+	margin-top:5%;
+	margin-left:5%;
+	position: relative;
+	align-content: left;
+	justify-content: left;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	transition: letter-spacing .5s ease-in-out;
+}
+.sidebar a:hover{
+	letter-spacing:.2em;
+}
+a:visited{
+	color:black;
+}
+.third{
+	position: relative;
+	transform: translate(-150%,30%);
+}
+.third #seven{
+	position: relative;
+	display: inline-block;
+}
+.third #eight{
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+.third:hover #seven{
+	display: none;
+}
+.third:hover #eight{
+	display: inline-block;
+}

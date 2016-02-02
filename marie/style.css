@@ -1,0 +1,113 @@
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#wrapper{
+  max-width: 980px;
+  margin: auto;
+  margin-top: 130px;
+}
+
+a {
+  text-decoration: none;
+  color: #33AA98;
+}
+
+/* mouse over link */
+a:hover {
+    color: #23FAD3;
+}
+
+
+
+
+.exercises {
+  margin: auto;
+  overflow: auto;
+}
+
+.exercises a {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: .5em;
+  float: left;
+  background: #fff;
+  box-sizing: border-box;
+  padding: .5em;
+}
+
+.exercises a:hover {
+  background: #23FAD3;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 5px solid #333;
+  background: #fff;
+}
+
+h1 {
+  margin: 1em 0 0.3em 0;
+}
+
+nav {
+  position: fixed;
+  top: 100px;
+}
+
+section {
+  background: #efefef;
+  min-height: 100vh;
+  padding: 5em;
+  box-sizing: border-box;
+  margin-bottom: 3em;
+}
+
+.scrollToTop{
+    position:fixed;
+    right:2em;
+    bottom:2em;
+    cursor:pointer;
+    width:40px;
+    height:40px;
+    z-index:100;
+}
+
+button {
+  padding: 1em 2em;
+  background: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #23FAD3;
+}
+
+button:hover a{
+  color: #fff
+}
+
+footer {
+  height: 5em;
+  background: #333333;
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+ 
+}
+
+
+@media screen and (max-width: 400px) {
+
+
+}
+
+

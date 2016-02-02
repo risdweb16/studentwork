@@ -1,0 +1,56 @@
+h1 {font-family: 'Megrim', cursive;
+font-size: 160px;
+color: yellow;
+float: right;
+position: fixed;
+margin-left: 35px; 
+margin-top: 30px;}
+
+body {
+	font-family: 'Megrim', cursive;
+font-size: 18px;
+  background: #yellow;
+}
+#picbox {
+	margin: 20px auto;
+	width: 100%;
+	border: transparent;
+}
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+#boxcard div{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	margin-left: 67px;
+	padding: 50px;
+	border: 2.4px dotted green; 
+	cursor: pointer;
+
+  background: white;
+	z-index: 2;
+}
+#boxcard div img {
+	display: none;
+	border-radius: 10px;
+	z-index: 3;
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+	background: #EE872A;
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: #999;
+}

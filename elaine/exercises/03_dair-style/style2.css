@@ -5,6 +5,7 @@ body {
 	position:static;
 	left: 0px;
 	top: 300px;
+	z-index:-100;
 }
 .wrapper{
 	width:500px;
@@ -71,5 +72,4 @@ h3 {
 	position:relative;
 	text-align: center;
 	}
-
 

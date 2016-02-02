@@ -1,0 +1,18 @@
+body{
+	background-color:white;
+
+}
+
+.gallery{
+	width:40%;
+	height:auto;
+	text-decoration:none;
+	animation-name:whynotwork;
+
+
+}
+.gallery img{
+	margin:.2em;
+	background-color:white;
+
+}
