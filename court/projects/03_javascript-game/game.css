@@ -1,0 +1,85 @@
+.container {
+	float: left;
+	width: 50%;
+	height: 50%;
+	background-color: rgb(87,56,92);
+	padding: 5%;
+	margin-top: 5%;
+	margin-left: 25%;
+	border-radius: 1em;
+	border-color: rgb(251,189,255);
+}
+
+#demo {
+	float: left;
+	font-size: 2em;
+	background-color: white;
+	padding: 1em;
+	border-radius: 2em;
+	border-style: none;
+	width: 4em;
+	clear:	left;
+	margin-top: .5em; 
+	color: rgb(87,56,92);
+	-moz-box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	-webkit-box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+
+}
+
+#demo:hover {
+	cursor: pointer;
+}
+
+#directions {
+	font-family: sans-serif;
+	color: white;
+	float: left;
+	font-size: .75em;
+	width:	19.2em;
+	margin-top: -0.25em;
+	margin-bottom: 4em;
+}
+
+.fizzBuzz {
+	width: 8em;
+	height:	8em;
+	font-size: 1em;
+	float: right;
+	font-weight: bold;
+	color: rgb(87,56,92);
+	-moz-box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	-webkit-box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	box-shadow:inset 0px 0px 15px 3px rgb(87,56,92);
+	margin-right: .5em;
+	border-style: none;
+	background-color: white;
+
+}
+
+h1 {
+	color: rgb(251,189,255);
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+span{
+	color: rgb(251,189,255);
+	font-weight: bolder;
+}
+
+.fizzBuzz:hover {
+	background-color: rgb(251,189,255);
+	border-style: none;
+	cursor: pointer;
+}
+
+.fizzBuzz:active {
+	border-style: none;
+}
+
+#f {
+	border-radius-top: 1em;
+}
+
+
