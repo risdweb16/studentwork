@@ -99,7 +99,8 @@ img:hover{
 
 
 .act{
-	height:1000px;
+	height:60%px;
+	width:90%;
 	color:#7D7D7D;
 	font-size:16px;
 	float:center;
@@ -119,6 +120,11 @@ img:hover{
 	margin:5%;
 }
 
+h1{
+	color:black;
+	background-color:pink;
+	width:90%;"
+}
 
 .footer{
 	position:absolute;
