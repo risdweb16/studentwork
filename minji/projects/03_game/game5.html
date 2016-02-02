@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Page Title</title>
 <link rel="stylesheet" type="text/css" href="game.css">
-<link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+
 </head>
 
 
@@ -51,22 +51,22 @@
 	while (!(comNum === myNum))
 		{
 		askNumber();
-		count +1;
+		count ++;
 		if (comNum > myNum) { 
-			$("#hints").append("BIGGER THAN" + " " + myNum +"." + "<br>");
+			$("#hints").append("THE NUMBER IS BIGGER THAN" + " " + myNum +"." + "<br>");
 		} 
 		else if (comNum < myNum) { 
-			$("#hints").append("SMALLER THAN" + " " + myNum +"." + "<br>");
+			$("#hints").append("THE NUMBER IS SMALLER THAN" + " " + myNum +"." + "<br>");
 		} 
 		else{
-			$("#hints").append("<br>"+"YOU FIND THE NUMBER!" + count + "times");
+			$("#hints").append("<br>"+"YOU FIND THE NUMBER!" + "(" + + count + "times" + ")");
 			break;
 		}
 	}
 		
 
 
-
+/*<link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>*/
 
 
 
