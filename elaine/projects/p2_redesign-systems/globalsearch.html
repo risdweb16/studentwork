@@ -65,14 +65,19 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 
 </head>
 
+
+
+
+
 <body>
 
 
-<table style="width:100%; padding:100px;">
-	<div style="max-width:500px; overflow:auto;">
+<!-- <table style="width:100%; padding:100px;"> -->
+<container>
+	<!-- <div style="max-width:500px; overflow:auto;">
 	<tr>
 	<td style="padding:200px 200px 600px 200px">
-		
+		 -->
 <center>	<img src="img/g.png"/><br><br><br><br>
 <form method="get" action="http://www.google.com/search" target="_blank"> 
 <input type="text" name="q" font-size="60" size="50" height="30" placeholder="Search Google or type URL" value="" /> 
@@ -80,13 +85,16 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 <input type="hidden" name="sitesearch" value="" />
 </center>
 </form>
-<br></span></tr></td></div>
+<br></span><!-- </tr></td> --></div>
+
+</container>
 
 
+<container>
 
-<div style="max-width:500px; overflow:auto;">
+<!-- <div style="max-width:500px; overflow:auto;">
 <tr>
-	<td style="padding:200px 200px 600px 200px">
+	<td style="padding:200px 200px 600px 200px"> -->
 <center>	<img src="img/b.png"/><br><br><br><br>
 
 <form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
@@ -113,8 +121,13 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
         }
     };
 </script>
-</td></tr>
-</div>
+<!-- </td></tr>
+</div> -->
+</container>
+
+
+
+<container>
 
 <a name="naver"></a>!
 
@@ -153,31 +166,38 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 <input type="hidden" id="eid" name="eid" font-size="100px" size="50" height="30" value="" disabled="disabled" />
 <input type="hidden" id="mra" name="mra" font-size="100px" size="50" height="30" value="" disabled="disabled" />
 
-	<input type="submit" style="position:absolute; left:-99999px" /></center></form><br></td></tr>
+	<input type="submit" style="position:absolute; left:-99999px" /></center></form><br><<!-- /td></tr> -->
 
-<tr>
-<td style="padding:200px 200px 600px 200px">
+
+</container>
+
+
+
+<container>
+
+<!-- <tr>
+<td style="padding:200px 200px 600px 200px"> -->
 	<center>	<img src="img/y.png"/><br><br><br><br>
 <form method="get" action="http://www.yandex.com/"target="_blank"> <input lang="zh-Hans" type="text" name="q" font-size="100px" size="50" height="30" placeholder="Поиск Яндекса или тип URL" value="" /><input type="submit" style="position:absolute; left:-99999px" /> </center></form><br></td>
-</tr>
+<!-- </tr> -->
 
+</caontainer>
 
-
-<tr>
-
+<!-- <tr>
 	
-<td style="padding:200px 200px 600px 200px">
+<td style="padding:200px 200px 600px 200px"> -->
+
+    <container>
 	<center><img src="img/s.png"/><br><br><br><br>
 <form method="get" action="http://search.seznam.cz/"target="_blank"> 
 <div class="search-boxes"> <div id="box-fulltext" class="search-box active js-search-box"> <form action="/search/fulltext"> <div class="suggest-input-wrapper"> <input id="inet-field" class="suggest-input js-suggest-input" type="text" name="q" value="" accesskey="4" placeholder="Hledání Seznam nebo napište URL adresu" size="65" autocomplete="off" /> </div> 
 <span class="mic-wrapper js-mic-wrapper" title="Vyhledávání hlasem"> <span class="iconfont-mic"></span> </span>  <div class="suggest-container js-suggest-container"></div> <input type="hidden" name="sourceid" class="js-source-id" value="szn-HP" /> </form>
-
  </form>
 </form>
 
  </div>
 
-
+</container>
 <a name="bottom"></a>
 
 </body>
