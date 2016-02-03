@@ -9,8 +9,9 @@ window.onload = function(){
 	circle_animation(1, "canvas1", 0, default_tag);
 	circle_animation(2, "canvas2", 0, default_tag);
 	circle_animation(3, "canvas3", 0, default_tag);
-	
+
 }
+
 
 
 
