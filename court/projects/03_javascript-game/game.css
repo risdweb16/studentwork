@@ -41,7 +41,7 @@
 	margin-bottom: 4em;
 }
 
-.fizzBuzz {
+.button {
 	width: 8em;
 	height:	8em;
 	font-size: 1em;
@@ -68,13 +68,13 @@ span{
 	font-weight: bolder;
 }
 
-.fizzBuzz:hover {
+.button:hover {
 	background-color: rgb(251,189,255);
 	border-style: none;
 	cursor: pointer;
 }
 
-.fizzBuzz:active {
+.button:active {
 	border-style: none;
 }
 
