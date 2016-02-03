@@ -1,6 +1,6 @@
 var context;
 var queue;
-var WIDTH = 650;
+var WIDTH = 1430;
 var HEIGHT = 768;
 var mouseXPosition;
 var mouseYPosition;
@@ -16,6 +16,7 @@ var enemyYSpeed = 1.75;
 var score = 0;
 var scoreText;
 var gameTimer;
+var playagaintext;
 var gameTime = 0;
 var timerText;
 
@@ -45,12 +46,12 @@ window.onload = function()
      *
      */
     queue.loadManifest([
-        {id: 'backgroundImage', src: 'assets/background.png'},
+        {id: 'backgroundImage', },
         {id: 'crossHair', src: 'assets/crosshair.png'},
         {id: 'shot', src: 'assets/Woosh.mp3'},
         {id: 'gameOverSound', src: 'assets/gameOver.mp3'},
         {id: 'tick', src: 'assets/tick.mp3'},
-        {id: 'plane', src: 'http://www.clker.com/cliparts/9/9/c/p/q/E/plane-md.png'},
+        {id: 'plane', src: 'http://punkave.com/images/logo-black-circle.png'},
         {id: 'Death', src: 'http://www.clker.com/cliparts/9/9/c/p/q/E/plane-md.png'},
     ]);
     queue.load();
@@ -76,15 +77,15 @@ function queueLoaded(event)
     stage.addChild(scoreText);
 
     //Ad Timer
-    timerText = new createjs.Text("Time: " + gameTime.toString(), "36px Arial", "#FFF");
-    timerText.x = 800;
+    timerText = new createjs.Text("Time: " + gameTime.toString(), "36px Arial", "red");
+    timerText.x = 1200;
     timerText.y = 10;
     stage.addChild(timerText);
 
     // Create bat spritesheet
     spriteSheet = new createjs.SpriteSheet({
         "images": [queue.getResult('plane')],
-        "frames": {"width": 198, "height": 117},
+        "frames": {"width": 200, "height": 200},
         "animations": { "flap": [0,0] }
     
     });
@@ -239,4 +240,6 @@ function updateTime()
 		timerText.text = "Time: " + gameTime
     createjs.Sound.play("tick");
 	}
+
 }
+
