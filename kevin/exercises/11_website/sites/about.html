@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABOUT</title>
+	<link rel="stylesheet" type="text/css" href="../css/style_two.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<a href="../site.html" class="one"><div></div></a>
+	<nav>
+    <ul>
+    	<li><a href="../site.html">ABOUT</a>
+        </li>
+        <li>
+        	<a href="https://www.codecademy.com/kbcrouse" target="_blank">CODECADEMY</a>
+    	</li>
+        <li class="dropdown"><a href="navigation.html">EXERCISES</a>
+            <ul class="sub-menu">
+                <li><a href="navigation.html">navigation</a></li>
+                <li><a href="02_mark-up/typographic-contrast.html">carl dair</a></li>
+                <li><a href="04_reverse_sitemap/sitemap.html">sitemap</a></li>
+                <li><a href="05_positioning/positioning_exercise.html">positioning</a></li>
+                <li><a href="06_grids/grid.html">grid</a></li>
+                <li><a href="07_poster/poster.html">poster</a></li>
+                <li><a href="09_form/results.html">form</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="#">PROJECTS</a>
+        	<ul class="sub-menu">
+        		<li><a href="#">resume</a></li>
+        		<li><a href="#">(de)design</a></li>
+        		<li><a href="#">game</a></li>
+        		<li><a href="#">collection</a></li>
+        	</ul>
+        </li>
+        <li class="dropdown"><a href="whatiscode.html">RESPONSES</a>
+        	<ul class="sub-menu">
+        		<li><a href="whatiscode.html">what is code?</a></li>
+        		<li><a href="alistapart.html">a list apart</a></li>
+        		<li><a href="lined.html">lined and unlined</a></li>
+        		<li><a href="captives.html">captives of the cloud</a></li>
+        	</ul>
+        </li>
+    </ul>
+	</nav>
+	<h1 class="title">WEB DESIGN</h1>
+	<h1 class="title">KEVIN CROUSE</h1>
+	<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel dui gravida, feugiat justo vel, viverra dui. Pellentesque et dapibus urna, non semper ipsum. Sed a sapien sit amet arcu mattis consequat. Maecenas posuere ultricies nibh, sit amet porttitor lorem consectetur ut. Donec interdum lacus in velit varius, at auctor elit congue. Donec aliquet tortor vehicula facilisis commodo. Fusce sed placerat massa. In et dictum magna. Integer ex felis, varius finibus dui nec, finibus tempor ante. Morbi ac vulputate nibh.</p>
+	<script>
+	$(document).ready(function() {
+    	$('img').click(function() {
+			$(this).attr("src","images/background.gif").delay;
+			/*$(this).delay(1600).fadeOut(800);*/
+		});
+
+    	$( '.dropdown' ).hover(
+        	function(){
+            	$(this).children('.sub-menu').slideDown(200);
+        	},
+        	function(){
+            	$(this).children('.sub-menu').slideUp(200);
+        	}
+    	);
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+nav {
+	font-family: 'Droid Sans', sans-serif;
+    padding:1em 0;
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+	font-size: 120%;
+    display:inline-block;
+    position:relative;
+}
+/* sub navigation */
+nav li ul { 
+	background-color: rgba(255,255,255,0.9);
+    position:absolute;
+    left:0;
+    top:1em; /* make this equal to the line-height of the links (specified below) */
+    width:200px;
+}
+nav li li {
+	font-size: 90%;
+	color:#000;
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+	color:#000;
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
+    margin:0;
+}
+/* style all links */
+nav a {
+	color:#000;
+    line-height:1em;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    text-decoration:none;
+    display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active{
+    color:rgb(150,150,150);
+}
+
+/* style sub level links */
+nav li li a {
+    margin:5% 15%;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+/* hide sub menu links */
+ul.sub-menu {
+    display:none;
+}
+.one{
+	overflow:hidden;
+	float:left;
+	width: 96px;
+	height: 20px;
+	margin-bottom:2%;
+}
+a.one:nth-child(1){
+	background-color: rgba(240,76,90,0.2);
+}
+a.one:nth-child(2){
+	background-color: rgba(159,66,76,0.2);
+}
+a.one:nth-child(3){
+	background-color: rgba(49,110,115,0.2);
+}
+a.one:nth-child(4){
+	background-color: rgba(178,156,133,0.2);
+}
+a.one:nth-child(5){
+	background-color: rgba(250,240,133,0.2);
+}
+a.one:nth-child(6){
+	background-color: rgba(53,109,139,0.2);
+}
+a.one:nth-child(7){
+	background-color: rgba(118,127,86,0.2);
+}
+a.one:nth-child(8){
+	background-color: rgba(241,86,58,0.2);
+}
+a.one:nth-child(9){
+	background-color: rgba(162,199,166,0.2);
+}
+a.one:nth-child(10){
+	background-color: rgba(243,149,133,0.2);
+}
+a.one:nth-child(11){
+	background-color: rgba(161,208,124,0.2);
+}
+a.one:nth-child(12){
+	background-color: rgba(29,24,31,0.2);
+}
+a.one:nth-child(13){
+	background-color: rgba(160,133,171,0.75);
+}
+.title{
+	margin-left:3%;
+	font-family: 'Lato', sans-serif;;
+	font-size:160%;
+	letter-spacing: 0.25em;
+}
+.description{
+	margin-top:10%;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: 'Lato', sans-serif;
+	font-weight: thin;
+	letter-spacing:0.01em;
+	text-align: justify;
+	line-height:150%;
+}
+a.links{
+	text-decoration: none;
+	color:#000;
+}
+a.links:visited{
+	text-decoration: none;
+	color:#000;
+}
+
+
+
