@@ -1,6 +1,3 @@
-
-
-
 // window.onload = window.onscroll = 
 
 $('document').ready(function () {
@@ -39,8 +36,11 @@ $('document').ready(function () {
           //  audioElement.pause();
         //});
     });
-
-window.alert("SCROLL FOR SOUND");
+$(window).click(function(){
+$("#hint").fadeOut("slow");
+});
+//$(hint).fadeOut('fast');
+//window.alert("SCROLL FOR SOUND");
     
 //$(window).scroll();
 
