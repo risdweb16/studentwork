@@ -1,0 +1,34 @@
+<div class="sidebar">
+		<p class="title">EXERCISES</p>
+			<p class="list">navigation</p>
+			<p class="list">carl dair</p>
+			<p class="list">sitemap</p>
+			<p class="list">positioning</p>
+			<p class="list">grid</p>
+			<p class="list">animate</p>
+			<p class="list">form</p>
+		<p class="title">PROJECTS</p>
+			<p class="list_one">resume</p>
+			<p class="list_one">(de)design</p>
+			<p class="list_one">game</p>
+			<p class="list_one">collection</p>
+		<p class="title">ABOUT</p>
+		<p class="title">RESPONSES</p>
+	</div>
+
+	.sidebar{
+	font-family: 'Droid Sans', sans-serif;	
+}
+.title{
+	margin-bottom:2%;
+	font-size: 110%;
+	margin-left: 1%;
+}
+.list{
+	margin-top:-1%;
+	margin-left: 3%;
+}
+.list_one{
+	margin-top:-1%;
+	margin-left: 3%;
+}
