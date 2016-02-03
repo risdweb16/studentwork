@@ -1,66 +1,56 @@
+h1 {font-family: 'Megrim', cursive;
+font-size: 160px;
+color: yellow;
+float: right;
+position: fixed;
+margin-left: 35px; 
+margin-top: 30px;}
+
 body {
-  overflow:hidden;
-  background: red; 
-  background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
-  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
-}
-
-#f2 {
 	font-family: 'Megrim', cursive;
-  font-size: 200px;
-  color: #d10000;
-  z-index: 1;
-  margin: 2% 0% 0% 2%;  
-  position: relative;
-  display: inline-block;
+font-size: 18px;
+  background: #yellow;
 }
-
-
-#circle {
-  width: 500px;
-  height: 500px;
-  background: #ff6622;
-  -moz-border-radius: 400px;
-  -webkit-border-radius: 400px;
-  border-radius: 400px;
-  padding: 20px;
-  float: right;
-  position: relative;
-  margin: 2% 2% 5% 5%;
-  transition: .3s;
+#picbox {
+	margin: 20px auto;
+	width: 100%;
+	border: transparent;
 }
-
-a {
-    font-family: 'Helvetica', sans-serif; 
-  color: black;
-  font-size: 16px;
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
 }
+#boxcard div{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	margin-left: 67px;
+	padding: 50px;
+	border: 2.4px dotted green; 
+	cursor: pointer;
 
-a:link {
-    font-family: 'Helvetica', sans-serif; 
-  color: black;
-  font-size: 16px;
+  background: white;
+	z-index: 2;
 }
-
-
-a:visited {
-    font-family: 'Helvetica', sans-serif; 
-  color: black;
-  font-size: 16px;
+#boxcard div img {
+	display: none;
+	border-radius: 10px;
+	z-index: 3;
 }
-
-
-#nav1 {
-  font-family: 'Helvetica', sans-serif;
-  color: black;
-  font-size: 16px;
-  clear: both;
-  position: fixed;
-  bottom: 15%; left: 45%; 
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
 }
-
-#circle:hover, #circle.active{
-    background: #ccc;
+#boxbuttons .button {
+	text-transform: uppercase;
+	background: #EE872A;
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: #999;
 }
