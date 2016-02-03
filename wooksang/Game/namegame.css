@@ -1,0 +1,307 @@
+body {background-color: #fff;
+margin-top: 32px;
+margin-right: 50px;
+margin-left: 56px;
+margin-bottom: 50px;
+}
+
+.head {float:left;
+	height: 105px;
+	width: 48%;
+	margin-right: 2%;
+	background-color: #fce5f3;
+	box-shadow:0px 0px 0px 2px black inset;
+
+}
+
+h1 {font-family: helvetica;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 1.3;
+	padding-top: 4px;
+	padding-left: 24px;
+	color: black;
+	width: 100%;
+}
+
+h2:hover{
+	color: #00c800;
+	text-decoration: underline;
+}
+
+#show {font-family: helvetica;
+	text-align: left;
+	height: 105px;
+	font-size: 12.5px;
+	font-weight: 400;
+	line-height: 1.3;
+	color: black;
+	width: 48%;
+	margin-right: 2%;
+	cursor: pointer;
+	background-color: white;
+	border: solid 2px;
+	border-color: #00c800;
+
+	}
+
+h2 {font-family: helvetica;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 1.3;
+	padding-left: 12px;
+    color: black;
+    width: 98%;
+
+
+	}
+/*Fake names*/
+h3 {font-family: helvetica;
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 12px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	border: solid 2px;
+	border-color: black;
+	margin-bottom: 18px;
+	margin-top: 18px;
+	}
+/*Real names*/
+h4 {font-family: helvetica;
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 12px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	border: solid 2px;
+	border-color: black;
+	margin-bottom: 18px;
+	margin-top: 18px;
+	}
+
+.blue{border-color: #00c800;
+z-index: 100;}
+
+h5 {font-family: helvetica;
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 12px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	border: solid 2px;
+	border-color:black;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}
+
+
+h6 {font-family: helvetica;
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 14px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+    margin-top: 24px;
+
+}
+
+p 	{
+	font-family: helvetica;
+	font-size: 25px;
+	font-weight: 500;
+	padding-top: 6px;
+	margin-bottom: 12px;
+	color: black;
+	width: 100%;
+	}
+
+.check {float:left;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: 500;
+	padding-top: 6px;
+	color: black;
+	width: 23%;
+	margin-right: 2%;
+	border-top: solid 2px;
+	border-color: #00c800;
+	cursor: pointer;
+
+}
+
+.check:hover {
+	color: #00c800;
+	text-decoration: underline;
+	}
+
+
+
+}
+.onehundred {float: left;
+		width: 98%;
+		margin-right: 2%;}
+
+.column {float: left;
+		width: 23%;
+		margin-right: 2%;}
+
+.border {float: left;
+		width: 98%;
+		margin-right: 2%;
+		border-top: solid 2px;
+		padding-bottom: 12px;
+		border-color: #black;
+	
+	}
+
+
+.resultone {
+	display: none;
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+	line-height: 1.4;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 12px;
+}
+
+.resulttwo {
+	display: none;
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+	line-height: 1.4;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 12px;
+}
+
+.resultthree {
+	display: none;
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+	line-height: 1.4;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 12px;
+}
+
+.resultfour {
+	display: none;
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+	line-height: 1.4;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 12px;
+}
+
+.sing:{
+    border-color: #00c800;
+    transition: infinite;
+}
+
+
+.hover{
+	color: black;
+	background: #fce5f3;
+	border-color: none;
+}
+
+
+
+footer {
+	width:100%;
+	height:60px;
+	background: white;
+
+}
+
+#check  {float:left;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: 500;
+	color: black;
+	width: 100%;
+	text-align: left;
+	background-color: white;
+	border:none;
+	margin-top: 2px;
+	margin-left: -6px;
+
+}
+#check:hover{
+	color: #00c800;
+	text-decoration: underline;
+	cursor:pointer;
+	}
+
+
+}
+
+
+/*
+}
+
+h4:active {
+	color: white;
+    background-color:black;
+    transition: infinite;
+   } 
+h3:active {
+	color: white;
+    background-color:black;
+    transition: infinite;
+
+/*h3.selected{
+   background:black;
+   color:white;
+}
+
+
+
+/*
+h3:active{
+	color: white;
+	background: #000;
+    border-color: #000;
+
+}
+/*h3:focus {
+  color: red;
+
+
+
+/*
+}
+.active{
+	color: white;
+	background: #000;
+    border-color: #000;
+
+/*<button>Show it</button>
+<p style="display:none">hello 2<]/>
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+.page_link a:hover {
+	color: #000;
+	*/

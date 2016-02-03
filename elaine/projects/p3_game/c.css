@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  top: 100px;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  margin: 10px auto;
+  text-align: center
+}
+
+.top{
+  font-family:helvetica;
+	position:fixed;
+	top:0px;
+	color:white;
+	size:300px;
+	background-color:pink;
+}
+
+.container::before {
+  content: "";
+  display: inline-block;
+  height: 50%;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  color: white;
+  font: 30px/40px helvetica;
+}
+
+.bar {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+  height: 50%;
+  margin-right: 10px;
+  background: #FFFFFF;
+  -webkit-transition: height 0.1s ease-out;
+  transition: height 0.5s ease-out;
+}

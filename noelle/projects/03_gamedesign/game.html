@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Baking Recipe Game</title>
+
+	<!--css link-->
+	<link type="text/css" rel="stylesheet" href="CSS/game.css"/>
+
+
+	<!--js link-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+
+	<!--font link-->
+	<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<!-- Paralex container 2 RECIPE NAME-->
+<div class="bg-container section-1">
+    <div class="content">
+    	<div id="slideshow-block">
+			<ul class="slides">
+				<li><img src="images/frame1.png" /></li>
+				<li><img src="images/frame2.png" /></li>
+				<li><img src="images/frame3.png" /></li>
+			</ul>
+		</div>
+		<div id="button-box">
+    		<button id="start-button">Click to start!</button>
+		</div>
+	</div>
+</div>
+
+<!-- Paralex container 3 Ingredients -->
+<div class="bg-container section-2">
+    <div class="content">
+    	How many cookies?
+    	<form id="dozen-form">
+    		<input class="form-input-style" id="dozen-input" />
+    	</form>
+		dozen
+		<img class="arrow" id="arrow-1" src="images/arrows.png" />
+		<img class="cookie" src="images/cookie.png"/>
+	</div>
+</div>
+
+<!-- Paralex container 4 Ingredients -->
+<div class="bg-container section-3">
+	<div class="content">
+		<div class="contentbackground">
+	    For <span id="dozen-amount" style="font-size: 30px;"></span> dozen cookies, you will need:
+
+	    <table id="ingredients_table">
+	    	<tr>
+	    		<td>
+	    			<span class="ing-amount" id="egg-amount"></span> eggs
+				</td>
+				<td>
+	    			<span class="ing-amount" id="salt-amount"></span> tsps of salt
+				</td>
+			</tr>
+			    	<tr>
+	    		<td>
+	    			<span class="ing-amount" id="flour-amount"></span> cups of flour
+				</td>
+				<td>
+	    			<span class="ing-amount" id="vanilla-amount"></span> tsps of vanilla extract
+				</td>
+			</tr>
+			    	<tr>
+	    		<td>
+	    			<span class="ing-amount" id="sugar-amount"></span> cups of sugar
+				</td>
+				<td>
+	    			<span class="ing-amount" id="chips-amount"></span> tsps of chips
+				</td>
+			</tr>
+			    	<tr>
+	    		<td>
+	    			<span class="ing-amount" id="brown-sugar-amount"></span> cups brown sugar
+				</td>
+				<td>
+	    			<span class="ing-amount" id="bsoda-amount"></span> tsps of baking soda
+				</td>
+			</tr>
+			    	<tr>
+	    		<td>
+	    			<span class="ing-amount" id="butter-amount"></span> cups of butter
+				</td>
+				<td>
+	    			<span class="ing-amount" id="love-amount"></span> tsps of LOVE
+				</td>
+			</tr>
+	    </table>
+	    <!--cookie recipe link-->
+	    	<a href="http://domesticfits.com/2012/02/17/best-chocolate-chip-cookie-recipe-ever/">
+	    		<img id="recipe" src="images/recipecard.png" />
+	    	</a>
+
+	    <div id="stepdiv">
+	    	<h1>STEPS</h1>
+	    	<h2>Step 1</h2>
+	    		<p class="descr">In a large bowl, combine both types of flour, baking soda, baking powder, corn starch and 1 tsp salt. All types of flour have different properties and will produce difference results, the combination of these two different types gives you cookies that are both soft and chewy. You will not get these results if you just use one type or if you use all-purpose flour.</p>
+	    	<h2>Step 2</h2>
+	    		<p class="descr">In the bowl of a stand mixer, fitted with a paddle attachment, cream the butter with both types of sugar, scraping the bottom of the bowl periodically to ensure the ingredients are well combined. Add the eggs, one at at time, and then the vanilla, beat very well and scraping the inside of the bowl between addition.</p>
+	    	<h2>Step 3</h2>
+	    		<p class="descr">Reduce speed on the stand mixer to low and add the dry ingredients until just barely combined, making sure to scrape the bottom of the bowl to ensure that the butter and flour are all combined. Add the chocolate chips and stir until incorporated. You do not want to over mix or your cookies will be tough.</p>
+	    	<h2>Step 4</h2>
+	    		<p class="descr">This is where you will need some self control. The butter needs to reconstitute as a solid or the cookies won't cook well. Place a sheet of plastic wrap over the bowl and press it against the top of the cookie dough, making a tight seal.</p>
+	    	<h2>Step 5</h2>
+	    		<p class="descr">Place the cookies in the refrigerator to chill for at least 24 hours, preferably 36 hours. This is important, do not skip this step or the cookies will spread and become dry and crispy.</p>
+	    	<h2>Step 6</h2>
+	    		<p class="descr">Preheat oven to 350. Line a cookie sheet with parchment paper and using a cookie scoop, or an ice cream scoop, make balls of dough that are a bit larger than a golf ball. Place on a baking sheet, with ample space between each cookie. Sprinkle lightly with the remaining salt. (Only about 6 cookies will fit on a standard cookie sheet.)</p>
+	    	<h2>Step 7</h2>
+	    		<p class="descr">Bake each cookie sheet one at a time for 10-15 minutes  or until the cookies are just starting to get a light golden brown. Do not over bake, the cookies will continue to bake about an additional 10 percent after being removed from the oven. Immediately transfer to a wire rack or a row of paper towels. </p>
+	    		<div id="stepsbuf">
+	    			<img id="steps" src="images/steps.png" />
+	  			</div>
+	    </div>
+	 </div>
+    	<img class="arrow" id="arrow-2" src="images/arrows.png" />
+    </div>
+</div>
+
+<div class="bg-container section-4">
+    <div class="content">
+	    <div id="bake">
+	    	How long would you like to bake them?
+	    	<form id="bake-form">
+	    		<input class="form-input-style" id="bake-input" />
+	    	</form>
+	    	minutes
+		</div>
+		<div id="result">
+			<img id="cookie-result-image" />
+			Oh my! Your cookies are <span id="cookie-result"></span>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

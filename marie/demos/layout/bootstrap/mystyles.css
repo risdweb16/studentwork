@@ -1,0 +1,9 @@
+
+body > .container-fluid {
+	max-width: 1080px;
+}
+.row h3{
+	background: #efefef;
+	border: 1px solid #cccccc;
+	padding: 1em;
+}

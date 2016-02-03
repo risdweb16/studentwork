@@ -1,0 +1,10 @@
+body {background-color: white;}
+div {font-family: helvetica;
+font-size: 10vw;
+width: 100vw;
+color: blue;
+font-weight: bold;
+position: fixed;
+top: 35%;
+text-align: center;
+}

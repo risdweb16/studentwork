@@ -1,0 +1,52 @@
+html,
+body {
+background-color:black;
+  height: 100%;
+}
+
+.container {
+  font-family:helvetica;
+  position:fixed;
+  top: 100px;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  margin: 10px auto;
+  text-align: center
+}
+
+
+
+
+.container::before {
+  content: "";
+  display: inline-block;
+  height: 50%;
+}
+
+
+.container::after {
+  content: "";
+  display: block;
+  font: 30px/40px helvetica;
+}
+
+.bar {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+  height: 40%;
+  margin-right: 10px;
+  background: skyblue;
+  -webkit-transition: height 0.1s ease-out;
+  transition: height 0.5s ease-out;
+}
+
+
+
+
+
+
+
+
+
