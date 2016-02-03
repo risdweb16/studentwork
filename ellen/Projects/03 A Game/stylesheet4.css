@@ -1,27 +1,28 @@
 body {
-  overflow:hidden;
-  background: red; 
-  background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
-  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
+	overflow: hidden;
+  background: green; 
+  background: -webkit-linear-gradient(left,rgba(161,246,118,0),rgba(161,246,118,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(161,246,118,0),rgba(161,246,118,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(161,246,118,0),rgba(161,246,118,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(161,246,118,0),rgba(161,246,118,1)); /*Standard*/
 }
 
-#f2 {
+
+#f5 {
 	font-family: 'Megrim', cursive;
   font-size: 200px;
-  color: #d10000;
+  color: #33dd00; 
   z-index: 1;
-  margin: 2% 0% 0% 2%;  
+  margin: 2% 0% 0% 2%; 
   position: relative;
   display: inline-block;
 }
 
 
-#circle {
+#circle4 {
   width: 500px;
   height: 500px;
-  background: #ff6622;
+  background: #1133cc;
   -moz-border-radius: 400px;
   -webkit-border-radius: 400px;
   border-radius: 400px;
@@ -52,8 +53,9 @@ a:visited {
 }
 
 
+
 #nav1 {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Helvetica', sans-serif; 
   color: black;
   font-size: 16px;
   clear: both;
@@ -61,6 +63,9 @@ a:visited {
   bottom: 15%; left: 45%; 
 }
 
-#circle:hover, #circle.active{
+#circle4:hover, #circle4.active{
     background: #ccc;
 }
+
+
+
