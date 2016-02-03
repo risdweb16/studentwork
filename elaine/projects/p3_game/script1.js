@@ -40,7 +40,7 @@ $('document').ready(function () {
         //});
     });
 
-
+window.alert("SCROLL FOR SOUND");
     
 //$(window).scroll();
 
