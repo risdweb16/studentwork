@@ -38,11 +38,11 @@ $(document).ready(function() {
 	});
 
 	// Change the background when hovering the start button
-	$('#start-button').hover(function(){
-		$('.section-1').css('background-image', 'url("images/background2.png")');
-	}, function(){
-		$('.section-1').css('background-image', 'url("images/background.png")');
-	});
+	//$('#start-button').hover(function(){
+		//$('.section-1').css('background-image', 'url("images/background2.png")');
+	//}, function(){
+		//$('.section-1').css('background-image', 'url("images/background.png")');
+	//});
 
 	// Scroll to section 2 on click
 	$('#start-button').click(function() {

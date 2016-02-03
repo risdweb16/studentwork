@@ -146,8 +146,12 @@ a.link:hover{
 
 /*STEP DESCRIPTION*/
 .descr{text-align: left;
-	padding:2em 2em 2em 2em;
-	font-family: Arial;}
+	width:40%;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-family: 'Josefin Sans', sans-serif;}
 /*buffer for steps image*/
 #stepsbuf{padding-bottom: 20%;}
 /*Steps image*/
