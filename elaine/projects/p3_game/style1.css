@@ -5,7 +5,8 @@ background-color:black;
 }
 
 .container {
-  position: fixed;
+  font-family:helvetica;
+  position:fixed;
   top: 100px;
   right: 0;
   bottom: 0px;
@@ -14,14 +15,8 @@ background-color:black;
   text-align: center
 }
 
-.top{
-  font-family:helvetica;
-	position:fixed;
-	top:0px;
-	color:white;
-	size:300px;
-	background-color:pink;
-}
+
+
 
 .container::before {
   content: "";
@@ -29,10 +24,10 @@ background-color:black;
   height: 50%;
 }
 
+
 .container::after {
   content: "";
   display: block;
-  color: skyblue;
   font: 30px/40px helvetica;
 }
 
@@ -40,13 +35,12 @@ background-color:black;
   display: inline-block;
   vertical-align: bottom;
   width: 20px;
-  height: 50%;
+  height: 40%;
   margin-right: 10px;
   background: skyblue;
   -webkit-transition: height 0.1s ease-out;
   transition: height 0.5s ease-out;
 }
-
 
 
 

@@ -1,113 +1,162 @@
 $(document).ready(function() {
-    $('div').fadeIn('slow');
+    
+
+
+
+$('#f2').draggable({
+    revert: false,
+    containment: 'document',
+    cursor: 'move'
+});
+ 
+$('#circle').droppable({
+    accept: '#f2',
+    activeClass: 'active',
+    tolerance: 'touch',
+    drop: function(event, ui){
+        $(this).append(ui.draggable);
+    }
+ });
+
+$('a').on('click', function(){
+  $('#f2').trigger('drag', [$('#circle')]);   
 });
 
 
-var BoxOpened = "";
-var ImgOpened = "";
-var ImgFound = 0;
 
-var Source = "#boxcard";
 
-var ImgSource = [
-  "leaf1.png",
-  "leaf2.png",
-  "leaf3.png",
-  "leaf4.png",
-  "leaf5.png",
-  "leaf6.png",
-  "leaf7.png",
-  "leaf8.png",
-  "leaf9.png",
-  "leaf10.png",
-];
 
-function RandomFunction(MaxValue, MinValue) {
-		return Math.round(Math.random() * (MaxValue - MinValue) + MinValue);
-	}
-	
-function ShuffleImages() {
-	var ImgAll = $(Source).children();
-	var ImgThis = $(Source + " div:first-child");
-	var ImgArr = new Array();
 
-	for (var i = 0; i < ImgAll.length; i++) {
-		ImgArr[i] = $("#" + ImgThis.attr("id") + " img").attr("src");
-		ImgThis = ImgThis.next();
-	}
-	
-		ImgThis = $(Source + " div:first-child");
-	
-	for (var z = 0; z < ImgAll.length; z++) {
-	var RandomNumber = RandomFunction(0, ImgArr.length - 1);
-
-		$("#" + ImgThis.attr("id") + " img").attr("src", ImgArr[RandomNumber]);
-		ImgArr.splice(RandomNumber, 1);
-		ImgThis = ImgThis.next();
-	}
-}
-
-function ResetGame() {
-	ShuffleImages();
-	$(Source + " div img").hide();
-	$(Source + " div").css("visibility", "visible");
-	Counter = 0;
-	$("#success").remove();
-	$("#counter").html("" + Counter);
-	BoxOpened = "";
-	ImgOpened = "";
-	ImgFound = 0;
-	return false;
-}
-
-function OpenCard() {
-	var id = $(this).attr("id");
-
-	if ($("#" + id + " img").is(":hidden")) {
-		$(Source + " div").unbind("click", OpenCard);
-	
-		$("#" + id + " img").slideDown('fast');
-
-		if (ImgOpened == "") {
-			BoxOpened = id;
-			ImgOpened = $("#" + id + " img").attr("src");
-			setTimeout(function() {
-				$(Source + " div").bind("click", OpenCard)
-			}, 300);
-		} else {
-			CurrentOpened = $("#" + id + " img").attr("src");
-			if (ImgOpened != CurrentOpened) {
-				setTimeout(function() {
-					$("#" + id + " img").slideUp('fast');
-					$("#" + BoxOpened + " img").slideUp('fast');
-					BoxOpened = "";
-					ImgOpened = "";
-				}, 400);
-			} else {
-				$("#" + id + " img").parent().css("visibility", "hidden");
-				$("#" + BoxOpened + " img").parent().css("visibility", "hidden");
-				ImgFound++;
-				BoxOpened = "";
-				ImgOpened = "";
-			}
-			setTimeout(function() {
-				$(Source + " div").bind("click", OpenCard)
-			}, 400);
-			}
-
-		if (ImgFound == ImgSource.length) {
-			$("h1").prepend("You just won at ");
-		}
-	}
-}
-
-$(function() {
-
-for (var y = 1; y < 3 ; y++) {
-	$.each(ImgSource, function(i, val) {
-		$(Source).append("<div id=card" + y + i + "><img src=" + val + " />");
-	});
-}
-	$(Source + " div").click(OpenCard);
-	ShuffleImages();
+$('#f3').draggable({
+    revert: false,
+    containment: 'document',
+    cursor: 'move'
 });
+ 
+$('#circle2').droppable({
+    accept: '#f3',
+    activeClass: 'active',
+    tolerance: 'touch',
+    drop: function(event, ui){
+        $(this).append(ui.draggable);
+    }
+ });
+
+$('a').on('click', function(){
+  $('#f3').trigger('drag', [$('#circle2')]);   
+});
+
+
+
+
+$('#f4').draggable({
+    revert: false,
+    containment: 'document',
+    cursor: 'move'
+});
+ 
+$('#circle3').droppable({
+    accept: '#f4',
+    activeClass: 'active',
+    tolerance: 'touch',
+    drop: function(event, ui){
+        $(this).append(ui.draggable);
+    }
+ });
+
+$('a').on('click', function(){
+  $('#f4').trigger('drag', [$('#circle3')]);   
+});
+
+
+
+$('#f5').draggable({
+    revert: false,
+    containment: 'document',
+    cursor: 'move'
+});
+ 
+$('#circle4').droppable({
+    accept: '#f5',
+    activeClass: 'active',
+    tolerance: 'touch',
+    drop: function(event, ui){
+        $(this).append(ui.draggable);
+    }
+ });
+
+$('a').on('click', function(){
+  $('#f5').trigger('drag', [$('#circle4')]);   
+});
+
+
+
+$('#f6').draggable({
+    revert: false,
+    containment: 'document',
+    cursor: 'move'
+});
+ 
+$('#circle5').droppable({
+    accept: '#f6',
+    activeClass: 'active',
+    tolerance: 'touch',
+    drop: function(event, ui){
+        $(this).append(ui.draggable);
+    }
+ });
+
+$('a').on('click', function(){
+  $('#f6').trigger('drag', [$('#circle5')]);   
+});
+
+
+$('#f7').draggable({
+    revert: false,
+    containment: 'document',
+    cursor: 'move'
+});
+ 
+$('#circle6').droppable({
+    accept: '#f7',
+    activeClass: 'active',
+    tolerance: 'touch',
+    drop: function(event, ui){
+        $(this).append(ui.draggable);
+    }
+ });
+
+$('a').on('click', function(){
+  $('#f7').trigger('drag', [$('#circle6')]);   
+});
+
+
+$('#f8').draggable({
+    revert: false,
+    containment: 'document',
+    cursor: 'move'
+});
+ 
+$('#circle7').droppable({
+    accept: '#f8',
+    activeClass: 'active',
+    tolerance: 'touch',
+    drop: function(event, ui){
+        $(this).append(ui.draggable);
+    }
+ });
+
+$('a').on('click', function(){
+  $('#f8').trigger('drag', [$('#circle7')]);   
+});
+
+function blinker() {
+    $('#f9').fadeOut(350).fadeIn(350);
+}
+
+setInterval(blinker, 350); 
+
+});
+
+
+
