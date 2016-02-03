@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* common */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0; padding:0}
+html,body{-webkit-text-size-adjust:none;height: 100%;background-color: #fff;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block}
+figure{margin:0}
+body, button, input, select, textarea{font:0.75em/1.5  "STHeiti SC", arial,sans-serif, \5b8b\4f53}
+h1, h2, h3, h4, h5, h6{font-size:100%}
+address, cite, dfn, em, var{font-style:normal}
+code, kbd, pre, samp{font-family:courier new,courier,monospace}
+small{font-size:12px}
+ul, ol{list-style:none}
+a{text-decoration:none; blr:expression(this.onFocus=this.blur()); outline: none; color:#b6b5b5;} /*虚线框 IE: blr:expression(this.onFocus=this.blur()); FF: outline: none */
+a:hover{text-decoration:none}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset, img{border:0}
+img{display:block}
+button, input, select, textarea{font-size:100%}
+table{border-collapse:collapse; border-spacing:0;}
+/* clearfix */
+.clear{clear:both}
+.clearfix:after{content: "."; display: block; height: 0; clear: both; visibility: hidden}
+.clearfix{zoom:1}
+
+.fff{color: #ffffff;}
+.fc636363{color: #636363;}
+.f60{color: #ff6600;}
+.tc{text-align: center;}
+.mtb20{margin-top: 20px;margin-bottom: 20px;}
+.ft24{font-size: 24px;}
+.ft20{font-size: 20px;}
+.ft16{font-size: 16px;}
+/* index.html */
+.wap-box{max-width: 640px;margin: 0 auto;background-color: #FF7FC6;height: 100%;}
+.wap-contain{max-width: 640px;margin: 0 auto;background-color: #FF7FC6;}
+.header{height: 50px;color: #ff6600;line-height: 50px;text-align: center;font-size: 16px;background-color: bisque;}
+.warper{padding: 20px 45px;min-height: 435px;background-color: #FF7FC6;}
+.myname{border: 1px solid #fff;outline: none;width: 96%;margin: 0 auto;font-size: 18px;height: 40px;color: #999;padding-left: 4%;text-align: left;}
+.postrlt{display: block;width: 100%;height: 45px;border:0;border-radius: 4px;box-shadow: 2px 2px #FF97D1;text-align: center;margin: 0 auto;line-height: 45px;font-size: 18px;background-color: #FF2EA2;color: #fff;}
+.goback{display: block;width: 100%;height: 45px;border:0;border-radius: 4px;box-shadow: 2px 2px #FF97D1;text-align: center;margin: 0 auto;line-height: 45px;font-size: 18px;background-color: #FF2EA2;color: #fff;}
