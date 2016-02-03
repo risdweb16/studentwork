@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dairy Scary</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900,900italic' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="css/style_one.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+	<img src = "images/cheese.png"/>
+	<img src = "images/crepe.png"/>
+	<img src = "images/pie.png"/>
+	<img src= "images/milk.png"/>
+	<img src= "images/chocolate.png"/>
+	<img src= "images/butter.png"/>
+	<img src= "images/cookie.png"/>
+	<img class="nodairy" src="images/oreo.png">
+	<img src= "images/pastries.png"/>
+	<img src= "images/bread.png"/>
+	<img src= "images/macaroni.png"/>
+	<img src= "images/risotto.png"/>
+	<img src= "images/pizza.png"/>
+	<img class="nodairy" src="images/broccoli.png">
+	<img src= "images/cheetos.png"/>
+	<img src= "images/doritos.png"/>
+	<img src= "images/soup.png"/>
+	<img src= "images/icecream.png"/>
+	<img src= "images/mashed.png"/>
+	<img src= "images/eggs.png"/>
+	<img src= "images/bagel.png"/>
+
+	<div id="title">
+		<p>*Click food with dairy for a post-dairy society</p>
+
+	<script> 
+
+	$("img.nodairy").click(function() {
+		$(this).attr("src","images/text-01.png");
+	});
+
+	</script>
+
+	</div>
+</body>
+</html>
