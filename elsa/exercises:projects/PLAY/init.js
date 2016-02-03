@@ -71,13 +71,13 @@ function queueLoaded(event)
     stage.addChild(backgroundImage);
 
     //Add Score
-    scoreText = new createjs.Text("1UP: " + score.toString(), "36px Arial", "red");
+    scoreText = new createjs.Text("HIT ME: " + score.toString(), "36px Helvetica", "red");
     scoreText.x = 10;
     scoreText.y = 10;
     stage.addChild(scoreText);
 
     //Ad Timer
-    timerText = new createjs.Text("Time: " + gameTime.toString(), "36px Arial", "red");
+    timerText = new createjs.Text("TIME: " + gameTime.toString(), "36px Helvetica", "red");
     timerText.x = 1200;
     timerText.y = 10;
     stage.addChild(timerText);
@@ -202,7 +202,7 @@ function handleMouseDown(event)
     	stage.removeChild(animation);
     	batDeath();
     	score += 100;
-    	scoreText.text = "1UP: " + score.toString();
+    	scoreText.text = "SCORE: " + score.toString();
     	createjs.Sound.play("deathSound");
     	
         //Make it harder next time
@@ -217,7 +217,7 @@ function handleMouseDown(event)
     {
     	//Miss
     	score -= 10;
-    	scoreText.text = "1UP: " + score.toString();
+    	scoreText.text = "SCORE: " + score.toString();
 
     }
 }
@@ -237,7 +237,7 @@ function updateTime()
 	}
 	else
 	{
-		timerText.text = "Time: " + gameTime
+		timerText.text = "TIME: " + gameTime
     createjs.Sound.play("tick");
 	}
 
