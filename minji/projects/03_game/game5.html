@@ -9,10 +9,12 @@
 
 
 <body>
+
+	<p>GUESS A NUMBER BETWEEN 1 AND 99.</p>
+
 	<div id="hints">
 	</div>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-
 
 
 
@@ -59,9 +61,10 @@
 			$("#hints").append("THE NUMBER IS SMALLER THAN" + " " + myNum +"." + "<br>");
 		} 
 		else{
-			$("#hints").append("<br>"+"YOU FIND THE NUMBER!" + "(" + + count + "times" + ")");
+			$("#hints").append("<br>"+"YOU FIND THE NUMBER!" + " (" + + count + "times" + ")");
 			break;
 		}
+	
 	}
 		
 
