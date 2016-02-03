@@ -1,0 +1,71 @@
+body {
+	overflow: hidden;
+  background: green; 
+  background: -webkit-linear-gradient(left,rgba(161,246,118,0),rgba(161,246,118,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(161,246,118,0),rgba(161,246,118,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(161,246,118,0),rgba(161,246,118,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(161,246,118,0),rgba(161,246,118,1)); /*Standard*/
+}
+
+
+#f5 {
+	font-family: 'Megrim', cursive;
+  font-size: 200px;
+  color: #33dd00; 
+  z-index: 1;
+  margin: 2% 0% 0% 2%; 
+  position: relative;
+  display: inline-block;
+}
+
+
+#circle4 {
+  width: 500px;
+  height: 500px;
+  background: #1133cc;
+  -moz-border-radius: 400px;
+  -webkit-border-radius: 400px;
+  border-radius: 400px;
+  padding: 20px;
+  float: right;
+  position: relative;
+  margin: 2% 2% 5% 5%;
+  transition: .3s;
+}
+
+a {
+    font-family: 'Helvetica', sans-serif; 
+  color: black;
+  font-size: 16px;
+}
+
+a:link {
+    font-family: 'Helvetica', sans-serif; 
+  color: black;
+  font-size: 16px;
+}
+
+
+a:visited {
+    font-family: 'Helvetica', sans-serif; 
+  color: black;
+  font-size: 16px;
+}
+
+
+
+#nav1 {
+  font-family: 'Helvetica', sans-serif; 
+  color: black;
+  font-size: 16px;
+  clear: both;
+  position: fixed;
+  bottom: 15%; left: 45%; 
+}
+
+#circle4:hover, #circle4.active{
+    background: #ccc;
+}
+
+
+

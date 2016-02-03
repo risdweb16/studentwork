@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="game.css">
+
+</head>
+
+
+<body>
+	<div id="hints">
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+
+
+	<script>
+
+
+	var comNum = Math.round(Math.random()*98)+1; 
+	$("#hints").append("THE NUMBER IS" + " "); 
+	if (comNum % 2 === 0) {
+		$("#hints").append("AN EVEN NUMBER." + "<br>");
+	}
+	else { 
+		$("#hints").append("AN ODD NUMBER." + "<br>");
+	}
+
+
+
+
+
+
+
+	var count = 0;
+	var myNum;
+
+	function askNumber () {
+		myNum = prompt ("Put a number between 1 and 99")
+		if (myNum < 1 || myNum > 99){
+ 				myNum = prompt ("Please make sure your number is between 1 and 99")
+ 		}
+	}
+
+
+
+		
+
+	while (!(comNum === myNum))
+		{
+		askNumber();
+		count ++;
+		if (comNum > myNum) { 
+			$("#hints").append("THE NUMBER IS BIGGER THAN" + " " + myNum +"." + "<br>");
+		} 
+		else if (comNum < myNum) { 
+			$("#hints").append("THE NUMBER IS SMALLER THAN" + " " + myNum +"." + "<br>");
+		} 
+		else{
+			$("#hints").append("<br>"+"YOU FIND THE NUMBER!" + "(" + + count + "times" + ")");
+			break;
+		}
+	}
+		
+
+
+/*<link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>*/
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+</html>
