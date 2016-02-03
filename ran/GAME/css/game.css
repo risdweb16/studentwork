@@ -10,7 +10,7 @@ address, cite, dfn, em, var{font-style:normal}
 code, kbd, pre, samp{font-family:courier new,courier,monospace}
 small{font-size:12px}
 ul, ol{list-style:none}
-a{text-decoration:none; blr:expression(this.onFocus=this.blur()); outline: none; color:#b6b5b5;} /*虚线框 IE: blr:expression(this.onFocus=this.blur()); FF: outline: none */
+a{text-decoration:none; blr:expression(this.onFocus=this.blur()); outline: none; color:#b6b5b5;} /*虚线框  FF: outline: none */
 a:hover{text-decoration:none}
 sup{vertical-align:text-top}
 sub{vertical-align:text-bottom}
@@ -25,7 +25,7 @@ table{border-collapse:collapse; border-spacing:0;}
 .clearfix{zoom:1}
 
 .fff{color: #ffffff;}
-.fc636363{color: #636363;}
+.fc636363{color: #CC9933;}
 .f60{color: #ff6600;}
 .tc{text-align: center;}
 .mtb20{margin-top: 20px;margin-bottom: 20px;}
