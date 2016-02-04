@@ -1,0 +1,33 @@
+
+body{
+	font-family: Helvetica, sans-serif;
+	background-color: rgb(240,192,96);
+	color:rgb(13,18,27);
+}
+p{
+	overflow: hidden;
+	font-style: italic;
+	float: left;
+}
+img{
+	margin: 0;
+	background-color:rgb(240,243,242);
+	overflow:hidden;
+	float: left;
+	margin-top:1%;
+	margin-left:2%;
+	width:10%;
+	height:10%;
+	border-style: solid;
+	border-width: 1%;
+	border-color: rgb(157,213,242);
+}
+img:hover{
+	box-shadow: 5px 5px 7px #000;
+}
+.class img:hover{
+	box-shadow: 5px 5px 7px rgb(159,112,48);
+}
+@media screen and (max-width:0px), screen, and (min-width:480px){
+
+}

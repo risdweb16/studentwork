@@ -1,0 +1,83 @@
+.welcome {font-size: 10vw;
+		text-align: center;
+		color: white;
+		font-weight: bolder;
+		background-color: none;
+		margin: none;
+		/*display: none;*/
+		cursor: help;
+		-webkit-text-stroke: .9px red;
+		}
+
+
+
+
+body {background-color: white;
+	font-family: sans-serif;
+	font-size: .8em;}
+
+input {
+	width: 98%;
+	height: 17%;
+	font-size: 5.5vw;
+	font-family: monospace;
+	border: 3px solid white;
+	cursor: help;
+}
+
+input:focus {
+
+	border: 1px black solid;
+	box-shadow: black 8px 8px;
+	outline: none;
+	background-color: yellow;}
+
+input:valid {
+}
+
+.button {
+    background-color: white;
+    width: 98%;
+    color: #A9A9A9;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: black solid 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 64px;
+    font-family: sans-serif;
+    box-shadow: 5px 5px ;
+    /*display: none;*/
+    }
+
+.hide {display: none;}
+.button:hover {
+
+	background-color: yellow;
+	box-shadow: 5px 5px tomato;
+	color: tomato;
+}
+
+.button:active {
+	background-color: black;
+	box-shadow: 2px 2px;
+}
+
+#answer {font-family: helvetica;
+font-size: 10vw;
+width: 100vw;
+color: blue;
+font-weight: bold;
+position: fixed;
+top: 40%;
+text-align: center;
+}
+
+
+
+
+
+/*animation*/
+
+

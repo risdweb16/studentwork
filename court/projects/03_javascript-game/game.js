@@ -1,3 +1,4 @@
+$(document).ready(function() { 
 for (var i = 1000; i <= 25000; i+=1000) {
 	if (i % 3000 === 0 & i % 5000 === 0) {
 		console.log("FizzBuzz");
@@ -10,8 +11,61 @@ for (var i = 1000; i <= 25000; i+=1000) {
 	}
 };
 
+var userAnswer = 1;
 
-function timedText() {
+
+	$('#f').click(function(){
+		console.log("Yay a click");
+		userAnswer = "fizz";
+	});
+
+	$('#b').click(function() {
+		console.log("Yay a click");
+		userAnswer = "buzz";
+	});
+
+	$('#fB').click(function() {
+		console.log("Yay a click");
+		userAnswer = "fizzBuzz";
+	});
+
+
+	$('#demo').click(timedText);
+
+	var timer = 0;
+
+	function timedText(){;
+		var i=0;
+		while(i<25) {
+			timer = i*1000;
+			setTimeout(function() {
+				$('#demo').html(i);
+			}, timer);
+			i++;
+		}
+	};
+/*var timer = true;
+var i=1000
+
+while(timer) {
+	for (i=1, i<26, i++) {
+		if (i % 3 === 0) {
+			var answer = "fizz";
+			console.log("Fizz");
+		} else if (i % 5 === 0) {
+			var answer = "buzz";
+			console.log("Buzz");
+		} else if (i % 3 === 0 && i % 5 === 0) {
+			var answer = "fizzBuzz";
+			console.log("FizzBuzz");
+		} else {
+			var answer = false;
+			console.log("Wrong");
+		}
+	}
+}*/
+
+/*function timedText() {
 	setTimeout(myTimeout0, 0000)
     setTimeout(myTimeout1, 1000) 
     setTimeout(myTimeout2, 2000) 
@@ -117,10 +171,10 @@ function myTimeout24() {
 }
 function myTimeout25() {
     document.getElementById("demo").innerHTML = "25";
-}
+}*/
 
 
-
+});
 
 
 
