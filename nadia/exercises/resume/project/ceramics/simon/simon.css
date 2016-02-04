@@ -1,0 +1,64 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background:white;
+}
+.title{
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing:5px;
+  background: linear-gradient(rgba(255,0,0,0), #444,rgba(255,0,0,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  @media screen and (min-width:37.5em){
+    font-size: 4.75rem;
+  }
+}
+p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  margin:0 auto 2rem;
+  text-align: center;
+  color:#444;
+  width: 80%;
+  @media screen and (min-width:37.5em){
+    height: 70%;
+  }
+  
+}
+.case-study-gallery{
+  margin-top:50px;
+  width: 90%;
+  margin:50px auto;
+  max-width:1100px;
+}
+
+
+
+#photos {
+  max-width: 80%;
+  margin:0 auto 2em;
+
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  border-radius:10px;
+  box-shadow:0px 25px 50px rgba(0,0,0,.5);
+  margin-bottom: 50px;
+}
+
+
+
+  
+
+
+
+
+
