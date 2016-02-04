@@ -2,12 +2,35 @@ body{
 	margin:0;
 	text-align:center;
 	width:100%;
+	zoom: 0.5;
+	position:center;
+	padding:0% 20% 20% 25%;
+
+	top:0%;
+/*	-moz-transform:scale(0.8);
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	*/
 }
 .header,.content,.footer{
 	text-align:left;clear:both;margin:0 auto;
 }
 
+.nav{
+	font-family:helvetica;
+	font-size:1.5em;
+	color:grey;
+	text-decoration:none;
+	position:fixed;
+	top:10px;
+}
+a.1{
+	text-decoration:none
+}
 
+input{
+	width:400px;
+}
 /*html, body{
 	
 	height:auto;
@@ -17,9 +40,14 @@ body{
 
 }*/
 .container{
-	height:100vh;
+	height:150vh;
 	width:100vw;
+padding:20em;
 	position:center;
+	float:center;
+/*	margin-top:10%;*/
+	clear:both;
+
 }
 
 

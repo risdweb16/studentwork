@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8"> 
 
-<title>De(design) systems</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
+       <title>De(design) systems</title>
+       <link rel="stylesheet" type="text/css" href="style.css" />
 
-<meta charset="utf-8"> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
 
 <script type="text/javascript">
@@ -26,7 +26,6 @@
                     nextUrl = nextPage.attr("href")
                     prevUrl = prevPage.attr("href")
                 });
-
 </script>
 
 <!--<script type="text/javascript">
@@ -56,41 +55,48 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 		<link rel="stylesheet" type="text/css" href="demo.css" />
 		<link rel="stylesheet" type="text/css" href="component.css" />-->
 
-		<script src="modernizr.custom.25376.js"></script>
-    <a href="#baidu">Baidu</a>
-        <a href="#yahoo">Yahoo!</a>
-        <a href="#naver">Naver</a>
-        <a href="#Z">Yandex</a>
-    <a href="#bottom">Seznam</a>
-
+	
 </head>
 
 
-
+<!-- <script src="modernizr.custom.25376.js"></script> -->
 
 
 <body>
+    <style>
+      
+</style>
 
+    <div class="nav">
+        <a href="#google" class="1">Google</a> &nbsp;
+        <a href="#baidu" class="1">Baidu</a> &nbsp;
+        <a href="#yahoo" class="1">Yahoo!</a> &nbsp;
+        <a href="#naver" class="1">Naver</a> &nbsp;
+        <a href="#yandex" class="1">Yandex</a> &nbsp;
+        <a href="#seznam" class="1">Seznam</a> &nbsp;
+    </div>
 
 <!-- <table style="width:100%; padding:100px;"> -->
-<container>
+<div id="google">
+<div class="container" >
 	<!-- <div style="max-width:500px; overflow:auto;">
 	<tr>
 	<td style="padding:200px 200px 600px 200px">
 		 -->
-<center>	<img src="img/g.png"/><br><br><br><br>
-<form method="get" action="http://www.google.com/search" target="_blank"> 
-<input type="text" name="q" font-size="60" size="50" height="30" placeholder="Search Google or type URL" value="" /> 
+        <center><img src="img/g.png"/><br><br><br><br>
+        <form method="get" action="http://www.google.com/search" target="_blank"> 
+<input name="searchbox" type="text" name="q" font-size="60" size="50" height="30" placeholder="Search Google or type URL" value="" /> 
 <input type="submit" style="position:absolute; left:-99999px" />
 <input type="hidden" name="sitesearch" value="" />
 </center>
-</form>
+
 <br></span><!-- </tr></td> --></div>
+</div>
+</div>
 
-</container>
 
-
-<container>
+<div id="baidu">
+<div class="container" >
 
 <!-- <div style="max-width:500px; overflow:auto;">
 <tr>
@@ -123,16 +129,16 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 </script>
 <!-- </td></tr>
 </div> -->
-</container>
+</div>
+</div>
 
 
+<div class="container" id="yahoo">
 
-<container>
-
-<a name="naver"></a>!
+<a name="naver"></a>
 
 <tr>
-<td style="padding:200px 200px 600px 200px">
+<!-- <td style="padding:200px 200px 600px 200px"> -->
 <center>	<img src="img/yj.png"/><br><br><br><br>
 <form method="get" action="http://search.yahoo.co.jp/search" target="_blank">
 
@@ -144,10 +150,10 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 </div>
 
 
-
-<a name="naver"></a>!
-<tr>
-<td style="padding:200px 200px 600px 200px">
+<div class="container" id="naver">
+<a name="naver"></a>
+<!-- <tr>
+<td style="padding:200px 200px 600px 200px"> -->
 <center>	<img src="img/n.png"/><br><br><br><br>
 <form method="get" action="https://search.naver.com/search.naver" target="_blank" > 
 
@@ -166,14 +172,14 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 <input type="hidden" id="eid" name="eid" font-size="100px" size="50" height="30" value="" disabled="disabled" />
 <input type="hidden" id="mra" name="mra" font-size="100px" size="50" height="30" value="" disabled="disabled" />
 
-	<input type="submit" style="position:absolute; left:-99999px" /></center></form><br><<!-- /td></tr> -->
+	<input type="submit" style="position:absolute; left:-99999px" /></center></form><br><!-- /td></tr> -->
 
 
-</container>
+</div>
 
 
 
-<container>
+<div class="container" id="yandex">
 
 <!-- <tr>
 <td style="padding:200px 200px 600px 200px"> -->
@@ -181,13 +187,13 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 <form method="get" action="http://www.yandex.com/"target="_blank"> <input lang="zh-Hans" type="text" name="q" font-size="100px" size="50" height="30" placeholder="Поиск Яндекса или тип URL" value="" /><input type="submit" style="position:absolute; left:-99999px" /> </center></form><br></td>
 <!-- </tr> -->
 
-</caontainer>
+</div>
 
 <!-- <tr>
 	
 <td style="padding:200px 200px 600px 200px"> -->
 
-    <container>
+    <div class="container" id="seznam">
 	<center><img src="img/s.png"/><br><br><br><br>
 <form method="get" action="http://search.seznam.cz/"target="_blank"> 
 <div class="search-boxes"> <div id="box-fulltext" class="search-box active js-search-box"> <form action="/search/fulltext"> <div class="suggest-input-wrapper"> <input id="inet-field" class="suggest-input js-suggest-input" type="text" name="q" value="" accesskey="4" placeholder="Hledání Seznam nebo napište URL adresu" size="65" autocomplete="off" /> </div> 
@@ -197,7 +203,7 @@ if ($('next_page_link')) location.href = $('next_page_link').href;}
 
  </div>
 
-</container>
+</div>
 <a name="bottom"></a>
 
 </body>
