@@ -1,11 +1,6 @@
-
-
-
 $(window).click(function(){
 $("#hint").fadeOut("slow");
 });
-
-
 
 $(window).scroll();
 $('document').ready(function () {
@@ -21,7 +16,7 @@ $('document').ready(function () {
 
         var audioElement = document.createElement('audio');
         audioElement.setAttribute('src', 'pt.mp3');
-     
+
 
         $(window).scroll(function() {
             generateBars();
@@ -32,8 +27,6 @@ $('document').ready(function () {
             }, 250));
             
         });
-
-      
     });
 
 
@@ -49,4 +42,5 @@ $(document).ready(function() {
 blasterTrigger.addEventListener("scroll", function(){
     document.getElementById("music").play();
 });
+
 

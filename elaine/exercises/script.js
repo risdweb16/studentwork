@@ -2,7 +2,7 @@ var CardGame = function(targetId)
 {
   // private variables
   var cards = []
-  var card_value = ["1C","2C","3C","4C"]; //"5C","6C","7C","8C","1H","2H","3H","4H","5H","6H","7H","8H"
+  var card_value = ["1C","2C"]; //"3C","4C" //"5C","6C","7C","8C","1H","2H","3H","4H","5H","6H","7H","8H"
 
   var started = false;
   var matches_found = 0;
@@ -38,7 +38,7 @@ var CardGame = function(targetId)
 
   var moveToPlace = function(id) // deal card
   {
-    // cards[id].matched = false;
+  cards[id].matched = false;
     with(cards[id].style) {
       zIndex = "1000";
 
@@ -89,7 +89,7 @@ var CardGame = function(targetId)
     } else {
       // shuffle and deal cards
       card_value.sort(function() { return Math.round(Math.random()) - 0.9; });
-      for(i=0; i < 4; i++) {
+      for(i=0; i < 2; i++) {
         (function(idx) {
           setTimeout(function() { moveToPlace(idx); }, idx * 100);
         })(i);
