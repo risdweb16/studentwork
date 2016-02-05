@@ -1,0 +1,182 @@
+*{
+	
+}
+
+html {
+	background-color: white;
+}
+body
+{
+	background-color: #4A9DE1;
+	border-radius: 25px;
+	margin: 0 0 0 0;
+}
+
+
+.full-circle {
+    height:250px;
+    width:250px;
+    -webkit-border-radius:125px;
+    -moz-border-radius:125px;
+    float: left;
+    opacity: .75;
+}
+
+
+
+.two {
+	background-color: #2389DE;
+	margin-left: 200px;
+	margin-top:1px;
+	margin-bottom: 5px;
+	transition: background-color 0.3s ease-in 0.2s;
+}
+
+.two:hover {
+	transform: scale(2);
+	background-color: violet;
+}
+
+
+
+.three {
+	background-color: #4B2976;
+	margin-left: 15px;
+	margin-top: 3px;
+	display: inline-block;
+	transition: background-color .5s ease-in .5s;
+	transition: border 1sec;
+
+}
+
+.three:hover {
+	transform: scale(3);
+	background-color: tomato;
+	border: double black;
+}
+
+.text-box {
+	width: 100%;
+	border-top: 3px solid;
+	height: auto;
+	border-bottom: 3px solid;
+	float: left;
+}
+
+#text-one {
+	margin-left: 300px;
+	max-width: 300px;
+	float: left;
+	margin-bottom: -10px;
+}
+
+h2 {
+	margin-top: 2px;
+	transition: background-color 4s ease-in 4s;
+}
+h2:hover{
+	transform: scale(3) rotate(5deg);
+	color:tomato;
+}
+#text-two {
+	max-width: 300px;
+	margin-left: 5px;
+	float:left;
+	margin-bottom: -10px;
+}
+
+.four {
+	background-color: #2389DE;
+	margin: 5px 5px 5px -150px;
+}
+
+.five {
+	background-color: #4B2976;
+	margin: 4px 5px 5px -90px;
+	transition: border 1s;
+}
+
+.five:hover {
+	border:8px dashed black;
+}
+
+.six {
+	background-color: #2389DE;
+	margin: 5px 5px 5px -90px;
+	transition: background-color 0.3s ease-in 0.2s;
+
+}
+
+.six:hover {
+	transform: scale(3);
+	background-color: tomato;
+	border: double black;
+}
+
+.seven {
+	background-color: #4B2976;
+	margin: 4px 5px 5px 20px;
+	animation: 
+    pulse 5s ease infinite alternate, 
+    nudge 10s linear infinite alternate;
+}
+
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: black;
+  }
+  50% {
+    background-color: violet;
+  }
+}
+
+@keyframes nudge {
+  30%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+
+
+.eight {
+	background-color: #2389DE;
+	margin: 5px 5px 5px -90px;
+}
+
+.nine {
+	background-color: #4B2976;
+	margin-top: 5px;
+	margin-bottom: -150px;
+	margin-left: 460px;
+	transition: border 1s;
+	overflow: hidden;
+}
+
+.nine:hover {
+	border:8px dashed black;
+}
+
+
+
+
+
+.bottom {
+	clear: both;
+}
+
+
+footer {
+	clear:both;
+	border-top: 3px solid black;
+	text-align: center;
+}
+

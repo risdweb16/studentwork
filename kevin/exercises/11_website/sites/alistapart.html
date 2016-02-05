@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>a list apart</title>
+    <link rel="stylesheet" type="text/css" href="../css/style_three.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <nav>
+    <ul>
+        <li><a href="about.html">ABOUT</a>
+        </li>
+        <li>
+            <a href="https://www.codecademy.com/kbcrouse" target="_blank">CODECADEMY</a>
+        </li>
+        <li class="dropdown"><a href="navigation.html">EXERCISES</a>
+            <ul class="sub-menu">
+                <li><a href="navigation.html">navigation</a></li>
+                <li><a href="02_mark-up/typographic-contrast.html">carl dair</a></li>
+                <li><a href="04_reverse_sitemap/sitemap.html">sitemap</a></li>
+                <li><a href="05_positioning/positioning_exercise.html">positioning</a></li>
+                <li><a href="06_grids/grid.html">grid</a></li>
+                <li><a href="07_poster/poster.html">poster</a></li>
+                <li><a href="09_form/results.html">form</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="#">PROJECTS</a>
+            <ul class="sub-menu">
+                <li><a href="#">resume</a></li>
+                <li><a href="#">(de)design</a></li>
+                <li><a href="#">game</a></li>
+                <li><a href="#">collection</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="../site.html">RESPONSES</a>
+            <ul class="sub-menu">
+                <li><a href="whatiscode.html">what is code?</a></li>
+                <li><a href="#">a list apart</a></li>
+                <li><a href="lined.html">lined and unlined</a></li>
+                <li><a href="captives.html">captives of the cloud</a></li>
+            </ul>
+        </li>
+    </ul>
+    </nav>
+    <a href="http://alistapart.com/article/dao" target="_blank" class="links"><h1 class="title">A DAO OF WEB DESIGN</h1></a>
+    <a href="http://alistapart.com/article/audiences-outcomes-and-determining-user-needs" target="_blank" class="links"><h1 class="title">AUDIENCES, OUTCOMES, AND DETERMINING USER NEEDS</h1></a>
+    <a href="http://alistapart.com/article/content-out-layout" target="_blank" class="links"><h1 class="title">CONTENT LAYOUT</h1></a>
+    
+    <p class="description">In <em>A Dao of Web Design</em>, Allsopp discusses how we need to begin to look beyond the precedence for formatting – print. In principle, web design would be categorized in with its own rules and evolve based on itself, while also respecting the rules that are worthwhile from hundreds of years of printing. Allstopp continues to discuss things like adaptability and accessibility, yet I found there to be an interesting debate between this article and <em>Audiences, Outcomes, and Determining User Needs</em> as they seem to contradict one another. As designers free of the restrictions created by clients and necessities, we might follow more closely to the ‘Dao of Web Design’ where we move beyond Print and make Web Design. Conversely, we could incorporate these lessons into the ideas described in <em>Audiences, Outcomes, and Determining User Needs</em>, but they would become subtle and perhaps unnoticeable if we were reaching out to audiences that prefer the clean and simple formatting of many printed books. So, in what ways can web design go beyond adaptability and accessibility that it is not currently doing? How does this tie into the client and audiences?</p>
+    <script>
+    $(document).ready(function() {
+        $('img').click(function() {
+            $(this).attr("src","images/background.gif").delay;
+            /*$(this).delay(1600).fadeOut(800);*/
+        });
+
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+        );
+    });
+    </script>
+</body>
+</html>

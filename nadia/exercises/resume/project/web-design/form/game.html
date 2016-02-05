@@ -1,0 +1,106 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fill Out Form</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+
+     <link href='https://fonts.googleapis.com/css?family=Questrial|Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+
+
+
+	<section id="questions">
+
+		
+
+<h1>All hope is lost.</h1>  
+
+<div class="bomb"><i class="fa fa-bomb fa-4x"></i></div>
+&nbsp;
+
+<script>
+
+	var myAge = prompt("What is your age?");
+	if(myAge>=15){
+  		confirm("The future of mankind is now in your hands. Go forth and make us proud.");
+	}
+	else{
+  		alert("You may go on, but I am not responsible for your actions during or after the game. This is not for the faint of heart. The fate of mankind is in your hands now.");
+	}
+
+		alert("This is a top secret mission. No one can know what happens here!");
+
+		alert("There has been an outbreak at one of our facilities. We are a government funded research group known for its studies in chemical warfare. The origin of the outbreak is unknown.")
+
+
+
+		var answerOne = prompt("We will provide you with a gas mask but you must pick one weapon of your choice in case you run into any trouble. Type 1 for one fully loaded gun, Type 2 for a stainless steel bat, or type 3 a sword. What will you pick?");
+
+		if (answerOne === "1"){
+			alert("A gun is not much use when you run out of bullets.")
+		}
+
+		else if(answerOne === "2"){
+			var answerChange = prompt("Alright, you do realize this is not a baseball game? Do you want to change your weapon? (yes or no)")
+		}
+
+		if (answerChange === "yes"){
+			var answerMagic = prompt("Should your new weapon have magical abilities? (yes or no)")
+		}
+
+		if (answerChange === "no"){
+			var answerMagic = prompt("At least you stick by your choices but we decided that you are unfit for the mission. Soo ya good luck with whatever it is you do normally and forget this ever happened.")
+		}
+
+		if (answerMagic === "yes"){
+			alert("Great, you are both indecisive and crazy. Magic is NOT real! This is NOT Hogwarts! We are all doomed! Someone else save us!!!")
+		}
+
+		if (answerMagic === "no"){
+			alert("Passing up on a magic weapon probably means you will not make it very far in the first place. You are not what we are looking for. Sorry . . . not sorry.")
+		}
+
+		else if(answerOne === "3"){
+			alert("Got our very own ninja warrior over here.")
+            alert("We will let you keep your weapon but we have reached a critical point. Every man for himself!")
+		}
+
+		else{
+  		alert("The end is here and you are no use.");
+   		alert("Maybe in your next life you will be more useful. Maybe next time there will be survivors. ");
+
+		}
+
+
+</script>
+
+
+<p style="text-align:center; margin:auto";>
+	
+<div id="boom"><img src="boom.gif"  style="width:400px;"></div>
+	
+</p>
+
+
+<div>
+<a href="form.html">
+	<button name="submit">
+  <strong>REDO SURVEY</strong>
+</button></a>
+</div>
+
+
+</section>
+
+
+</body>
+</html>

@@ -1,25 +1,24 @@
 html, body {
+ 
     
-    background: rgba(255,147,46,1);
-    background: -moz-linear-gradient(-45deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,147,46,1)), color-stop(25%, rgba(250,101,32,1)), color-stop(51%, rgba(255,74,71,1)), color-stop(70%, rgba(255,69,66,1)), color-stop(100%, rgba(255,38,233,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
-    background: linear-gradient(135deg, rgba(255,147,46,1) 0%, rgba(250,101,32,1) 25%, rgba(255,74,71,1) 51%, rgba(255,69,66,1) 70%, rgba(255,38,233,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff932e', endColorstr='#ff26e9', GradientType=1 );
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 11%, rgba(255,247,251,1) 22%, rgba(255,232,219,1) 34%, rgba(255,251,209,1) 49%, rgba(224,255,237,1) 66%, rgba(196,216,255,1) 83%, rgba(214,182,250,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(1%, rgba(255,255,255,1)), color-stop(11%, rgba(255,255,255,1)), color-stop(22%, rgba(255,247,251,1)), color-stop(34%, rgba(255,232,219,1)), color-stop(49%, rgba(255,251,209,1)), color-stop(66%, rgba(224,255,237,1)), color-stop(83%, rgba(196,216,255,1)), color-stop(100%, rgba(214,182,250,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 11%, rgba(255,247,251,1) 22%, rgba(255,232,219,1) 34%, rgba(255,251,209,1) 49%, rgba(224,255,237,1) 66%, rgba(196,216,255,1) 83%, rgba(214,182,250,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 11%, rgba(255,247,251,1) 22%, rgba(255,232,219,1) 34%, rgba(255,251,209,1) 49%, rgba(224,255,237,1) 66%, rgba(196,216,255,1) 83%, rgba(214,182,250,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 11%, rgba(255,247,251,1) 22%, rgba(255,232,219,1) 34%, rgba(255,251,209,1) 49%, rgba(224,255,237,1) 66%, rgba(196,216,255,1) 83%, rgba(214,182,250,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 11%, rgba(255,247,251,1) 22%, rgba(255,232,219,1) 34%, rgba(255,251,209,1) 49%, rgba(224,255,237,1) 66%, rgba(196,216,255,1) 83%, rgba(214,182,250,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6b6fa', GradientType=0 );
 
+    background-repeat: no-repeat;
+    
     margin: 0 0 0 0;
-    height: 100%;
+    height: auto;
 }
 
 /*orange body*/
 #window {
-
     padding: 0;
-   
 }
 
 /*side bar*/
@@ -34,20 +33,19 @@ html, body {
     margin: 0;
     /* Ensures there is no space between sides of the screen and the menu */
     /* z-index: 99;  Makes sure that your menu remains on top of other page elements */
-    background-color: rgba(255,255,255, 0.15);
-    float: left;
+    background-color: rgba(255,255,255, 0.2);
     height: 100em;
     position: fixed;
-    min-width: 130px;
+    min-width: 175px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 20px;
 }
 #navigation {
     font-size:.8em;
     /* width of tabs of side*/
     width:200px;
-    font-family: "Questrial", sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
 
 }
 #navigation ul {
@@ -77,7 +75,7 @@ ul.top-level li {
 }
 #navigation a:hover {
     text-decoration:none;
-    color: white;
+    color: black;
 }
 #navigation li:hover {
     background: transparent;
@@ -109,7 +107,6 @@ li:hover .sub-level {
 #rightcol {
     width: 80%;
     background-color: transparent;
-    float: left;
     margin-left: 20%;
     margin-bottom: 60px;
 
@@ -117,19 +114,17 @@ li:hover .sub-level {
 
 #right-header {
     background-color: rgba(255,255,255, 0.01);
-    color: rgba(255,255,255, 0.9);
-    max-width: 700px;
+    color: blue;
+   /* max-width: 700px;*/
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 40px;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     padding-bottom: 40px;
     margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
-    
-    
-
+    clear: both;
 }
 
 
@@ -138,52 +133,147 @@ li:hover .sub-level {
     background-color: transparent;
     padding-left: 25px;
     margin-left: 20px;
-    max-width: 850px;
-    margin-top: 0px; 
-    }
+   /* max-width: 850px;*/
+    margin-top: 0px;
+}
+
+
+/*selfie*/
+
+#selfie {
+    max-width: 300px;
+    box-shadow:0px 25px 50px rgba(0,0,0,.5);
+    border-radius:10px;
+    margin:15px auto 25px auto;
+    text-align: center;
+}
 /*image gallery*/
 
 
 
 h1 {
-    font-family: "Sigmar One", cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
     padding-left: 5px;
     color: rgba(0, 0, 0, 0.6);
+    font-size: 23px;
 }
+
+.allme {
+    color:orange;
+    font-size: 20px;
+}
+
+.aboutme {}
+
+
+/*
+  background: linear-gradient(rgba(255,0,0,0), #444,rgba(255,0,0,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  @media screen and (min-width:37.5em){
+    font-size: 4.75rem;
+  }
+  */
+
 h2 {
-    font-family: "Sigmar One", cursive;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing:5px;
+    background: linear-gradient(rgba(255,0,0,0), #444,rgba(255,0,0,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    font-size: 40px;
+    margin-top: 10px;
+    }
+
+
+p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  margin:0 auto 0 auto;
+  text-align: center;
+  color:#444;
+  text-decoration: none;
+  max-width: 600px;
+  }
+
+.allme{
+    font-size: 20px;
+    font-weight: 400;
 }
+
+.allmetwo{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.haas {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.haas a:link {
+    text-decoration: none;
+}
+
+.haas a:visited {
+    color:purple;
+}
+
+.haas a:hover {
+    color: pink;
+}
+
+
 
 .crop-container {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
+    width: 33%;
+    height: 33%;
     float: left;
-    margin: 20px 20px 0 0;
-
-    border:7px solid rgba(255,255,255, 0.2);
-    border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
+    box-sizing: border-box;
+    padding: 5%;
 }
  .crop-container img {
-       width:100%;
-       height:auto;
-
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border:2px solid rgba(255,255,255, 0.2);
+    box-shadow:0px 25px 50px rgba(0,0,0,.5);
  }
 
-.crop-container:hover {
+.crop-container img:hover {
     background-color: rgba(255,255,255, 0.3);
-    text-align: center;
 }
 
 img:hover,
 .crop-container:hover img {
-    
-    -webkit-transform: scale(1.1å);
-    -moz-transform: scale(1.1);
-    transform: scale(1.1);
+    opacity:.9;
+}
+
+
+
+
+/*logo*/
+#logo {
+    padding-left: 5px;
+  color: red;
+  width: auto;
+  max-width: 150px;
+  min-width: 60px;
+  opacity: .8;
+}
+
+#logo img{
+  margin:10px auto 5px auto;
+
+  height: auto !important;
+  transition: scale .3s;
+
 }
 
 
@@ -192,8 +282,76 @@ img:hover,
 
 
 
+/*web design list*/
+
+ul{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  color:#444;
+  font-family: 'Fira Sans', sans-serif;
+  font-size:15px;
+}
+.accordianMenu{
+  
+    padding:10px;
+    max-width: 400px;
+    box-shadow:0px 25px 50px rgba(0,0,0,.5);
+    border-radius:10px;
+    margin:15px auto 25px auto;
+    text-align: center;
+
+
+}
+.accordianMenu li a{
+  height:30px;
+  display:block;
+  line-height:30px;
+  border-bottom:1px solid #222;
+}
+.accordianSubMenu{
+  display:none;
+  background-color: rgba(255,255,255, 0.3);
+  overflow:hidden;
+  }
+.accordianSubMenu li a{
+  text-indent:5px;
+  text-align: left;
+}
+.submenu{
+  position:relative;
+}
+.submenu:after{
+  content:"";
+  position:absolute;
+  top:10px;
+  right:10px;
+  border-left:5px solid pink;
+  border-top:5px solid transparent;      
+  border-bottom:5px solid transparent;
+  transition:all ease-in-out 0.3s;
+}
+.submenu.current:after{
+  transform:rotate(45deg);
+  transition:all ease-in-out 0.3s;
+  border-left:5px solid #fff;
+}
+.active{}
+
+/*@media .... {
+    .crop-container {
+        width: 50%;
+    }
+}*/
+
 
 
 /*footer*/
+
+
+
+
+
 
 

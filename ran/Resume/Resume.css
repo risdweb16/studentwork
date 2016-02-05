@@ -25,19 +25,21 @@ h1{
 }
 .left-top{
 	background-color: 	#C0C0C0;
-	width: 26%;
 	margin:5px 20px 5px 0px;
     padding:0px 4px 0px 58px ;
+	width: 26%;
     height: 200px;
     
 }
-
+#portfolio {
+	/*width:80%;*/
+}
 .left { 
 	background-color: 	#C0C0C0;
 	font-family:'Open Sans', sans-serif;
 	font-size: 15px;
 	width: 26%;
-	height: 1500px;
+	height: 2300px;
 	margin:5px 0px 5px 0px;
     padding:0px 0px 0px 46px ;
     position: relative;
@@ -47,19 +49,20 @@ h1{
 
 
 table.table-left th, table.table-left td {
+	margin:6px 6px 6px 6px;
 	border-bottom: 1px dashed #484848;
 	//border-top: 1px solid #484848;
  
 }
 
 table.table-left td { 
-	margin-top: 2;
-	width: 150px;
+	margin:6px 6px 6px 6px;
+	width: 160px;
 }
 
 table.table-left th {
-	margin-top: 2;
-	width: 150px;
+	margin: 6px 6px 6px 6px;
+	width: 160px;
 }
 table.table-left {
 	border-top: 1px solid #484848;
@@ -68,6 +71,8 @@ table.table-left {
 
 
 .center { 
+	font-family:'Open Sans', sans-serif;
+	font-size: 20px;
     margin: 5px 5px 5px 5px;
     padding: 0px 3em 0em 0em;
 	float: center;	
@@ -79,12 +84,15 @@ table.table-left {
     font-weight:bold;
     font-size: 20px;
     letter-spacing: 6px;
-    margin-top: 0em;
+    margin: 6px 6px 6px 16px;
 
 }
 .table-tag {
+	//border-right: 2px solid #484848;
+	border-top: 1px solid #484848;
     text-align: left;
-	margin-top: 2;
+	margin: 2px 2px 2px 2px;
+
 	width: 1000px;
 }
 
@@ -110,8 +118,7 @@ table.chart{
     font-weight:bold;
     font-size: 20px;
     letter-spacing: 6px;
-    margin-top: 6em;
-    
+    margin-top: 3em;
 }
 
 

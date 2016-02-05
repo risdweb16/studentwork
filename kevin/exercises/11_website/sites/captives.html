@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>captives of the cloud</title>
+    <link rel="stylesheet" type="text/css" href="../css/style_three.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <a href="../site.html" class="one"><div></div></a>
+    <nav>
+    <ul>
+        <li><a href="about.html">ABOUT</a>
+        </li>
+        <li>
+            <a href="https://www.codecademy.com/kbcrouse" target="_blank">CODECADEMY</a>
+        </li>
+        <li class="dropdown"><a href="navigation.html">EXERCISES</a>
+            <ul class="sub-menu">
+                <li><a href="navigation.html">navigation</a></li>
+                <li><a href="02_mark-up/typographic-contrast.html">carl dair</a></li>
+                <li><a href="04_reverse_sitemap/sitemap.html">sitemap</a></li>
+                <li><a href="05_positioning/positioning_exercise.html">positioning</a></li>
+                <li><a href="06_grids/grid.html">grid</a></li>
+                <li><a href="07_poster/poster.html">poster</a></li>
+                <li><a href="09_form/results.html">form</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="#">PROJECTS</a>
+            <ul class="sub-menu">
+                <li><a href="#">resume</a></li>
+                <li><a href="#">(de)design</a></li>
+                <li><a href="#">game</a></li>
+                <li><a href="#">collection</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="../site.html">RESPONSES</a>
+            <ul class="sub-menu">
+                <li><a href="whatiscode.html">what is code?</a></li>
+                <li><a href="alistapart.html">a list apart</a></li>
+                <li><a href="lined.html">lined and unlined</a></li>
+                <li><a href="#">captives of the cloud</a></li>
+            </ul>
+        </li>
+    </ul>
+    </nav>
+    <a href="http://www.e-flux.com/journal/captives-of-the-cloud-part-i/" target="_blank" class="links"><h1 class="title">CAPTIVES OF THE CLOUD</h1></a>
+    <p class="description">Both Chapter I and II point to a new form of imperialism that is used by the U.S. to take control over cyber-space. The article articulates how the U.S. jurisdiction over the internet creates a level of power that can control the use and the data collected from the internet, i.e. the embargo on Wikileaks, subpoenas for Twitter users. This sort of imperialism, however, is not limited to the US; in the early 2000’s people interested in HavenCo perpetuated a sense of colonialism by establishing a <em>fragile sense of half-tested nationhood</em>. While this would be used to fight the powers of countries and powers such as the US, the idea to exploit a land/country/area for a way to avoid the US jurisdiction is problematic as it takes advantage of these areas. In what ways can there be a resistance to the overwhelming power of the Internet?
+        <br><br>
+    Also, this article reminds me of the warehouses/power stations that host the massive servers that are used by Google and other companies, often located by a river to aid in cooling. How does this fit in context to the sustainability agenda that is nearly ubiquitous?
+    </p>
+    <script>
+    $(document).ready(function() {
+        $('img').click(function() {
+            $(this).attr("src","images/background.gif").delay;
+            /*$(this).delay(1600).fadeOut(800);*/
+        });
+
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+        );
+    });
+    </script>
+</body>
+</html>
