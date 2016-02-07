@@ -1,0 +1,126 @@
+
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 200 ;
+	margin: 0 auto;
+	padding: 4em;
+	font-size: 16px;
+	max-width: 900px;
+	position: relative;
+
+}
+
+
+
+h1 {font-size: 30px;
+	letter-spacing: 10px;
+	margin-bottom: 2em;
+	margin-left: 0;
+	margin-right: 100%;
+	line-height: 1em;
+	position: relative;
+
+
+}
+
+
+
+
+
+p { margin: 10px;
+	}
+
+
+
+
+ul {
+	list-style-type: square;
+	list-style-position: outside;
+	color:  #252525;
+	margin: 10px;
+	 }
+
+
+
+
+
+
+.titles {text-decoration: bold;
+		font-size: 18px;
+		float:left;
+		text-align: left;
+		width: 18%;
+		margin-right: 2em;
+		
+
+
+}
+
+
+
+.articles {
+		float: left;
+		width: 60%;
+	}
+
+
+
+
+
+.date { float:right;
+		width: 15%;
+		text-align: right;
+		font-size: 13px;
+		
+
+	
+}
+
+
+
+.para { margin: 0 0 5em 0 ;
+	
+}
+
+
+
+
+section {
+	width: 100%;
+	max-width: 900px;
+	clear: left;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.within {margin-top: 1em;}
+
+
+
+
+@media screen and (max-width: 770px){
+	.titles { margin-right: 100%; 
+			margin-bottom: 1em;
+			}
+
+	.titles, .articles {
+		width: 100%;
+		float: none;
+	
+		text-align: left;
+	}
+
+	
+	.empty { display: none; }
+	.date { display: none; }
+
+
+
+
+
+}
+
+
+
