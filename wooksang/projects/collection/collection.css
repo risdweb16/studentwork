@@ -81,7 +81,7 @@ h6 {font-family: helvetica;
 
 .column:nth-child(4) {margin-right: 0;}
 
-a {
+a { color:black;
 	margin-right: 2px;
 margin-bottom: 10px;}
 
