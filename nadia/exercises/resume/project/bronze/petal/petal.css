@@ -3,13 +3,13 @@
 }
 html, body{
 background: rgba(255,255,255,1);
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(255,247,245,1) 60%, rgba(255,254,204,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(26%, rgba(255,255,255,1)), color-stop(60%, rgba(255,247,245,1)), color-stop(100%, rgba(255,254,204,1)));
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(255,247,245,1) 60%, rgba(255,254,204,1) 100%);
-background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(255,247,245,1) 60%, rgba(255,254,204,1) 100%);
-background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(255,247,245,1) 60%, rgba(255,254,204,1) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(255,247,245,1) 60%, rgba(255,254,204,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffecc', GradientType=0 );
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,241,255,1) 71%, rgba(207,221,252,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(26%, rgba(255,255,255,1)), color-stop(71%, rgba(235,241,255,1)), color-stop(100%, rgba(207,221,252,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,241,255,1) 71%, rgba(207,221,252,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,241,255,1) 71%, rgba(207,221,252,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,241,255,1) 71%, rgba(207,221,252,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,241,255,1) 71%, rgba(207,221,252,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfddfc', GradientType=0 );
 
  background-repeat: no-repeat;
     

@@ -1,9 +1,67 @@
 *{
   box-sizing:border-box;
 }
-body{
-  background:white;
+html, body{
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,255,240,1) 71%, rgba(207,252,219,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(26%, rgba(255,255,255,1)), color-stop(71%, rgba(235,255,240,1)), color-stop(100%, rgba(207,252,219,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,255,240,1) 71%, rgba(207,252,219,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,255,240,1) 71%, rgba(207,252,219,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,255,240,1) 71%, rgba(207,252,219,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(235,255,240,1) 71%, rgba(207,252,219,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cffcdb', GradientType=0 );
+
+ background-repeat: no-repeat;
+    
+    margin: 0 0 0 0;
+    height: auto;
+
 }
+
+
+
+#logo img{
+  max-width: 150px;
+  margin:10px auto 10px auto;
+  opacity: 1;
+  height: auto !important;
+  transition: scale .3s;
+
+}
+
+#logo img:hover {
+  transform: scale(1.05);
+}
+
+#logo {
+  text-align: center;
+  color: yellow;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+#logo a:link {
+  text-decoration: none;
+  color:orange;
+  opacity: .8;
+
+}
+
+#logo a:hover {
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .title{
   font-family: 'Fira Sans', sans-serif;
   text-align: center;
@@ -17,6 +75,12 @@ body{
     font-size: 4.75rem;
   }
 }
+
+h2 {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+
+}
 p{
   font-family: 'Fira Sans', sans-serif;
   font-weight: 200;
@@ -27,6 +91,12 @@ p{
   width: 80%;
   @media screen and (min-width:37.5em){
     height: 70%;
+  text-decoration: none;
+  }
+
+#inspolink a:link {
+    text-decoration: none;
+    color: orange;
   }
   
 }
@@ -37,13 +107,7 @@ p{
   max-width:1100px;
 }
 
-h2 {
-  font-family: 'Fira Sans', sans-serif;
-  text-align: center;
-  font-weight: 400;
-  letter-spacing:5px;
-  color:#444;
-}
+
 
 #photos {
   max-width: 80%;

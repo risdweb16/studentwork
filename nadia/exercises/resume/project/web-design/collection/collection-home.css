@@ -1,0 +1,302 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+  margin: 0; padding: 0; border: 0;
+}
+
+body {
+  background: #BEBDBF;
+  font: 14px/22px Helvetica, Sans-Serif;
+}
+
+@font-face {
+  font-family:'Tallys';
+  src: url('images/Tallys.otf') format('opentype');
+}
+
+
+p a:link {
+  text-decoration: none;
+  color:pink;
+}
+
+p a:visited {
+  color: yellow
+}
+
+p a:visited {
+  text-decoration: underline;
+}
+
+#coverpic {
+  background-color: rgba(0,0,0,.8);
+  width: 80%;
+  min-width: 300px;
+  max-width: 1000px;
+  padding: 20px 20px 20px 20px;
+  margin:50px auto;
+  border-radius:3px;
+  text-align: center;
+  box-shadow:0px 25px 50px rgba(0,0,0,.5);
+}
+
+#coverpic img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+#coverpic-main {
+  background-color: rgba(0,0,0,.9);
+  width: 90%;
+  min-width: 300px;
+  max-width: 1000px;
+  padding: 2px 2px 0px 2px;
+  margin:50px auto;
+  border-radius:3px;
+  text-align: center;
+  box-shadow:0px 25px 50px rgba(0,0,0,.5);
+}
+
+#coverpic-main img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+#text {
+  width: 80%;
+  min-width: 300px;
+  max-width: 650px;
+  padding: 30px 20px 20px 20px;
+  margin:50px auto;
+  border-radius:3px;
+  text-align: center;
+  border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  font-weight: 200;
+}
+
+#content {
+  background-color: yellow;
+  width: 80%;
+  min-width: 300px;
+  max-width: 650px;
+  padding: 30px 20px 30px 20px;
+  margin:50px auto;
+  border-radius:3px;
+  text-align: center;
+
+}
+
+#header {
+  width: 961px; 
+  margin: 0 auto; 
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+
+
+ 
+h1 {
+  font-family:'Tallys';
+  float: left;
+  text-decoration: none;
+  margin: 18px 0 0 24px;
+  font-size: 20px;
+
+
+}
+
+
+  
+  #header ul#nav {
+    float: left; 
+    margin: 22px 0 0 24px; 
+    list-style: none;
+  }
+    #header ul#nav li {
+      float: left; margin: 0 0 0 45px;
+    }
+      #header ul#nav li:first-child {
+        margin: 0;
+      }
+        #header ul#nav li a {
+          display: block; 
+          font: 13px Georgia, Serif; 
+          letter-spacing: 2px; 
+          color: black;
+          text-decoration: none;
+        }
+          #header ul#nav li a:hover {
+            text-decoration: underline;
+          }
+  
+
+        
+  #header h2 {
+    margin: 100px 0 0 0; 
+    min-width: 500px; 
+    clear: both; 
+    text-align: center;
+    font: 25px Tallys, Georgia, Serif; 
+    letter-spacing: 4px; 
+    color:black;
+  }
+
+h3 {
+  margin: 0px 0 0 0; 
+  min-width: 500px; 
+  clear: both; 
+  text-align: center;
+  font: 24px Tallys, Georgia, Serif; 
+  letter-spacing: 4px; 
+  color:red; 
+}
+
+h4 {
+  margin: 15px 0 0 0; 
+  min-width: 300px; 
+  clear: both; 
+  text-align: center;
+  font: 16px Tallys, Georgia, Serif;  
+  color:black; 
+
+}
+
+h5 {
+  color:rgb(117, 232, 255);
+  font: 15px; 
+  text-align: left;
+  padding: 15px 0 5px 0px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.news {
+  color: #BEBDBF;
+  font: 14px; 
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.news a:link {
+  color:pink;
+  text-decoration: none;
+}
+
+.news a:hover {
+  color:pink;
+  text-decoration: underline;
+}
+
+.news a:visited {
+  color:yellow;
+  text-decoration: none;
+}
+
+
+
+
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 2;
+  -webkit-column-gap:   30px;
+  -moz-column-count:    2;
+  -moz-column-gap:      30px;
+  column-count:         2;
+  column-gap:           3-px;  
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  margin-right: 20px;
+  margin-bottom: 30px;
+
+}
+
+
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+
+
+#photos a:hover {
+  opacity: .5;
+}
+
+
+
+
+
+
+
+
+#footer-container {
+  background: rgba(0,0,0,.8);
+} 
+
+#footer {
+  width: auto; 
+  margin: 0 auto; 
+  padding: 20px 22px 20px 22px; 
+  overflow: hidden;
+  
+}
+  #footer a {
+    color: #eeede6; text-decoration: none;
+  }
+    #footer a:hover {
+      color: #d0cfc8;
+    }
+  #footer h4 {
+    font: 22px Tallys, Georgia, Serif; 
+    letter-spacing: 4px; 
+    color: #afada2; 
+    margin: 0 0 14px 0;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

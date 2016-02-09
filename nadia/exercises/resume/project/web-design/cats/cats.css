@@ -1,5 +1,10 @@
 html, body {
-  background: rgba(255,255,255,1);
+
+  
+  background-image: url("groovy.png");
+  
+
+  /* background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 8%, rgba(255,199,227,1) 30%, rgba(255,207,179,1) 48%, rgba(255,248,168,1) 68%, rgba(184,255,213,1) 86%, rgba(184,255,213,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(8%, rgba(255,255,255,1)), color-stop(30%, rgba(255,199,227,1)), color-stop(48%, rgba(255,207,179,1)), color-stop(68%, rgba(255,248,168,1)), color-stop(86%, rgba(184,255,213,1)), color-stop(100%, rgba(184,255,213,1)));
   background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 8%, rgba(255,199,227,1) 30%, rgba(255,207,179,1) 48%, rgba(255,248,168,1) 68%, rgba(184,255,213,1) 86%, rgba(184,255,213,1) 100%);
@@ -11,28 +16,30 @@ html, body {
   background-repeat: no-repeat;
     
   margin: 0 0 0 0;
-  height: auto;
+  height: auto; */
 
 }
-
 
 
 #meat {
-  background-color: rgba(255,255,255, 0.5);
-  width: 60%;
+  background-color: rgba(130,132,242,0.9);
+  width: 75%;
   min-width: 300px;
-  max-width: 800px;
+  max-width: 750px;
   padding: 30px 30px 30px 30px;
   font-family: 'Questrial', sans-serif;
-  margin:50px auto;
+  margin: auto;
   border-radius:5px;
-  
-
+  border: 4px solid #08330E;
 }
+
+
+
 
 h1 {
 	font-family: 'Lobster', cursive;
-	border-bottom: 1px dashed #FF33C5;
+	border-bottom: double #08330E;
+   border-width: 10px;
 	padding-bottom: 20px;
   font-size: 50px;
 }
@@ -50,16 +57,16 @@ p {
 
 p a {
 	text-decoration: none;
-	color: #FF33C5;
+	color: #9FD798;
   font-size: 18px;
 }
 
 p a:visited {
-	color: purple;
+	color: pink;
 }
 
 p a:hover {
-  text-decoration: underline;
+  font-size:20px;
 }
 
 
@@ -68,11 +75,11 @@ p a:hover {
   line-height: 0;
    
   -webkit-column-count: 3;
-  -webkit-column-gap:   0px;
+  -webkit-column-gap:   20px;
   -moz-column-count:    3;
-  -moz-column-gap:      0px;
+  -moz-column-gap:      20px;
   column-count:         3;
-  column-gap:           0px;  
+  column-gap:           20px;  
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 30px;
@@ -84,15 +91,22 @@ p a:hover {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
-  margin: 5px 5px 0px 5px;
+  margin: 0px 0px 20px 0px;
+  border: 5px solid;
+  border-color: #9FD798 pink pink #9FD798;
 }
 
 
 
-#photos img:hover
- {
-  
-    opacity: .5;
+#photos img:hover{
+  border: 5px solid;
+  border-color: pink #9FD798 #9FD798 pink;
+}
+
+#photos:visited {
+  border: 10px solid;
+  border-color: yellow;
+
 }
 
 

@@ -33,12 +33,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     margin: 0;
     /* Ensures there is no space between sides of the screen and the menu */
     /* z-index: 99;  Makes sure that your menu remains on top of other page elements */
-    background-color: rgba(255,255,255, 0.2);
+    background-color: rgba(255,255,255, 0);
     height: 100em;
     position: fixed;
-    min-width: 175px;
+    min-width: 170px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 30px
 }
 #navigation {
     font-size:.8em;
@@ -95,6 +96,36 @@ li:hover .sub-level {
 }
 
 
+
+/*cover picture pulse*/
+
+.button{ 
+  width:150px; 
+  padding:20px; 
+  
+ 
+}
+
+@keyframes pulse_animation {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.01); }
+  40% { transform: scale(1); }
+  50% { transform: scale(1); }
+  60% { transform: scale(1.01); }
+  70% { transform: scale(1); }
+  80% { transform: scale(1); }
+  90% { transform: scale(1.01); }
+  100% { transform: scale(1); }
+}
+
+.pulse {
+  animation-name: pulse_animation;
+  animation-duration: 7s;
+  transform-origin:70% 70%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 /*social media tabs*/
 
 #media-tabs {
@@ -107,7 +138,7 @@ li:hover .sub-level {
 #rightcol {
     width: 80%;
     background-color: transparent;
-    margin-left: 20%;
+    margin-left: 175px;
     margin-bottom: 60px;
 
 }
@@ -139,6 +170,16 @@ li:hover .sub-level {
 
 
 /*selfie*/
+
+#nadia {
+    max-width: 900px;
+    min-width: 200px;
+    width: 90%;
+    box-shadow:0px 25px 50px rgba(0,0,0,.5);
+    border-radius:2px;
+    margin:15px auto 25px auto;
+    text-align: center;
+}
 
 #selfie {
     max-width: 300px;
@@ -234,7 +275,8 @@ p{
 .crop-container {
     width: 33%;
     height: 33%;
-    float: left;
+    min-width: 250px;
+    display: inline-block;
     box-sizing: border-box;
     padding: 5%;
 }
@@ -295,7 +337,7 @@ a{
 }
 .accordianMenu{
   
-    padding:10px;
+    padding:0 30px 20px 30px;
     max-width: 400px;
     box-shadow:0px 25px 50px rgba(0,0,0,.5);
     border-radius:10px;
@@ -316,7 +358,7 @@ a{
   overflow:hidden;
   }
 .accordianSubMenu li a{
-  text-indent:5px;
+  text-indent:0px;
   text-align: left;
 }
 .submenu{
