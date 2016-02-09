@@ -1,0 +1,79 @@
+
+body {
+	color: #333;
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	line-height: 1.6;
+	margin: 0;
+
+}
+
+header {
+	background: #F4CA16;
+}
+
+a{
+	color: #F4CA16;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #cccccc;
+}
+
+
+h1, h3, p {
+	margin: 0;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+h3 {
+	color: #fff;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.students {
+	font-size: 2em;
+	padding-top: 1em;
+}
+
+.students a {
+	display: inline-block;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+	margin-bottom: 1em;
+	margin-right: 2%;
+	box-sizing: border-box;
+	transition: border-bottom-color 300ms, color 300ms;*/
+}
+
+.students a:hover {
+	color: #666;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	text-align: left;
+	padding: 2em;
+}	
+
+footer {
+	font-size: .8em;
+	color: #888;
+}
+footer .container {
+	border-top: 2px dotted #cccccc;
+	padding: 1em 2em;
+}
