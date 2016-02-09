@@ -1,0 +1,30 @@
+html body {
+	background-image: url("https://wallpaperscraft.com/image/dark_background_line_surface_65896_1920x1200.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-height: 100%;
+}
+
+#questions {
+	background-color: rgba(255,255,255, 0.5);
+	width: 60%;
+	min-width: 300px;
+	max-width: 650px;
+	padding: 30px 30px 30px 30px;
+	font-family: 'Questrial', sans-serif;
+	margin:50px auto;
+	border-radius:5px;
+	text-align: center;
+
+}
+
+
+
+button {
+	width:50%;
+	max-width: 150px;
+	margin: 20px auto;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+

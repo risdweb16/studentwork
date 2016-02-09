@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="final.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+<style type="text/css">
+body { 
+	font-size: 28px; 
+	font-family: "Lato", sans-serif; 
+	font-weight: 100;
+	text-transform: uppercase;
+}	
+
+
+p {margin: 0;}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+
+
+
+
+
+
+<body>
+
+
+	<p>GUESS A NUMBER BETWEEN 1 AND 99.</p>
+	<div id="hints">
+	</div>
+
+	<script>
+		var comNum = Math.round(Math.random()*98)+1;
+		console.log(comNum); 
+		
+		$("#hints").append("Guess "); 
+		if (comNum % 2 === 0) {
+			$("#hints").append("an even number. <br>");
+		}
+		else { 
+			$("#hints").append("an odd number. <br>");
+		};
+
+
+		var count = 1;
+		var myNum = 0;
+		
+		function askNumber(){
+			myNum = parseInt(prompt ("Put a number between 1 and 99"));
+			if (myNum < 1 || myNum > 99){
+	 			myNum = parseInt(prompt ("Please make sure your number is between 1 and 99"));
+	 		}
+	 		return myNum;
+	 	}
+
+	 	function checkNumber(){
+	 			askNumber();
+				if (comNum > myNum) { 
+					$("#hints").append("The number is bigger than " + myNum + ". <br>");
+				}
+				else if (comNum < myNum) {
+					$("#hints").append("The number is smaller than " + myNum + ". <br>");
+				}
+				else if (comNum === myNum) {
+					$("#hints").append("<br> You found the number " + comNum + "! (in " + count + " tries)");
+					clearInterval (timer);
+				};
+				console.log(myNum);
+				count++;
+	 	}
+
+	 var timer = setInterval(function(){
+	 		checkNumber();
+	 		console.log("test");
+	 		
+	 	}, 500);
+
+	</script>
+
+
+</body>
+
+</html>

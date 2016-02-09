@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fill Out Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+     <link href='https://fonts.googleapis.com/css?family=Questrial|Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+
+
+	<section id="questions">
+
+		
+
+<h1>To Have on Record</h1>
+
+<div id="whatname">
+	<form>
+	<div id="firstname">
+  	First name:
+  		<br>
+  		<input type="text" name="firstname" required>
+  		<br>
+  	</div>
+  	<div id="lastname">
+ 	Last name:
+ 		<br>
+		<input type="text" name="lastname" required>
+		</form>
+	</div>
+	<div id="urwork">
+ 	Who do you work for?
+ 		<br>
+		<input type="text" name="lastname" required>
+		</form>
+	</div>
+</div>
+
+
+<div>
+	<p>What are you?</p>
+		<input type="checkbox" name="day" value="Human" checked> Human
+		<input type="checkbox" name="day" value="Cyborg"> Cyborg
+		<input type="checkbox" name="day" value="Zombie"> Zombie
+		<input type="checkbox" name="day" value="Robot/Andriod"> Robot/Android
+		<input type="checkbox" name="day" value="Other" on-click="dynInput(this);"/> Other
+			<p id="insertinputs"></p>
+</div>
+
+<div>
+	<p>How many years have you been on this planet?</p>
+	<select name="years">
+  		<option value="Friday" selected>0-20</option>
+ 		<option value="Saturday">20-30</option>
+ 		<option value="Sunday">30-40</option>
+  		<option value="Sunday">40-50</option>
+  		<option value="Sunday">50-70</option>
+  		<option value="Sunday">70 and beyond</option>
+	</select>
+</div>
+
+<div>
+	<p>Add a picture of yourself so you can later be indentified upon meeting. (optional)</p>
+	<input type="file" name="file">
+</div>
+
+<div class="urnumber">
+	<label>
+		Your Phone Number
+	<input type="tel" name="phone-number" required placeholder="*** *** ****">
+	</label>
+</div>
+
+
+<div class="urmail">
+	<label>
+  		Your Email
+  	<input type="email" name="email-address" required placeholder="name@domain.com">
+	</label>
+</div>
+
+
+<div class="comment">
+	<p>
+		Tell us what you can't tell anyone else.
+	</p>
+	<div id="urcomment">
+		<textarea name="comment" placeholder="Add a comment here."></textarea>
+	</div>
+</div>
+
+
+<div>
+<a href="form-submit.html">
+<button name="submit">
+  <strong>SUBMIT</strong>
+</button>
+</a>
+</div>
+
+</section>
+
+
+</body>
+</html>

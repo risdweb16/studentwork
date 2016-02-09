@@ -1,6 +1,6 @@
-/*//declaring some variables
-var x = 5;
-var y = "5";
+//declaring some variables
+var x = 5; //data type number 
+var y = "5"; //data type string
 
 var z = 15;
 
@@ -10,21 +10,21 @@ var s = 3;
 console.log(x + z);
 console.log(x == y);
 console.log(x === y);
-console.log("String"+" "+"concatenation");
+console.log("String"+ x + "concatenation"); //strings go in quotation marks and should be separate from variables
 
 function subtractVars() {
 	
-};
+}
 
 
 function addVars() {
    var sum = s + z;
    console.log(sum);
-};
+}
 
 addVars();
 
-
+//an array
 var carNames = [
 				"Civic",
 				"Prius",
@@ -37,10 +37,6 @@ console.log(carNames[5]);
 console.log(carNames.length);
 
 
-
-
-
-
 //conditionals
 function checkRabbitCount() {
 	console.log(rabbitCount < 10);
@@ -51,7 +47,7 @@ function checkRabbitCount() {
    else{
    		console.log("We have more than 10 rabbits.")
    }
-};
+}
 
 checkRabbitCount();
 
@@ -69,16 +65,18 @@ function listRabbits() {
 		console.log("Rabbit "+n+" out of the hat!");
 		n=n+2;
 	}
-};
+}
 
 listRabbits();
 
+//dot syntax
 var person = new Object();
+person.firstname = "Marie";
+person.lastname = "Otsuka";
 person.address = new Object();
 person.address.street = "111 Main St.";
 person.address.city = "Providence";
 person.address.state = "Rhode Island";
-*/
 
 // Object-literal syntax
 var person = {   
@@ -92,12 +90,12 @@ var person = {
 };
 
 
-
-console.log(person.firstname); //dot operator member access
+//two ways to access object properties
+console.log(person.firstname); 
 console.log(person["firstname"]);
 
 
-
+//objects can have properties and methods
 var car = {
 	make: "MINI",
 	model: "Cooper S",

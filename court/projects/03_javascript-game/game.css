@@ -7,7 +7,7 @@
 	margin-top: 5%;
 	margin-left: 25%;
 	border-radius: 1em;
-	border: solid rgb(251,189,255);
+	border-color: rgb(251,189,255);
 }
 
 #demo {
@@ -41,7 +41,7 @@
 	margin-bottom: 4em;
 }
 
-.button {
+.fizzBuzz {
 	width: 8em;
 	height:	8em;
 	font-size: 1em;
@@ -68,13 +68,13 @@ span{
 	font-weight: bolder;
 }
 
-.button:hover {
+.fizzBuzz:hover {
 	background-color: rgb(251,189,255);
 	border-style: none;
 	cursor: pointer;
 }
 
-.button:active {
+.fizzBuzz:active {
 	border-style: none;
 }
 

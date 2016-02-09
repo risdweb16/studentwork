@@ -1,8 +1,8 @@
+$(window).click(function(){
+$("#hint").fadeOut("slow");
+});
 
-
-
-// window.onload = window.onscroll = 
-
+$(window).scroll();
 $('document').ready(function () {
 
 
@@ -16,14 +16,7 @@ $('document').ready(function () {
 
         var audioElement = document.createElement('audio');
         audioElement.setAttribute('src', 'pt.mp3');
-        // audioElement.setAttribute('autoplay', 'autoplay');
-        //audioElement.load()  $.get();
 
-       
-
-        /*audioElement.addEventListener("load", function() {
-            audioElement.play();
-        }, true);*/
 
         $(window).scroll(function() {
             generateBars();
@@ -34,30 +27,20 @@ $('document').ready(function () {
             }, 250));
             
         });
-
-        //$('.Stop').click(function() {
-          //  audioElement.pause();
-        //});
     });
 
-window.alert("SCROLL FOR SOUND");
-    
-//$(window).scroll();
 
 
+$(document).ready(function() {
+    var audioElm = $('#soundTour3').get(0);
+ audioElm.volume = 9
+    audioElm.play();
 
+});
  
- //var m = document.querySelector(".m");
-//blasterTrigger.addEventListener("scroll", function(){
-  //  document.getElementById("music").play();
-//});
-
- 
-   //$(document).ready(function() {
-  //  var audioElm = $('#soundTour3').get(0);
-// audioElm.volume = 0 
-   // audioElm.play();
-  // });
+ var m = document.querySelector(".m");
+blasterTrigger.addEventListener("scroll", function(){
+    document.getElementById("music").play();
+});
 
 
-//codepen.io/gabrieleromanato/pen/FcunJ 

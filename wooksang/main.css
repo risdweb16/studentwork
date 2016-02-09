@@ -1,8 +1,8 @@
 body {
 	background-color: white;
-	margin-left: 35px;
+	margin-left: 10px;
 		margin-bottom: none;
-				margin-top: none;
+				margin-top: -60px;
 	font-family: times;
 	color: white;
 	line-height: 1.0;
@@ -12,11 +12,12 @@ a {	text-decoration: none;
 		margin-bottom: none;
 						margin-top: none;
 
+
 }
 
 
 h1 {
-	font-size: 108px;
+	font-size: 100px;
 	line-height: 1.0;
 	font-weight: 900;
 	font-family: helvetica;
@@ -24,12 +25,16 @@ h1 {
 		-webkit-text-stroke: 1px black;
 	text-decoration: none;
 	margin: none;
-				padding: -55px;
+				padding: -100px;
+	border-bottom: solid 1px;
+	border-color:black;
+
+
 }
 
 
 h2 {
-	font-size: 108px;
+	font-size: 100px;
 		line-height: 1.0;
 	font-weight: 900;
 	font-family: helvetica;
@@ -37,68 +42,80 @@ h2 {
 		-webkit-text-stroke: 1px black;
 	text-decoration: none;
 		margin: none;
-				padding: -55px;
+				padding: -100px;
+					border-bottom: solid 1px;
+	border-color:black;
 }
 
 h3 {
-	font-size: 108px;
+	font-size: 100px;
 	font-weight: 900;
 	font-family: helvetica;
 	color: #7deb41;
 		-webkit-text-stroke: 1px black;
 	text-decoration: none;
 		margin: none;
-				padding: -55px;
+				padding: -100px;
 					line-height: 1.0;
+						border-bottom: solid 1px;
+	border-color:black;
 }
 
 h4 {
-	font-size: 108px;
+	font-size: 100px;
 	font-weight: 900;
 	font-family: helvetica;
 	color: #5adc6e;
 		-webkit-text-stroke: 1px black;
 	text-decoration: none;
 		margin: none;
-				padding: -55px;
+				padding: -100px;
 					line-height: 1.0;
+						border-bottom: solid 1px;
+	border-color:black;
 }
 
 h5 {
-	font-size: 108px;
+	font-size: 100px;
 	font-weight: 900;
 	font-family: helvetica;
 	color: #37cd9b;
 		-webkit-text-stroke: 1px black;
 	text-decoration: none;
 		margin: none;
-				padding: -55px;
+				padding: -100px;
 					line-height: 1.0;
+						border-bottom: solid 1px;
+	border-color:black;
 }
 
 h6 {
-	font-size: 108px;
+	font-size: 100px;
 	font-weight: 900;
 	font-family: helvetica;
 	color: #19c3c3;
 		-webkit-text-stroke: 1px black;
 	text-decoration: none;
 		margin: none;
-				padding: -55px;
+				padding: -100px;
 					line-height: 1.0;
+						border-bottom: solid 1px;
+	border-color:black;
 }
 
 
 section {
-	font-size: 108px;
+	font-size: 100px;
 	font-weight: 900;
 	font-family: helvetica;
 	color: #00b9d7;
 		-webkit-text-stroke: 1px black;
 	text-decoration: none;
 		margin: none;
-				padding: -55px;
+				padding: -100px;
 					line-height: 1.0;
+						border-bottom: solid 1px;
+	border-color:black;
 }
 
 footer {

@@ -46,30 +46,13 @@ p{
 	overflow-x:scroll;
 	display:block;
 	width:100%;
-
 }
 
-.left{
-	margin-top:5%;
-	height:100px;
-	text-align:left;
-
-
-}
-
-.right{
-	margin-top:-5%;
-	height:100px;
-	text-align:right;
-	margin-right:10%;
-
-
-}
-/*td{
+td{
 	padding-right:30px;
 	border: 10px solid #ffffff;
 	float:center;
-}*/
+}
 
 
 .intro{
@@ -98,7 +81,6 @@ p{
 	position:absolute;
 }
 
-
 img:hover{
 	opacity:0.3;
 }
@@ -108,55 +90,41 @@ img:hover{
 	width:100%;
 	color:grey;
 	font-size:16px;
-
+	z-index:3;
 	float:center;
 	padding:0;
 	width:100%;
 	margin:5%;
-
 }
 
 
 .act{
-	height:50%;
-	width:100%;
+	height:1000px;
 	color:#7D7D7D;
 	font-size:16px;
 	float:center;
 	padding:0;
-	width:100%;
+	width:90%;
 	margin:5%;
 }
 
 
 .pub{
-	height:40%;
-	width:100%;
-	padding-top:5%;
+	height:500px;
+	padding-top:20px;
 	color:grey;
 	font-size:16px;
-	text-align: center;
-	clear:both;
-	float:center;
-	margin:5%;
 
-}
-
-h1{
-	color:black;
-	background-color:pink;
 	width:90%;
-	float:center;
-	padding:0;
-	position:center;
+	margin:5%;
 }
+
 
 .footer{
-
 	position:absolute;
 	padding-top:4%;
 	bottom:auto;
-	height:40%;
+	height:300px;
 	width:100%;
 	clear:both;
 	background-color: black;

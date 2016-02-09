@@ -1,0 +1,25 @@
+body{
+	font-family: Helvetica, sans-serif;
+	background-color: rgb(240,192,96);
+}
+h1{
+	position: relative;
+	margin-top: 3%;
+	margin-right:60%;
+	margin-left:5%;
+	font-size: 600%;
+}
+p{
+	position: relative;
+	margin-right: 65%;
+	font-style: italic;
+	font-size: 200%;
+	margin-left:5%;
+}
+.image img{
+	position: relative;
+	margin-top:-55%;
+	margin-left:45%;
+	width: 50%;
+	height:50%;
+}

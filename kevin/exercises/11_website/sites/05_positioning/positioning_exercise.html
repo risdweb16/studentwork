@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>positioning</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<a href="../../site.html" class="one"><div></div></a>
+	<nav>
+    <ul>
+    	<li><a href="about.html">ABOUT</a>
+        </li>
+        <li>
+        	<a href="https://www.codecademy.com/kbcrouse" target="_blank">CODECADEMY</a>
+    	</li>
+        <li class="dropdown"><a href="../navigation.html">EXERCISES</a>
+            <ul class="sub-menu">
+                <li><a href="../navigation.html">navigation</a></li>
+                <li><a href="../02_mark-up/typographic-contrast.html">carl dair</a></li>
+                <li><a href="../04_reverse_sitemap/sitemap.html">sitemap</a></li>
+                <li><a href="#">positioning</a></li>
+                <li><a href="../06_grids/grid.html">grid</a></li>
+                <li><a href="../07_poster/poster.html">poster</a></li>
+                <li><a href="../09_form/results.html">form</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="#">PROJECTS</a>
+        	<ul class="sub-menu">
+        		<li><a href="#">resume</a></li>
+        		<li><a href="#">(de)design</a></li>
+        		<li><a href="#">game</a></li>
+        		<li><a href="#">collection</a></li>
+        	</ul>
+        </li>
+        <li class="dropdown"><a href="../whatiscode.html">RESPONSES</a>
+        	<ul class="sub-menu">
+        		<li><a href="../whatiscode.html">what is code?</a></li>
+        		<li><a href="../alistapart.html">a list apart</a></li>
+        		<li><a href="../lined.html">lined and unlined</a></li>
+        		<li><a href="../captives.html">captives of the cloud</a></li>
+        	</ul>
+        </li>
+    </ul>
+	</nav>
+	<a href="#three">
+		<div class="rect first">
+			<a name"first"></a>
+		</div>
+	</a>
+	<a href="#five">
+		<div class="rect two">
+			<a name"two"></a>
+		</div>
+	</a>
+	<a href="#first">
+		<div class="rect three">
+			<a name="three"></a>
+		</div>
+	</a>
+	<a href="#six">
+		<div class="rect four">
+			<a name="four"></a>
+		</div>
+	</a>
+	<a href="#seven">
+		<div class="rect five">
+			<a name="five"></a>
+		</div>
+	</a>
+	<a href="#four">
+		<div class="rect six">
+			<a name="six">
+		</div>
+	</a>
+	<a href="#zero">
+		<div class="rect seven">
+			<a name="seven"></a>
+		</div>
+	</a>
+	<a href="#four">
+		<div class="rect eight">
+		</div>
+	</a>
+	<a href="#seven">
+		<div class="rect nine">
+		</div>
+	</a>
+	<a href="#six">
+		<div class="rect ten">
+		</div>
+	</a>
+	<a href="#one">
+		<div class="rect eleven">
+		</div>
+	</a>
+	<a href="#five">
+		<div class="rect twelve">
+		</div>
+	</a>
+	<a href="#three">
+		<div class="rect thirteen">
+		</div>
+	</a>
+	<script>
+	$(document).ready(function() {
+    	$('img').click(function() {
+			$(this).attr("src","images/background.gif").delay;
+			/*$(this).delay(1600).fadeOut(800);*/
+		});
+
+    	$( '.dropdown' ).hover(
+        	function(){
+            	$(this).children('.sub-menu').slideDown(200);
+        	},
+        	function(){
+            	$(this).children('.sub-menu').slideUp(200);
+        	}
+    	);
+	});
+	</script>
+</body>
+</html>

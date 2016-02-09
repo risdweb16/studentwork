@@ -5,42 +5,52 @@ background-color:black;
 }
 
 .container {
+
+
   font-family:helvetica;
-  position:fixed;
-  top: 100px;
-  right: 0;
-  bottom: 0px;
-  left: 0;
+  height: 100vh;
   margin: 10px auto;
-  text-align: center
+  text-align: center;
 }
 
-
-
-
-.container::before {
-  content: "";
-  display: inline-block;
-  height: 50%;
-}
-
-
-.container::after {
-  content: "";
-  display: block;
-  font: 30px/40px helvetica;
-}
 
 .bar {
   display: inline-block;
-  vertical-align: bottom;
   width: 20px;
-  height: 40%;
+  height: 50%;
   margin-right: 10px;
   background: skyblue;
   -webkit-transition: height 0.1s ease-out;
   transition: height 0.5s ease-out;
 }
+
+#hint, #stage {
+  position: fixed;
+}
+
+#hint {
+  top: 17%;
+  left: 20%;
+  z-index: 100;
+  color: white;
+  font-size:110px;
+  float:center;
+
+}
+
+#stage {
+ 
+  padding: 5%;
+  height: 60%;
+  width: 90%;
+  top: 20%;
+  left: 0;
+  z-index: 50;
+  float:center;
+}
+
+
+
 
 
 
